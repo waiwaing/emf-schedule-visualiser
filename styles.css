@@ -4,19 +4,39 @@ body {
 	font-style: normal;
 }
 
+.filters {
+	padding: 1em 1ex;
+}
+
 .calendar {
-	background: #528329;
+	background: var(--theme-secondary-400);
 	padding: 1em;
 
 	display: grid;
-	grid-template-columns: [stage-a] 1fr [stage-b] 1fr [stage-c] 1fr [other-1] 1fr;
-	grid-template-rows: repeat(calc(15.5 * 12), 20px);
+	grid-template-columns: [clock] 4em [stage-a] 1fr [stage-b] 1fr [stage-c] 1fr [other-1] 1fr;
+	grid-template-rows: repeat(calc(18 * 12), 20px);
 	grid-auto-flow: row dense;
 
 	column-gap: 1em;
 	row-gap: 2px;
 
 	font-size: small;
+}
+
+.talks, .clock {
+	display: contents;
+}
+
+.empty-talk-header {
+	grid-row: 1 / 4;
+}
+
+.talk-header {
+	background: #F77F02;
+	color: white;
+	font-size: larger;
+	grid-row: 1 / 4;
+	text-align: center;
 }
 
 .talk {
@@ -26,4 +46,36 @@ body {
 
 .talkTitle {
 	font-weight: bold;
+}
+
+.clock {
+	color: white;
+}
+
+.bi-camera-video-off {
+	font-size: 1.2em;
+	color: #F55089;
+}
+
+body:not(.theme-highcontrast):not(.theme-dark).theme-custom.themed {
+	--theme-base-primary-color-h: 72;
+    --theme-base-primary-color-s: 55%;
+    --theme-base-primary-color-l: 53%;
+	--theme-base-secondary-color-h: 93;
+    --theme-base-secondary-color-s: 52%;
+    --theme-base-secondary-color-l: 34%;
+    --theme-primary-custom: var(--theme-primary-custom-400);
+    --theme-primary-custom-100: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(70%, calc(var(--theme-base-primary-color-l) + 50 * 1%), 95%));
+    --theme-primary-custom-200: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(55%, calc(var(--theme-base-primary-color-l) + 35 * 1%), 90%));
+    --theme-primary-custom-300: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(35%, calc(var(--theme-base-primary-color-l) + 15 * 1%), 75%));
+    --theme-primary-custom-400: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(20%, calc(var(--theme-base-primary-color-l) + 0 * 1%), 60%));
+    --theme-primary-custom-500: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(15%, calc(var(--theme-base-primary-color-l) + -14 * 1%), 45%));
+    --theme-primary-custom-600: hsl(var(--theme-base-primary-color-h), calc(var(--theme-base-primary-color-s) + 0 * 1%), clamp(5%, calc(var(--theme-base-primary-color-l) + -26 * 1%), 30%));
+	--theme-secondary-custom: var(--theme-secondary-custom-400);
+    --theme-secondary-custom-100: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(70%, calc(var(--theme-base-secondary-color-l) + 50 * 1%), 95%));
+    --theme-secondary-custom-200: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(55%, calc(var(--theme-base-secondary-color-l) + 35 * 1%), 90%));
+    --theme-secondary-custom-300: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(35%, calc(var(--theme-base-secondary-color-l) + 15 * 1%), 75%));
+    --theme-secondary-custom-400: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(20%, calc(var(--theme-base-secondary-color-l) + 0 * 1%), 60%));
+    --theme-secondary-custom-500: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(15%, calc(var(--theme-base-secondary-color-l) + -14 * 1%), 45%));
+    --theme-secondary-custom-600: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(5%, calc(var(--theme-base-secondary-color-l) + -26 * 1%), 30%));
 }

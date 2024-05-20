@@ -5,7 +5,7 @@ let events;
 
 window.onload = (_) => {
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", "/schedule.json");
+	xhr.open("GET", "schedule.json");
 
 	xhr.onreadystatechange = () => {
 		if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -22,16 +22,21 @@ window.onload = (_) => {
 
 	xhr.send();
 
-	[...document.querySelectorAll("button.date")].forEach(elem => {
+	const dateButtons = [...document.querySelectorAll("button.date")]
+	dateButtons.forEach(elem => {
 		elem.addEventListener("click", _ => {
+			dateButtons.forEach(btn => btn.className = "date s-btn");
+			elem.className = "date s-btn is-selected";
 			populateCalendar(elem.dataset.value);
 		})
 	});
+
+	populateClock();
 }
 
 function populateCalendar(baseDate) {
-	const baseTime = DateTime.fromISO(baseDate).plus({ hours: 8, minutes: 30 });
-	const calendar = document.getElementsByClassName("calendar")[0];
+	const baseTime = DateTime.fromISO(baseDate).plus({ hours: 8, minutes: 0 });
+	const calendar = document.getElementsByClassName("talks")[0];
 	calendar.textContent = "";
 
 	events.forEach(event => {
@@ -51,19 +56,41 @@ function populateCalendar(baseDate) {
 			default: return;
 		}
 
-		const startLine = start.diff(baseTime).as("minutes") / 5 + 1; // why is CSS 1-indexed
-		const endLine = end.diff(baseTime).as("minutes") / 5 + 1;
+		const startLine = Math.floor(start.diff(baseTime).as("minutes") / 5 + 1); // why is CSS 1-indexed
+		const endLine = Math.ceil(end.diff(baseTime).as("minutes") / 5 + 1);
 
-		const div = calendar.appendChild(document.createElement("div"));
-		div.style.gridRowStart = startLine;
-		div.style.gridRowEnd = endLine;
-		div.style.gridColumnStart = venue;
-		div.className = "card talk";
+		const summary = event["description"].substring(0, 500) + "...";
 
-		div.innerHTML = `
-			<span class="talkTimes">${start.toLocaleString(DateTime.TIME_24_SIMPLE)} - ${end.toLocaleString(DateTime.TIME_24_SIMPLE)}</span>
+		const a = calendar.appendChild(document.createElement("a"));
+		a.style.gridRowStart = startLine;
+		a.style.gridRowEnd = endLine;
+		a.style.gridColumnStart = venue;
+		a.className = "talk s-card fc-dark";
+		a.href = event["link"];
+		a.target = "_blank";
+
+		a.innerHTML = `
+			<span class="talkTimes">
+				${start.toLocaleString(DateTime.TIME_24_SIMPLE)} - 
+				${end.toLocaleString(DateTime.TIME_24_SIMPLE)} 
+			</span> 
 			<br>
-			<span class="talkTitle">${event["title"]}</span>
+			<span class="talkTitle">${event["title"]}</span>	
+			${event["may_record"] === false ? "<br><i class=\"bi bi-camera-video-off\"></i>" : ""}
 		`
 	});
+}
+
+function populateClock() {
+	const clock = document.getElementsByClassName("clock")[0];
+	for (let i = 8.5; i <= 26; i = i + 0.5) {
+		const div = clock.appendChild(document.createElement("div"));
+		div.style.gridRowStart = (i - 8) * 12 + 1;
+		div.style.gridColumnStart = "clock";
+
+		const hour = Math.floor(i).toString().padStart(2, "0");
+		const isHalf = (i * 2 % 2) === 1;
+
+		div.innerHTML = `${hour}:${isHalf ? "30" : "00"}`;
+	}
 }

@@ -5,28 +5,43 @@
 	<title>EMF Visualiser</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
-	<link href="/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks@2.5.2/dist/css/stacks.min.css">
+	<link href="styles.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"
 		integrity="sha256-7NQm0bhvDJKosL8d+6ZgSi2LxZCIcA/TD087GLEBO9M=" crossorigin="anonymous"></script>
-	<script src="/script.js"></script>
+	<script src="script.js"></script>
 </head>
 
-<body>
+<body class="themed theme-custom">
 	<div class="filters">
-		<button class="date" data-value="2024-05-30">Thursday 30 May</button>
-		<button class="date" data-value="2024-05-31">Friday 31 May</button>
-		<button class="date" data-value="2024-06-01">Saturday 1 June</button>
-		<button class="date" data-value="2024-06-02">Sunday 2 June</button>
+		<div class="s-btn-group">
+			<button class="date s-btn" data-value="2024-05-30">Thu 30 May</button>
+			<button class="date s-btn is-selected" data-value="2024-05-31">Fri 31 May</button>
+			<button class="date s-btn" data-value="2024-06-01">Sat 1 June</button>
+			<button class="date s-btn" data-value="2024-06-02">Sun 2 June</button>
+		</div>
 	</div>
 
 	<div class="calendar">
-
-		Loading...
-
+		<div class="empty-talk-header"></div>
+		<div class="talk-header s-card">
+			<h2>Stage A</h2>
+		</div>
+		<div class="talk-header s-card">
+			<h2>Stage B</h2>
+		</div>
+		<div class="talk-header s-card">
+			<h2>Stage C</h2>
+		</div>
+		<div class="talks ui basic">
+			Loading...
+		</div>
+		<div class="clock"></div>
 	</div>
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </body>
 
 </html>
@@ -34,11 +49,7 @@
 <!--
 TODO:
 * clean up non-talks
-* better CSS
 * allow toggling
 * export/import
-* rooms and times
-* recording indication
-
 
 -->
