@@ -1,0 +1,29 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.calendar {
+	background: #528329;
+	padding: 1em;
+
+	display: grid;
+	grid-template-columns: [stage-a] 1fr [stage-b] 1fr [stage-c] 1fr [other-1] 1fr;
+	grid-template-rows: repeat(calc(15.5 * 12), 20px);
+	grid-auto-flow: row dense;
+
+	column-gap: 1em;
+	row-gap: 2px;
+
+	font-size: small;
+}
+
+.talk {
+	background: #AFC944;
+	padding: 0.5em 0.5ex;
+}
+
+.talkTitle {
+	font-weight: bold;
+}
