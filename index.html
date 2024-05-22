@@ -13,12 +13,23 @@
 </head>
 
 <body class="themed theme-custom">
-	<div class="filters">
-		<div class="s-btn-group">
-			<button class="date s-btn" data-value="2024-05-30">Thu 30 May</button>
-			<button class="date s-btn is-selected" data-value="2024-05-31">Fri 31 May</button>
-			<button class="date s-btn" data-value="2024-06-01">Sat 1 June</button>
-			<button class="date s-btn" data-value="2024-06-02">Sun 2 June</button>
+	<div class="d-flex jc-space-between ai-center px12">
+		<div class="flex--item filters">
+			<div class="s-btn-group">
+				<button class="date s-btn" data-value="2024-05-30">Thu 30 May</button>
+				<button class="date s-btn is-selected" data-value="2024-05-31">Fri 31 May</button>
+				<button class="date s-btn" data-value="2024-06-01">Sat 1 June</button>
+				<button class="date s-btn" data-value="2024-06-02">Sun 2 June</button>
+			</div>
+		</div>
+		<div class="flex--item controls">
+			<button class="s-btn s-btn__danger s-btn__outlined" id="button-reset">Reset</button>
+			<button class="s-btn s-btn__outlined" id="button-export">Export to Clipboard</button>
+			<button class="s-btn s-btn__outlined" id="button-import">Import</button>
+
+		</div>
+		<div class="flex--item">
+			Desktop-Optimized (sorry)
 		</div>
 	</div>
 
@@ -32,6 +43,9 @@
 		</div>
 		<div class="talk-header s-card">
 			<h2>Stage C</h2>
+		</div>
+		<div class="talk-header s-card">
+			<h2>[Coming Soon]</h2>
 		</div>
 		<div class="talks ui basic">
 			Loading...

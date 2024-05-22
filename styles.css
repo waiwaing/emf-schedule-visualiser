@@ -53,7 +53,6 @@ body {
 }
 
 .bi-camera-video-off {
-	font-size: 1.2em;
 	color: #F55089;
 }
 
@@ -78,4 +77,8 @@ body:not(.theme-highcontrast):not(.theme-dark).theme-custom.themed {
     --theme-secondary-custom-400: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(20%, calc(var(--theme-base-secondary-color-l) + 0 * 1%), 60%));
     --theme-secondary-custom-500: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(15%, calc(var(--theme-base-secondary-color-l) + -14 * 1%), 45%));
     --theme-secondary-custom-600: hsl(var(--theme-base-secondary-color-h), calc(var(--theme-base-secondary-color-s) + 0 * 1%), clamp(5%, calc(var(--theme-base-secondary-color-l) + -26 * 1%), 30%));
+	--theme-link-color: #213018;
+	--theme-link-color-hover: #213018;
+	--theme-link-color-visited: #213018;
+
 }

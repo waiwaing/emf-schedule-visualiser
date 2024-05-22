@@ -27,6 +27,7 @@
     "equipment": "",
     "age_range": "",
     "attendees": "80",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -91,6 +92,7 @@
     "equipment": "see above",
     "age_range": "all ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -185,6 +187,7 @@
     "equipment": "",
     "age_range": "",
     "attendees": "80",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -393,41 +396,12 @@
     "equipment": "",
     "age_range": "12 years or older. (Under 16s should be accompanied by an adult)",
     "attendees": "12",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "12:00",
     "end_time": "13:00"
-  },
-  {
-    "id": 616,
-    "slug": "micro-men",
-    "start_date": "2024-05-31 23:45:00",
-    "end_date": "2024-06-01 01:10:00",
-    "venue": "Stage C",
-    "latlon": [
-      52.0405,
-      -2.37765
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
-    "title": "Micro Men",
-    "speaker": "EMF Film",
-    "pronouns": "",
-    "user_id": 947,
-    "description": "A rare change to see this classic comedy-drama. In the early 1980s, Clve Sinclair, an eccentric inventor, aims to dominate the nascent home computer market with his low-priced ZX range. Frustrated by Clive's temper and stubboness, employee Chris Curry decides to form a new company, Acorn Computers. When the BBC ask them both to tender for a computer that will find its way into every school in the country, a friendship turns into a fierce rivalry. An hilarious true story of ego, vendetta and weaponised newspapers.",
-    "type": "performance",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "E",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/616-micro-men",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "23:45",
-    "end_time": "01:10"
   },
   {
     "id": 375,
@@ -460,40 +434,10 @@
     "end_time": "17:10"
   },
   {
-    "id": 620,
-    "slug": "silent-running",
-    "start_date": "2024-06-02 22:30:00",
-    "end_date": "2024-06-03 00:00:00",
-    "venue": "Stage C",
-    "latlon": [
-      52.0405,
-      -2.37765
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
-    "title": "Silent Running",
-    "speaker": "EMF Film",
-    "pronouns": "",
-    "user_id": 947,
-    "description": "The ultimate solarpunk film? In a future Earth barren of all flora and fauna, the planet's ecosystems exist only in large pods attached to spacecraft. When word comes in that the pods are to be jettisoned into space and destroyed, most of the crew of the Valley Forge rejoice at the prospect of going home. Not so for botanist Freeman Lowell, who loves the forest and its creatures. He takes extreme measures to project what's left of Earth's ecosystem.\r\n\r\nDouglas Trumbull' s debut movie is a bonafide classic. Warming and heartbreaking in equal measures, you'll see ideas and effects that went on to inform many classic sci-fi features that followed in it's wake.",
-    "type": "performance",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "U",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/620-silent-running",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "22:30",
-    "end_time": "00:00"
-  },
-  {
     "id": 618,
     "slug": "colossus-the-forbin-project",
     "start_date": "2024-06-01 23:45:00",
-    "end_date": "2024-06-02 01:26:00",
+    "end_date": "2024-06-02 01:40:00",
     "venue": "Stage C",
     "latlon": [
       52.0405,
@@ -517,7 +461,7 @@
       "recording_lost": false
     },
     "start_time": "23:45",
-    "end_time": "01:26"
+    "end_time": "01:40"
   },
   {
     "id": 412,
@@ -547,6 +491,7 @@
     "equipment": "A laptop and mouse, the software can be downloaded and installed at the workshop",
     "age_range": "16+",
     "attendees": "30ish? Can be flexible on this, though if there are less 3D printers then this can be tricky.",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -581,6 +526,7 @@
     "equipment": "Needle nosed pliers, side cutters",
     "age_range": "12+",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -645,6 +591,7 @@
     "equipment": "Nothing",
     "age_range": "8+ with accompanying adult, 13+ without accompanying adult",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -676,6 +623,7 @@
     "equipment": "None",
     "age_range": "18+, 12+ if supervised by an adult",
     "attendees": "5 at any one time, but open to drop in/out",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -740,6 +688,7 @@
     "equipment": "",
     "age_range": "from about 10 years",
     "attendees": "20 max",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -774,41 +723,12 @@
     "equipment": "laptop",
     "age_range": "12+",
     "attendees": "25-30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "16:00",
     "end_time": "18:00"
-  },
-  {
-    "id": 318,
-    "slug": "a-short-history-of-electric-shocks",
-    "start_date": "2024-05-31 15:50:00",
-    "end_date": "2024-05-31 16:30:00",
-    "venue": "Stage A",
-    "latlon": [
-      52.03961,
-      -2.37787
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
-    "title": "A Short History of Electric Shocks",
-    "speaker": "Tim Hunkin",
-    "pronouns": "He/him",
-    "user_id": 1908,
-    "description": "This talk is about our delight, awe and fear of electricity and its effects on the human body. It charts our changing relationship with it from the 18th century to today. I particularly love the 18th century gentlemen scientists with their electrical entertainments - particularly because they appreciated the magic of electriocity and were so excited by it. Its sad that people today just take electricity for granted. Over the years I've accumulated a collection of contemporary images which I'll use to illustrate the talk. It may include a few demonstations as well. ",
-    "type": "talk",
-    "may_record": true,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "Includes details of death from electric shocks and electrocution. I guess some children could be scared but the intent is to entertain not to shock. So I've ticked the box below as I think most kids would enjoy it.   ",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/318-a-short-history-of-electric-shocks",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "15:50",
-    "end_time": "16:30"
   },
   {
     "id": 161,
@@ -868,11 +788,42 @@
     "equipment": "Mug or flask - We'll have some mugs for sale.",
     "age_range": "All ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "08:30",
     "end_time": "09:30"
+  },
+  {
+    "id": 318,
+    "slug": "a-short-history-of-electric-shocks",
+    "start_date": "2024-05-31 15:50:00",
+    "end_date": "2024-05-31 16:30:00",
+    "venue": "Stage A",
+    "latlon": [
+      52.03961,
+      -2.37787
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
+    "title": "A Short History of Electric Shocks",
+    "speaker": "Tim Hunkin",
+    "pronouns": "He/him",
+    "user_id": 1908,
+    "description": "This talk is about our delight, awe and fear of electricity and its effects on the human body. It charts our changing relationship with it from the 18th century to today. I particularly love the 18th century gentlemen scientists with their electrical entertainments - particularly because they appreciated the magic of electriocity and were so excited by it. Its sad that people today just take electricity for granted. Over the years I've accumulated a collection of contemporary images which I'll use to illustrate the talk. It may include a few demonstations as well. ",
+    "type": "talk",
+    "may_record": true,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "Includes details of death from electric shocks and electrocution. I guess some children could be scared but the intent is to entertain not to shock. I think most kids would enjoy it.   ",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/318-a-short-history-of-electric-shocks",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "15:50",
+    "end_time": "16:30"
   },
   {
     "id": 128,
@@ -902,6 +853,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -933,6 +885,7 @@
     "equipment": "optional: laptop",
     "age_range": "10-100",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -967,6 +920,7 @@
     "equipment": "Badge and soldering equipment provided. Children must be supervised.",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1001,6 +955,7 @@
     "equipment": "Laptops. Optional: micro-USB cable, micro:bit",
     "age_range": "Ages 7 and up (children under 11 should bring an adult to help them out)",
     "attendees": "15",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1065,41 +1020,12 @@
     "equipment": "",
     "age_range": "6+ with adult assistants",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "13:30",
     "end_time": "15:30"
-  },
-  {
-    "id": 469,
-    "slug": "keeping-on-track-the-running-behaviour-of-railway-vehicles",
-    "start_date": "2024-06-01 14:10:00",
-    "end_date": "2024-06-01 14:50:00",
-    "venue": "Stage A",
-    "latlon": [
-      52.03961,
-      -2.37787
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
-    "title": "Keeping on track - the running behaviour of railway vehicles and their safety",
-    "speaker": "Nigel Shaw",
-    "pronouns": "He/him",
-    "user_id": 1847,
-    "description": "How trains behave dynamically as they run along the track - their running behaviour \u2013 is a fundamental to railway safety. This talk will endeavour to explain the principles of some of the individual mechanisms involved, how they work together, and what makes some of them quite unique. It will look at some of the design solutions and approaches used to control dynamic behaviour and some of the risks that are associated.  There may also be an opportunity to look at some of the basics behind the maths along the way.\r\n",
-    "type": "talk",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": false,
-    "is_from_cfp": true,
-    "content_note": "Some discussion on the causes of railway accidents and their consequences.",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/469-keeping-on-track-the-running-behaviour-of-railway-vehicles",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "14:10",
-    "end_time": "14:50"
   },
   {
     "id": 234,
@@ -1156,6 +1082,7 @@
     "equipment": "You don't have to bring a game, but if you do, then so the better!",
     "age_range": "All ages",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1190,6 +1117,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1208,8 +1136,8 @@
     ],
     "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
     "title": "Contrary to popular belief, tech needs unions",
-    "speaker": "John Chadfield",
-    "pronouns": "he/him",
+    "speaker": "United Tech & Allied Workers",
+    "pronouns": "",
     "user_id": 2035,
     "description": "It's no secret that the tech sector is notoriously lacking in unionisation compared to more traditional industries; We'd like to talk about why this might be, why it's a bad thing for everyone, and how we might go about fixing it.\r\n\r\nWe'll let you know about some rights you have as a worker that you might not realise you have, we'll regale some war stories of those rights in action, and we'll try to make the task of organising your workplace seem much less daunting. Most of the information held within will be specific to workers in the UK, but we hope to impart some thoughts that are applicable to workers everywhere!",
     "type": "talk",
@@ -1311,6 +1239,7 @@
     "equipment": "0",
     "age_range": "All ages",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1372,6 +1301,7 @@
     "equipment": "Clothing protection from dyes, any natural fibres you want to dye.",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1403,6 +1333,7 @@
     "equipment": "",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1470,6 +1401,36 @@
     "end_time": "16:00"
   },
   {
+    "id": 145,
+    "slug": "2xaa",
+    "start_date": "2024-06-02 23:30:00",
+    "end_date": "2024-06-03 00:25:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "2xAA",
+    "speaker": "2xAA",
+    "pronouns": "He/him/they",
+    "user_id": 122,
+    "description": "A Game Boy Advance fuelled chiptune dance/techno set with custom audio reactive visuals.",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/145-2xaa",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "23:30",
+    "end_time": "00:25"
+  },
+  {
     "id": 380,
     "slug": "creation-of-number",
     "start_date": "2024-06-02 16:40:00",
@@ -1524,6 +1485,7 @@
     "equipment": "",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1588,6 +1550,7 @@
     "equipment": "Colouring pens / pencils plus spare scissors (or craft knives with adult supervision) would be very welcome",
     "age_range": "6 (with parent\u2019s help) to 96!",
     "attendees": "As many as will fit - I can bring enough for 15-20 people making. I\u2019ll have my 14yo to help but would appreciate any other helpers. No previous experience necessary!",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1622,6 +1585,7 @@
     "equipment": "n/a",
     "age_range": "18+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1656,6 +1620,7 @@
     "equipment": "Something to cover clothes, idea",
     "age_range": "3+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1754,7 +1719,7 @@
   },
   {
     "id": 491,
-    "slug": "bit-birds-build-code-a-brilliant-micro-bit-pipecleaner-bird",
+    "slug": "bit-birds-build-code-micro-bit-pipecleaner-birds-as-part-of",
     "start_date": "2024-05-31 15:30:00",
     "end_date": "2024-05-31 16:30:00",
     "venue": "Youth Workshop",
@@ -1763,11 +1728,11 @@
       -2.37771
     ],
     "map_link": "https://map.emfcamp.org/#18.5/52.04117/-2.37771",
-    "title": "bit:birds: build & code a brilliant micro:bit pipecleaner bird as part of the EMF flock",
+    "title": "bit:birds: build & code micro:bit pipecleaner birds as part of the EMF flock",
     "speaker": "Jonny Austin",
     "pronouns": "He/Him",
     "user_id": 2058,
-    "description": "We want to build a flock of beautiful, unique, singing, communicating birds.\r\n\r\nYour bird will come and join the flock. We'll show you how to write your first micro:bit program, how to play with different ways to make cool sounds, and then how to make your bird a social beast, responding to wireless signals from the flock.\r\n\r\nWe want you to come and teach your bird how to squeak, squawk, sqauck, quack or even beatbox.\r\n\r\nYou will need to bring a laptop, but we'll provide the micro:bits, batteries, cables and craft materials. If you have your own micro:bit (V2), bring it along so you can keep your bird at the end of the festival. if you have servo motors, bring them along and you can make a bird that flaps.\r\n\r\nYou can code in MicroPython or MakeCode (which is like Scratch)\r\n\r\nAt the end of the activity we will find a nice tree to hang the birds up somewhere people can come and see, hear and admire them.\r\n",
+    "description": "We want to build a flock of beautiful, unique, singing, communicating birds.\r\n\r\nYour bird will come and join the flock. We'll show you how to write your first micro:bit program, how to play with different ways to make cool sounds, and then how to make your bird a social beast, responding to wireless signals from the flock.\r\n\r\nWe want you to come and teach your bird how to squeak, squawk, sqauck, quack or even beatbox.\r\n\r\nYou will need to bring a laptop\r\nWe'll provide the micro:bits, batteries, cables and craft materials.\r\n\r\nIf you have your own micro:bit (V2), bring it along so you can keep your bird at the end of the festival. if you have servo motors, bring them along and you can make a bird that flaps.\r\n\r\nYou can code in MicroPython or MakeCode (which is like Scratch)\r\n\r\nAt the end of the activity we will find a nice tree to hang the birds up somewhere people can come and see, hear and admire them.\r\n",
     "type": "youthworkshop",
     "may_record": false,
     "is_fave": false,
@@ -1775,11 +1740,12 @@
     "is_from_cfp": true,
     "content_note": "",
     "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/491-bit-birds-build-code-a-brilliant-micro-bit-pipecleaner-bird",
+    "link": "https://www.emfcamp.org/schedule/2024/491-bit-birds-build-code-micro-bit-pipecleaner-birds-as-part-of",
     "cost": "Free but you can't keep the micro:bit, sorry.",
     "equipment": "Laptop with USB ports (C or A) (optional: own micro:bit V2 if you have one, servos if you want flapping)",
     "age_range": "8 upwards (but younger may enjoy this with supportive adults)",
     "attendees": "25ish - and with a few more volunteers we could do 30, but it'd get a bit noisy. ",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -1844,6 +1810,7 @@
     "equipment": "Wear clothes that you don't mind getting dirty",
     "age_range": "All ages",
     "attendees": "Whatever the venue will allow",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1878,6 +1845,7 @@
     "equipment": "none",
     "age_range": "7-13",
     "attendees": "15 children plus accompanying adults",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -1942,45 +1910,12 @@
     "equipment": "None",
     "age_range": "around 10 upwards",
     "attendees": "40",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "12:30",
     "end_time": "13:00"
-  },
-  {
-    "id": 56,
-    "slug": "art-with-character-s-make-your-own-ascii-art-with-python",
-    "start_date": "2024-06-02 14:30:00",
-    "end_date": "2024-06-02 15:30:00",
-    "venue": "Workshop 4 (FieldFX)",
-    "latlon": [
-      52.04329,
-      -2.3759
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.04329/-2.3759",
-    "title": "Art with character(s): Make your own ASCII art with Python ",
-    "speaker": "Hugh Evans",
-    "pronouns": "he/him",
-    "user_id": 826,
-    "description": "\r\n\u2500\u2588\u2580\u2580\u2588 \u2591\u2588\u2580\u2580\u2580\u2588 \u2591\u2588\u2580\u2580\u2588 \u2580\u2588\u2580 \u2580\u2588\u2580 \r\n\u2591\u2588\u2584\u2584\u2588 \u2500\u2580\u2580\u2580\u2584\u2584 \u2591\u2588\u2500\u2500\u2500 \u2591\u2588\u2500 \u2591\u2588\u2500 \r\n\u2591\u2588\u2500\u2591\u2588 \u2591\u2588\u2584\u2584\u2584\u2588 \u2591\u2588\u2584\u2584\u2588 \u2584\u2588\u2584 \u2584\u2588\u2584 \r\n\r\nCome along to this workshop for a short talk about what ASCII art is and its history, an interactive tutorial of how you can use Python and Pillow to take images from the internet and your webcam and turn them into ASCII art, and an opportunity to show off your new skills by building something cool.",
-    "type": "workshop",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/56-art-with-character-s-make-your-own-ascii-art-with-python",
-    "cost": "",
-    "equipment": "Laptop with Python installed",
-    "age_range": "11+",
-    "attendees": "~30 (but potentially up to 50 with some support)",
-    "video": {
-      "recording_lost": null
-    },
-    "start_time": "14:30",
-    "end_time": "15:30"
   },
   {
     "id": 416,
@@ -2040,6 +1975,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "35",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2104,11 +2040,39 @@
     "equipment": "Nothing",
     "age_range": "7 to 12 though 9 to 12 is better.",
     "attendees": "20 - 30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "17:50",
     "end_time": "18:50"
+  },
+  {
+    "id": 571,
+    "slug": "the-book-ritual",
+    "start_date": "2024-05-31 14:00:00",
+    "end_date": "2024-05-31 15:00:00",
+    "venue": "Arcade",
+    "latlon": null,
+    "map_link": null,
+    "title": "The Book Ritual",
+    "speaker": "Alistair Aitcheson",
+    "pronouns": null,
+    "user_id": 4,
+    "description": "The Book Ritual is an interactive art-piece played using a real-world book of your choice.\r\n\r\nWrite in your book to tell it about yourself. Deface its pages in creativity exercises, so that your book can understand you. Tear out pages to keep the conversation going, as it reveals to you how it came to be and why it wants to know you.\r\n\r\nThe Book Ritual is about dealing with loss and accepting grief. The process of tearing up a book allows players to live out the experience of loss and examine the emotions that arise.\r\n\r\nAlistair Aitcheson will give a short talk and demonstration, and be available for Q&A. ",
+    "type": "talk",
+    "may_record": null,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": false,
+    "content_note": null,
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/571-the-book-ritual",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "14:00",
+    "end_time": "15:00"
   },
   {
     "id": 24,
@@ -2139,67 +2103,6 @@
     },
     "start_time": "12:10",
     "end_time": "12:40"
-  },
-  {
-    "id": 212,
-    "slug": "build-your-own-sensor-community-air-quality-monitoring",
-    "start_date": "2024-05-31 12:30:00",
-    "end_date": "2024-05-31 13:30:00",
-    "venue": "Workshop 2 (Milliways)",
-    "latlon": [
-      52.04208,
-      -2.37715
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.04208/-2.37715",
-    "title": "Build your own sensor.community air quality monitoring station!",
-    "speaker": "Tom Hodson",
-    "pronouns": "He/Him",
-    "user_id": 1776,
-    "description": "Air pollution is a major public health issue but you\u2019d be surprised how few official monitoring stations there are in Europe. That\u2019s an issue because pollution levels can vary a lot even between adjacent streets so to get the best picture possible we need more sensors! This is where citizen lead projects like Sensor.Community are doing amazing things.\r\n\r\nIn this workshop you\u2019ll put together an air quality monitor made from an ESP32 and a few sensors, load up the firmware and connect it to the sensor.community network so that other people, scientists and policy makers can see where the problems are and hopefully change something. We\u2019ll discuss options for weather proofing, where to place the sensor and how to hook it into your own smart home setup if you have one. \r\n\r\nI will be selling kits at cost which include:\r\n    - An ESP8266 Dev board with micro USB port\r\n    - A BME280 Pressure/Temp/Humidity sensor\r\n    - A 2m micro USB cable\r\n    - F-F header cables\r\n    - An SDS011 particulate matter sensor\r\n\r\nI currently have 20 kits including the SDS011 for \u00a340 and an additional 10 with just the BME280 for \u00a315. You will need to bring your own usb power supply or plug it into a laptop and I will leave the weather proofing up to you once you install it at home.\r\n\r\nA special shoutout will go to anyone who:\r\n- Scrounges together the parts for a sensor purely from things they get at the camp!\r\n- Get the firmware running on the EMFcamp badge!\r\n- Makes an airquality themed Hexpansion for the badge!\r\n- Does something else unexpected with the idea, it's a citizen lead project after all!\r\n\r\n[1]: https://sensor.community/en/sensors/airrohr/",
-    "type": "workshop",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/212-build-your-own-sensor-community-air-quality-monitoring",
-    "cost": "\u00a315 for just the air quality sensor (you bring your own ESP32 etc), ~\u00a350 for a full kit.",
-    "equipment": "A laptop and a micro usb cable would be very helpful!",
-    "age_range": "Any (with adult supervision)",
-    "attendees": "At least 20 but could be more if I can get enough esp32s and sensors ",
-    "video": {
-      "recording_lost": null
-    },
-    "start_time": "12:30",
-    "end_time": "13:30"
-  },
-  {
-    "id": 571,
-    "slug": "the-book-ritual",
-    "start_date": "2024-05-31 14:00:00",
-    "end_date": "2024-05-31 15:00:00",
-    "venue": "Arcade",
-    "latlon": null,
-    "map_link": null,
-    "title": "The Book Ritual",
-    "speaker": "Alistair Aitcheson",
-    "pronouns": null,
-    "user_id": 4,
-    "description": "The Book Ritual is an interactive art-piece played using a real-world book of your choice.\r\n\r\nWrite in your book to tell it about yourself. Deface its pages in creativity exercises, so that your book can understand you. Tear out pages to keep the conversation going, as it reveals to you how it came to be and why it wants to know you.\r\n\r\nThe Book Ritual is about dealing with loss and accepting grief. The process of tearing up a book allows players to live out the experience of loss and examine the emotions that arise.\r\n\r\nAlistair Aitcheson will give a short talk and demonstration, and be available for Q&A. ",
-    "type": "talk",
-    "may_record": null,
-    "is_fave": false,
-    "is_family_friendly": false,
-    "is_from_cfp": false,
-    "content_note": null,
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/571-the-book-ritual",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "14:00",
-    "end_time": "15:00"
   },
   {
     "id": 80,
@@ -2376,6 +2279,7 @@
     "equipment": "Nothing",
     "age_range": "7+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2407,6 +2311,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2468,6 +2373,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2499,6 +2405,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2593,6 +2500,7 @@
     "equipment": "Please bring a smartphone and install the Smartibot app so you can control your robot",
     "age_range": "(Assuming they'll have an adult to help them) 3+ (Or independently) 7+",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2657,6 +2565,7 @@
     "equipment": "Please bring a smartphone and install the Smartibot app so you can control your robot",
     "age_range": "(Assuming they'll have an adult to help them) 3+ (Or independently) 7+",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -2688,6 +2597,7 @@
     "equipment": "You don't have to bring a game, but if you do, then so the better!",
     "age_range": "All ages",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2719,6 +2629,7 @@
     "equipment": "Colourful embroidery floss provided. Feel free to bring some more if you have any, or to bring a different material like paracord if you want to make a chunkier bracelet.",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -2933,6 +2844,7 @@
     "equipment": "None needed",
     "age_range": "With volunteers we could have any age but age 6+ is probably best",
     "attendees": "8 children at once depending on the age and parent supervision, more children could be accommodated with an additional volunteer or two ",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -3030,37 +2942,6 @@
     "end_time": "16:00"
   },
   {
-    "id": 576,
-    "slug": "board-games",
-    "start_date": "2024-06-02 16:00:00",
-    "end_date": "2024-06-02 18:00:00",
-    "venue": "Workshop 0 (Drop-in)",
-    "latlon": null,
-    "map_link": null,
-    "title": "Board games",
-    "speaker": "Spriggs Family",
-    "pronouns": "2x He/Him, 2x She/Her",
-    "user_id": 903,
-    "description": "We bring some board games and knowledge of how to play them. You bring yourselves and people to play with (and optionally, your own games to play). It's like a board game cafe, but without the cafe, or the per-hour charging!\r\n\r\nSuitable for adults and children, although children must be accompanied (we aren't a creche and have no DBS or equivalent checks).\r\n\r\nIdeally, games should run for no longer than 1h to make sure we all have room and time to play",
-    "type": "workshop",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/576-board-games",
-    "cost": "",
-    "equipment": "You don't have to bring a game, but if you do, then so the better!",
-    "age_range": "All ages",
-    "attendees": "30",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "16:00",
-    "end_time": "18:00"
-  },
-  {
     "id": 140,
     "slug": "madlab-soldering-workshop",
     "start_date": "2024-06-02 16:00:00",
@@ -3088,41 +2969,12 @@
     "equipment": "Nothing needed from attendees",
     "age_range": "7+ (officially although we can take slightly younger children)",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "16:00",
     "end_time": "17:00"
-  },
-  {
-    "id": 325,
-    "slug": "i-foid-every-nhs-board-in-england-on-autism-assessment",
-    "start_date": "2024-06-02 10:40:00",
-    "end_date": "2024-06-02 11:00:00",
-    "venue": "Stage B",
-    "latlon": [
-      52.0419,
-      -2.37664
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
-    "title": "I FOI'd every NHS board in England on autism assessment provision: here's how it went",
-    "speaker": "Georgia Harper",
-    "pronouns": "She/Her",
-    "user_id": 1153,
-    "description": "In December 2023, 172,022 people were waiting for an autism assessment. We know this because NHS England publish quarterly national and regional statistics on the size of the waiting list. What we *don't* know is how long they're waiting for, how many ultimately get a diagnosis, what the referral process is like, or what support (if any) is given afterwards - all of which is a postcode lottery.\r\n\r\nI lead policy at Autistica, the UK's leading autism research and campaigning charity. I am also autistic myself, which sometimes manifests as a chronic inability to give up. That's why, on 14th March, I sent the same Freedom of Information Act request to all 42 NHS Integrated Care Boards in England.\r\n\r\nWhat started as firing off a few e-mails turned very complicated very quickly; this is a whistle-stop tour of redirection, confusion, and private outsourcing. Over eleven weeks on, I *hope* I'll be able to present a national overview of the growing crisis facing autistic people and their loved ones - and what we need to do about it.",
-    "type": "talk",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
-    "content_note": "",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/325-i-foid-every-nhs-board-in-england-on-autism-assessment",
-    "video": {
-      "recording_lost": null
-    },
-    "start_time": "10:40",
-    "end_time": "11:00"
   },
   {
     "id": 118,
@@ -3152,6 +3004,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "10 (more with volunteers to help wrangle kids)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -3246,6 +3099,7 @@
     "equipment": "",
     "age_range": "5 up (choking hazard)",
     "attendees": "20... not sure how far lego will last until its all built",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -3255,9 +3109,9 @@
   {
     "id": 580,
     "slug": "lockpicking",
-    "start_date": "2024-05-31 10:00:00",
-    "end_date": "2024-05-31 18:00:00",
-    "venue": "Lockpicking Village",
+    "start_date": "2024-05-31 11:00:00",
+    "end_date": "2024-05-31 14:00:00",
+    "venue": "Lockpicking Village Tent",
     "latlon": null,
     "map_link": null,
     "title": "Lockpicking",
@@ -3277,11 +3131,12 @@
     "equipment": "None",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
-    "start_time": "10:00",
-    "end_time": "18:00"
+    "start_time": "11:00",
+    "end_time": "14:00"
   },
   {
     "id": 253,
@@ -3314,40 +3169,6 @@
     "end_time": "11:50"
   },
   {
-    "id": 463,
-    "slug": "bmi270-sensor-the-badge-micropython-and-everything",
-    "start_date": "2024-05-31 17:00:00",
-    "end_date": "2024-05-31 18:30:00",
-    "venue": "Workshop 3 (Furry High Commission)",
-    "latlon": [
-      52.04129,
-      -2.37578
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.04129/-2.37578",
-    "title": "BMI270 sensor, the Badge, MicroPython and everything",
-    "speaker": "Harald K\u00f6nig",
-    "pronouns": "",
-    "user_id": 2036,
-    "description": "In the workshop, I first give a short overview about MEMS sensor technoloty in general, and some details about the BMI270  sensor which is used on this year's Tildagon badge.\r\n\r\nThen I'll show examples how to use MicroPython to access that sensor and get measurement data (and maybe accessing other hw on the badge too?).",
-    "type": "workshop",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": false,
-    "is_from_cfp": true,
-    "content_note": "",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/463-bmi270-sensor-the-badge-micropython-and-everything",
-    "cost": "",
-    "equipment": "",
-    "age_range": "",
-    "attendees": "50+ (multiple times if needed? or just a talk on a larger stage (to start with?) ?)",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "17:00",
-    "end_time": "18:30"
-  },
-  {
     "id": 353,
     "slug": "game-jam",
     "start_date": "2024-05-31 12:00:00",
@@ -3375,11 +3196,47 @@
     "equipment": "Laptop if developing a digital game",
     "age_range": "12+",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "12:00",
     "end_time": "13:00"
+  },
+  {
+    "id": 463,
+    "slug": "bmi270-sensor-the-badge-micropython-and-everything",
+    "start_date": "2024-05-31 17:00:00",
+    "end_date": "2024-05-31 18:30:00",
+    "venue": "Workshop 3 (Furry High Commission)",
+    "latlon": [
+      52.04129,
+      -2.37578
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.04129/-2.37578",
+    "title": "BMI270 sensor, the Badge, MicroPython and everything",
+    "speaker": "Harald K\u00f6nig",
+    "pronouns": "",
+    "user_id": 2036,
+    "description": "In the workshop, I first give a short overview about MEMS sensor technoloty in general, and some details about the BMI270  sensor which is used on this year's Tildagon badge.\r\n\r\nThen I'll show examples how to use MicroPython to access that sensor and get measurement data (and maybe accessing other hw on the badge too?).",
+    "type": "workshop",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/463-bmi270-sensor-the-badge-micropython-and-everything",
+    "cost": "",
+    "equipment": "",
+    "age_range": "",
+    "attendees": "50+ (multiple times if needed? or just a talk on a larger stage (to start with?) ?)",
+    "requires_ticket": null,
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "17:00",
+    "end_time": "18:30"
   },
   {
     "id": 341,
@@ -3412,36 +3269,6 @@
     "end_time": "17:00"
   },
   {
-    "id": 615,
-    "slug": "hackers-special-event",
-    "start_date": "2024-05-31 20:30:00",
-    "end_date": "2024-05-31 22:15:00",
-    "venue": "Stage C",
-    "latlon": [
-      52.0405,
-      -2.37765
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
-    "title": "Hackers - Special Event",
-    "speaker": "EMF Film",
-    "pronouns": "",
-    "user_id": 947,
-    "description": "On Friday we welcome Hackers director Iain Softley and vfx artist Paul Franklin to Stage C for a special 29th Anniversary (yes, off-by-one error) showing of this legendary movie. Iain will introduce the film and following will be a Q&A with Iain and Paul hosted by author and Empire Magazine editor-at-large Helen O'Hara. You'll have the chance to submit your questions in advance right up until the showing. PLUS throw on your red eyeliner and join the cosplay competition, to be judged by Iain Softley. HACK THE PLANET!",
-    "type": "performance",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": false,
-    "is_from_cfp": true,
-    "content_note": "12",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/615-hackers-special-event",
-    "video": {
-      "recording_lost": false
-    },
-    "start_time": "20:30",
-    "end_time": "22:15"
-  },
-  {
     "id": 559,
     "slug": "game-jam-show-and-tell",
     "start_date": "2024-06-02 12:00:00",
@@ -3469,6 +3296,7 @@
     "equipment": "A laptop if presenting",
     "age_range": "All ages",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -3476,35 +3304,34 @@
     "end_time": "14:00"
   },
   {
-    "id": 581,
-    "slug": "lockpicking",
-    "start_date": "2024-06-01 10:00:00",
-    "end_date": "2024-06-01 18:00:00",
-    "venue": "Lockpicking Village",
-    "latlon": null,
-    "map_link": null,
-    "title": "Lockpicking",
-    "speaker": "Lockpicking village ",
-    "pronouns": null,
-    "user_id": 453,
-    "description": "This year will see the return of the ever popular lockpicking village! Come and learn to pick locks and show off your skills. There will be members of The Open Organisation Of Lockpickers (TOOOL) to show you how and answer questions",
-    "type": "workshop",
-    "may_record": null,
+    "id": 620,
+    "slug": "silent-running",
+    "start_date": "2024-06-02 22:30:00",
+    "end_date": "2024-06-03 00:00:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "Silent Running",
+    "speaker": "EMF Film",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "The ultimate solarpunk film? In a future Earth barren of all flora and fauna, the planet's ecosystems exist only in large pods attached to spacecraft. When word comes in that the pods are to be jettisoned into space and destroyed, most of the crew of the Valley Forge rejoice at the prospect of going home. Not so for botanist Freeman Lowell, who loves the forest and its creatures. He takes extreme measures to project what's left of Earth's ecosystem.\r\n\r\nDouglas Trumbull' s debut movie is a bonafide classic. Warming and heartbreaking in equal measures, you'll see ideas and effects that went on to inform many classic sci-fi features that followed in it's wake.",
+    "type": "performance",
+    "may_record": false,
     "is_fave": false,
-    "is_family_friendly": false,
-    "is_from_cfp": false,
-    "content_note": null,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "U",
     "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/581-lockpicking",
-    "cost": "",
-    "equipment": "None",
-    "age_range": "All ages",
-    "attendees": null,
+    "link": "https://www.emfcamp.org/schedule/2024/620-silent-running",
     "video": {
       "recording_lost": false
     },
-    "start_time": "10:00",
-    "end_time": "18:00"
+    "start_time": "22:30",
+    "end_time": "00:00"
   },
   {
     "id": 194,
@@ -3537,40 +3364,42 @@
     "end_time": "13:00"
   },
   {
-    "id": 617,
-    "slug": "qbagybbxhc-with-benn-wiebe",
-    "start_date": "2024-06-01 20:30:00",
-    "end_date": "2024-06-01 22:53:00",
-    "venue": "Stage C",
-    "latlon": [
-      52.0405,
-      -2.37765
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
-    "title": "QbagYbbxHc with Benn Wiebe",
-    "speaker": "EMF Film",
-    "pronouns": "",
-    "user_id": 947,
-    "description": "Come see a mystery film! We are not allowed to publicise this but we can say it's a fantasic, funny satire on mainstream media and politics. Benn Wiebe, who was an associate producer and climate consultant on \"Don't Look Up\" will deliver an introductory talk on the role of media in impact campaigns.\r\n\r\nBenn is a SXSW Grand Jury Prize & UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer & Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (\u201cDon't Look Up\u201d, \u201cBreaking Boundaries\u2026), Sony's Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum. ",
-    "type": "performance",
-    "may_record": false,
+    "id": 581,
+    "slug": "lockpicking",
+    "start_date": "2024-06-01 10:30:00",
+    "end_date": "2024-06-01 12:00:00",
+    "venue": "Lockpicking Village Tent",
+    "latlon": null,
+    "map_link": null,
+    "title": "Lockpicking",
+    "speaker": "Lockpicking village ",
+    "pronouns": null,
+    "user_id": 453,
+    "description": "This year will see the return of the ever popular lockpicking village! Come and learn to pick locks and show off your skills. There will be members of The Open Organisation Of Lockpickers (TOOOL) to show you how and answer questions",
+    "type": "workshop",
+    "may_record": null,
     "is_fave": false,
     "is_family_friendly": false,
-    "is_from_cfp": true,
-    "content_note": "15",
+    "is_from_cfp": false,
+    "content_note": null,
     "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/617-qbagybbxhc-with-benn-wiebe",
+    "link": "https://www.emfcamp.org/schedule/2024/581-lockpicking",
+    "cost": "",
+    "equipment": "None",
+    "age_range": "All ages",
+    "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
-    "start_time": "20:30",
-    "end_time": "22:53"
+    "start_time": "10:30",
+    "end_time": "12:00"
   },
   {
     "id": 619,
     "slug": "the-rubber-keyed-wonder",
-    "start_date": "2024-06-02 20:30:00",
-    "end_date": "2024-06-02 22:51:00",
+    "start_date": "2024-06-02 20:00:00",
+    "end_date": "2024-06-02 22:20:00",
     "venue": "Stage C",
     "latlon": [
       52.0405,
@@ -3593,8 +3422,38 @@
     "video": {
       "recording_lost": false
     },
+    "start_time": "20:00",
+    "end_time": "22:20"
+  },
+  {
+    "id": 615,
+    "slug": "hackers-special-event",
+    "start_date": "2024-05-31 20:30:00",
+    "end_date": "2024-05-31 22:35:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "Hackers - Special Event",
+    "speaker": "EMF Film",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "On Friday we welcome Hackers director Iain Softley and vfx artist Paul Franklin to Stage C for a special 29th Anniversary (yes, off-by-one error) showing of this legendary movie. Iain will introduce the film and following will be a Q&A with Iain and Paul hosted by author and Empire Magazine editor-at-large Helen O'Hara. You'll have the chance to submit your questions in advance right up until the showing. PLUS throw on your red eyeliner and join the cosplay competition, to be judged by Iain Softley. HACK THE PLANET!",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "12",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/615-hackers-special-event",
+    "video": {
+      "recording_lost": false
+    },
     "start_time": "20:30",
-    "end_time": "22:51"
+    "end_time": "22:35"
   },
   {
     "id": 521,
@@ -3717,6 +3576,66 @@
     "end_time": "12:20"
   },
   {
+    "id": 623,
+    "slug": "funki-porcini",
+    "start_date": "2024-06-02 20:30:00",
+    "end_date": "2024-06-02 21:25:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Funki Porcini",
+    "speaker": "EMF Music",
+    "pronouns": "",
+    "user_id": 2661,
+    "description": "James Patrick Darcy Braddell is an English musician and filmmaker who uses the stage name of Funki Porcini",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/623-funki-porcini",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "20:30",
+    "end_time": "21:25"
+  },
+  {
+    "id": 622,
+    "slug": "waterflower",
+    "start_date": "2024-06-02 22:25:00",
+    "end_date": "2024-06-02 23:20:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Waterflower",
+    "speaker": "Sabine Moore",
+    "pronouns": "",
+    "user_id": 2663,
+    "description": "Waterflower is an experimental, eco-futuristic project by artist Sab\u012bne Moore (Riga, Latvia). Using plants and mushrooms as complementary instruments to their music, they channel the frustration of dying nature, taking the listener to interesting & dark places both in sound and subject. Waterflower blends avant-pop, hyperpop and digital hardcore to create music that speaks to the urgent need to protect and preserve our natural world. Waterflower's live shows feature synced video animations, also made by the artist, creating an immersive and multi-sensory experience. \r\n",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/622-waterflower",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "22:25",
+    "end_time": "23:20"
+  },
+  {
     "id": 90,
     "slug": "adventures-with-iridium",
     "start_date": "2024-06-01 10:00:00",
@@ -3837,6 +3756,66 @@
     "end_time": "18:40"
   },
   {
+    "id": 628,
+    "slug": "sugar-darling",
+    "start_date": "2024-05-31 21:00:00",
+    "end_date": "2024-05-31 21:45:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Sugar Darling",
+    "speaker": "Sugar Darling",
+    "pronouns": null,
+    "user_id": 2659,
+    "description": "To be completed",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": null,
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/628-sugar-darling",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "21:00",
+    "end_time": "21:45"
+  },
+  {
+    "id": 625,
+    "slug": "graham-dunning",
+    "start_date": "2024-06-01 21:30:00",
+    "end_date": "2024-06-01 22:25:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Graham Dunning",
+    "speaker": "Graham Dunning",
+    "pronouns": "",
+    "user_id": 2255,
+    "description": "Graham Dunning's work explores sound as texture, timbre and something tactile, drawing on bedroom production, tinkering and recycling found objects. With Mechanical Techno uses a standard DJ turntable as a sequencer, sound source and ramshackle engine, building a spinning contraption in real-time to make wonky and weird dance music.\r\nwww.grahamdunning.com",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/625-graham-dunning",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "21:30",
+    "end_time": "22:25"
+  },
+  {
     "id": 361,
     "slug": "eavesdropping-on-eastnor-s-bats",
     "start_date": "2024-06-01 13:00:00",
@@ -3864,11 +3843,72 @@
     "equipment": "Laptop",
     "age_range": "14+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "13:00",
     "end_time": "14:30"
+  },
+  {
+    "id": 626,
+    "slug": "electronic-music-open-mic-showcase",
+    "start_date": "2024-06-01 20:30:00",
+    "end_date": "2024-06-01 21:25:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Electronic Music Open Mic showcase",
+    "speaker": "EMF Music",
+    "pronouns": "",
+    "user_id": 2661,
+    "description": "Following on from the Electronic Music Open Mic session in Null Sector on Saturday afternoon, a few of the best performers are heading to the big stage to play short ten-minute sets!\r\n\r\nIf you'd like to take part in the afternoon session come along to Null Sector and bring your electronic music generating instruments and devices! We'll be operating on a first-come-first-served basis until we run out of time and the Null Sector crew throw us out.\r\n\r\nhttps://electronicmusicopenmic.com",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/626-electronic-music-open-mic-showcase",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "20:30",
+    "end_time": "21:25"
+  },
+  {
+    "id": 624,
+    "slug": "shirobon",
+    "start_date": "2024-06-01 23:30:00",
+    "end_date": "2024-06-02 00:15:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Shirobon",
+    "speaker": "Mikey",
+    "pronouns": "",
+    "user_id": 2662,
+    "description": "To be completed",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/624-shirobon",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "23:30",
+    "end_time": "00:15"
   },
   {
     "id": 84,
@@ -3901,6 +3941,36 @@
     "end_time": "17:20"
   },
   {
+    "id": 627,
+    "slug": "mother-vulture",
+    "start_date": "2024-05-31 22:00:00",
+    "end_date": "2024-05-31 22:50:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Mother Vulture",
+    "speaker": "Brodie Maguire",
+    "pronouns": "",
+    "user_id": 2660,
+    "description": "To be completed",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/627-mother-vulture",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "22:00",
+    "end_time": "22:50"
+  },
+  {
     "id": 585,
     "slug": "repairing-clothing-with-patches-drop-in",
     "start_date": "2024-05-30 19:00:00",
@@ -3925,11 +3995,42 @@
     "equipment": "If you have articles that need mending, bring those, else just bring your curiosity.",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "8",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "19:00",
     "end_time": "19:45"
+  },
+  {
+    "id": 518,
+    "slug": "auntie-shanty-inclusive-fun-feminist-shanty-singalong",
+    "start_date": "2024-05-30 18:00:00",
+    "end_date": "2024-05-30 19:00:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Auntie Shanty - inclusive, fun, feminist shanty singalong",
+    "speaker": "Rosanna Sharkey",
+    "pronouns": "",
+    "user_id": 2075,
+    "description": "Join the crew and sing some shouty sea songs together! Remember Wellerman, way back in ancient TikTok history? Recapture those feel-good 2021 shanty vibes without the crushing pandemic anxiety at the sea-themed singalong where everyone's welcome. \r\n\r\nAuntie Shanty brings shanties into the 21st Century by ditching the racist, sexist bits and providing an online songbook so everyone can take part (www.auntieshanty.org). It's not audience participation - there is no audience, we're all aboard together. Enthusiasm essential, musical experience unnecessary, parrots and pirate costumes optional but welcome. ",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/518-auntie-shanty-inclusive-fun-feminist-shanty-singalong",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "18:00",
+    "end_time": "19:00"
   },
   {
     "id": 18,
@@ -3989,6 +4090,7 @@
     "equipment": "Something to write with and on (pen and paper)",
     "age_range": "Any age",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -4023,6 +4125,7 @@
     "equipment": "",
     "age_range": "All ages,  but It involves molten wax so children need to be supervised and probably need to be 8+",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -4057,6 +4160,7 @@
     "equipment": "None required",
     "age_range": "16 and up",
     "attendees": "20 ",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -4104,15 +4208,15 @@
       -2.37787
     ],
     "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
-    "title": "BIG PIPES! A dive into Scotland's hidden underground hydroelectric infrastructure.",
+    "title": "BIG PIPES! A dive into Scotland's hidden underground hydroelectric infrastructure \u26a0\ufe0f\ud83c\udf0a",
     "speaker": "Andrew Simpson",
     "pronouns": "He Him",
     "user_id": 1022,
-    "description": "A look at the history and construction of Scotland's hidden network of remote dams, tunnels, shafts and underground generating stations. Not many are aware of how extensive, ground-breaking, enduring and socially significant the hydro infrastructure hidden in and under our Lochs and Glens is. Come and join me for a healthy dose of BIG PIPES!",
+    "description": "A look at the history and construction of Scotland's hidden network of remote dams, tunnels, shafts and underground generating stations. Not many are aware of how extensive, ground-breaking, enduring and socially significant the hydro infrastructure hidden under our Lochs and Glens really is. Come and join me for a healthy dose of BIG PIPES!",
     "type": "talk",
     "may_record": true,
     "is_fave": false,
-    "is_family_friendly": false,
+    "is_family_friendly": true,
     "is_from_cfp": true,
     "content_note": "",
     "source": "database",
@@ -4122,6 +4226,36 @@
     },
     "start_time": "12:20",
     "end_time": "12:50"
+  },
+  {
+    "id": 223,
+    "slug": "spotting-seals-with-sonar-and-a-i",
+    "start_date": "2024-05-31 18:50:00",
+    "end_date": "2024-05-31 19:20:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "Spotting Seals with Sonar (and A.I.)",
+    "speaker": "Benjamin Blundell",
+    "pronouns": "He",
+    "user_id": 1511,
+    "description": "Tidal energy is one potential source of green energy but the impact of placing large turbines on the seabed is not fully understood. In particular, how are sea mammals coping with such changes in their environment? Do we need to put automatic mitigations in place \u2013 is it even possible? For over a year, we have been annotating more than 60 terabytes of data, finding these rare events of interest. We\u2019ve looked at whether Artificial Intelligence, combined with sonar, can automatically spot and classify interesting underwater objects. We\u2019ve tried several approaches, some more successful than others, but there are promising results with movement detection and segmentation. \r\n\r\nThis talk covers our initial findings - where we went wrong and one promising approach that we are still actively researching. I'll be talking about U-Nets, convolutional neural networks, sonars and the unknown entities that may lurk in the depths!",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/223-spotting-seals-with-sonar-and-a-i",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "18:50",
+    "end_time": "19:20"
   },
   {
     "id": 146,
@@ -4208,6 +4342,7 @@
     "equipment": "None required.",
     "age_range": "All ages",
     "attendees": "60",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -4269,6 +4404,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "8",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -4330,6 +4466,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "8",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -4484,6 +4621,7 @@
     "equipment": "All materials and equipment will be provided.",
     "age_range": "All ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -4728,6 +4866,7 @@
     "equipment": "None",
     "age_range": "around 10 upwards",
     "attendees": "40",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -4972,6 +5111,7 @@
     "equipment": "",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "12",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5099,64 +5239,34 @@
     "end_time": "17:20"
   },
   {
-    "id": 17,
-    "slug": "endocrine-biohacking-friends-of-bl\u00e5haj-and-beyond",
-    "start_date": "2024-06-02 13:10:00",
-    "end_date": "2024-06-02 13:40:00",
+    "id": 424,
+    "slug": "psychiceyeclix",
+    "start_date": "2024-06-02 01:05:00",
+    "end_date": "2024-06-02 01:45:00",
     "venue": "Stage B",
     "latlon": [
       52.0419,
       -2.37664
     ],
     "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
-    "title": "Endocrine Biohacking - Friends of Bl\u00e5haj and beyond",
-    "speaker": "a[gk]i|ab+y",
-    "pronouns": "She/They",
-    "user_id": 752,
-    "description": "Biohacking for girls, gays, theys, and undisclosed entitites.\r\n\r\nWhy biohacking is good, cool, and a human right\r\nA brief history of biohacking and why endocrine biohacking is so cool\r\nhow to manage your own endocrine care\r\nhow to access managed endocrine care\r\nsafe sourcing of international pharmaceuticals\r\nalternative routes of care (and modelling risk)",
-    "type": "talk",
+    "title": "Psychiceyeclix ",
+    "speaker": "Damian Lintell-Smith",
+    "pronouns": "",
+    "user_id": 1991,
+    "description": "Psychiceyeclix performs wearing a robot synth helmet using unique instruments & circuit bent devices, using hacked games consoles/toys & diy electronics to create anything from drone, glitch, noise to drum & bass.\r\nhttps://www.youtube.com/watch?v=oPihm-xOsNY\r\nhttps://youtu.be/Kga5pK69WqI?si=3JIkPd736R3bdEvf",
+    "type": "performance",
     "may_record": false,
     "is_fave": false,
     "is_family_friendly": false,
     "is_from_cfp": true,
-    "content_note": "Drugs, Transphobia ",
-    "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/17-endocrine-biohacking-friends-of-bl%C3%A5haj-and-beyond",
-    "video": {
-      "recording_lost": null
-    },
-    "start_time": "13:10",
-    "end_time": "13:40"
-  },
-  {
-    "id": 223,
-    "slug": "spotting-seals-with-sonar-and-a-i",
-    "start_date": "2024-05-31 18:50:00",
-    "end_date": "2024-05-31 19:20:00",
-    "venue": "Stage C",
-    "latlon": [
-      52.0405,
-      -2.37765
-    ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
-    "title": "Spotting Seals with Sonar (and A.I.)",
-    "speaker": "Benjamin Blundell",
-    "pronouns": "He",
-    "user_id": 1511,
-    "description": "Tidal energy is one potential source of green energy but the impact of placing large turbines on the seabed is not fully understood. In particular, how are sea mammals coping with such changes in their environment? Do we need to put automatic mitigations in place \u2013 is it even possible? For over a year, we have been annotating more than 60 terabytes of data, finding these rare events of interest. We\u2019ve looked at whether Artificial Intelligence, combined with sonar, can automatically spot and classify interesting underwater objects. We\u2019ve tried several approaches, some more successful than others, but there are promising results with movement detection and segmentation. \r\n\r\nThis talk covers our initial findings, describing the challenges of building systems that work underwater, and how can A.I. can help. We describe the problems unique to active acoustics, and how we go about understanding what an A.I has learned and its applicability to other locations such as rivers. ",
-    "type": "talk",
-    "may_record": false,
-    "is_fave": false,
-    "is_family_friendly": true,
-    "is_from_cfp": true,
     "content_note": "",
     "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/223-spotting-seals-with-sonar-and-a-i",
+    "link": "https://www.emfcamp.org/schedule/2024/424-psychiceyeclix",
     "video": {
       "recording_lost": null
     },
-    "start_time": "18:50",
-    "end_time": "19:20"
+    "start_time": "01:05",
+    "end_time": "01:45"
   },
   {
     "id": 217,
@@ -5213,6 +5323,7 @@
     "equipment": "Bring anything you'd like to de-stash! Beginners and the fibre-curious are welcome to take free materials from the swap to start a project during EMF or to use in one of the beginner workshops.",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5277,6 +5388,7 @@
     "equipment": "None needed - but you can bring your own art materials if you prefer",
     "age_range": "All ages",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -5311,6 +5423,7 @@
     "equipment": "None required.",
     "age_range": "5+ advisible but no hard limit.",
     "attendees": "Up to 20 children making rockets; up to full workshop capacity including accompanying adults.",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -5345,11 +5458,82 @@
     "equipment": "",
     "age_range": "5-18",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "20:40",
     "end_time": "21:25"
+  },
+  {
+    "id": 212,
+    "slug": "build-your-own-sensor-community-air-quality-monitoring",
+    "start_date": "2024-05-31 12:30:00",
+    "end_date": "2024-05-31 13:30:00",
+    "venue": "Workshop 2 (Milliways)",
+    "latlon": [
+      52.04208,
+      -2.37715
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.04208/-2.37715",
+    "title": "Build your own sensor.community air quality monitoring station!",
+    "speaker": "Tom Hodson",
+    "pronouns": "He/Him",
+    "user_id": 1776,
+    "description": "Air pollution is a major public health issue but you\u2019d be surprised how few official monitoring stations there are in Europe. That\u2019s an issue because pollution levels can vary a lot even between adjacent streets so to get the best picture possible we need more sensors! This is where citizen lead projects like Sensor.Community are doing amazing things.\r\n\r\nIn this workshop you\u2019ll put together an air quality monitor made from an ESP8266 and a few sensors, load up the firmware and connect it to the sensor.community network so that other people, scientists and policy makers can see where the problems are and hopefully change something. We\u2019ll discuss options for weather proofing, where to place the sensor and how to hook it into your own smart home setup if you have one. \r\n\r\nI will be selling kits at cost which include:\r\n    - An ESP8266 Dev board with micro USB port\r\n    - A BME280 Pressure/Temp/Humidity sensor\r\n    - A 2m micro USB cable\r\n    - F-F header cables\r\n    - An SDS011 particulate matter sensor\r\n    - A USB power supply **is not** included, let's try to prevent some e-waste by reusuing an old one! \r\n\r\nI currently have 10 kits including the SDS011 for \u00a340 and an additional 20 with just the BME280 for \u00a315. You will need to bring your own usb power supply or plug it into a laptop and I will leave the weather proofing up to you once you install it at home.\r\n\r\nA special shoutout will go to anyone who:\r\n- Scrounges together the parts for a sensor purely from things they get at the camp!\r\n- Get the firmware running on the EMFcamp badge!\r\n- Makes an airquality themed Hexpansion for the badge!\r\n- Does something else unexpected with the idea, it's a citizen lead project after all!\r\n\r\n[1]: https://sensor.community/en/sensors/airrohr/",
+    "type": "workshop",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/212-build-your-own-sensor-community-air-quality-monitoring",
+    "cost": "\u00a340 for a full kit, \u00a315 for the kit **without** the SDS011 air quality sensor.",
+    "equipment": "A laptop and optionally a solering iron, though some will be provided.",
+    "age_range": "Any (with adult supervision)",
+    "attendees": "30",
+    "requires_ticket": null,
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "12:30",
+    "end_time": "13:30"
+  },
+  {
+    "id": 56,
+    "slug": "art-with-character-s-make-your-own-ascii-art-with-python",
+    "start_date": "2024-06-02 14:30:00",
+    "end_date": "2024-06-02 15:30:00",
+    "venue": "Workshop 4 (FieldFX)",
+    "latlon": [
+      52.04329,
+      -2.3759
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.04329/-2.3759",
+    "title": "Art with character(s): Make your own ASCII art with Python ",
+    "speaker": "Hugh Evans",
+    "pronouns": "he/him",
+    "user_id": 826,
+    "description": "\r\n\u2500\u2588\u2580\u2580\u2588 \u2591\u2588\u2580\u2580\u2580\u2588 \u2591\u2588\u2580\u2580\u2588 \u2580\u2588\u2580 \u2580\u2588\u2580 \r\n\u2591\u2588\u2584\u2584\u2588 \u2500\u2580\u2580\u2580\u2584\u2584 \u2591\u2588\u2500\u2500\u2500 \u2591\u2588\u2500 \u2591\u2588\u2500 \r\n\u2591\u2588\u2500\u2591\u2588 \u2591\u2588\u2584\u2584\u2584\u2588 \u2591\u2588\u2584\u2584\u2588 \u2584\u2588\u2584 \u2584\u2588\u2584 \r\n\r\nCome along to this workshop for a short talk about what ASCII art is and its history, an interactive tutorial of how you can use Python and Pillow to take images from the internet and your webcam and turn them into ASCII art, and an opportunity to show off your new skills by building something cool.",
+    "type": "workshop",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/56-art-with-character-s-make-your-own-ascii-art-with-python",
+    "cost": "",
+    "equipment": "Laptop",
+    "age_range": "11+",
+    "attendees": "~30 (but potentially up to 50 with some support)",
+    "requires_ticket": null,
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "14:30",
+    "end_time": "15:30"
   },
   {
     "id": 543,
@@ -5379,11 +5563,42 @@
     "equipment": "",
     "age_range": "",
     "attendees": "80",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "20:00",
     "end_time": "23:00"
+  },
+  {
+    "id": 633,
+    "slug": "ceilidh",
+    "start_date": "2024-05-30 19:00:00",
+    "end_date": "2024-05-30 22:00:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Ceilidh",
+    "speaker": "Charlotte Pittaway",
+    "pronouns": null,
+    "user_id": 2668,
+    "description": "Ceilidh!",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": null,
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/633-ceilidh",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "19:00",
+    "end_time": "22:00"
   },
   {
     "id": 461,
@@ -5446,6 +5661,36 @@
     "end_time": "18:40"
   },
   {
+    "id": 17,
+    "slug": "endocrine-biohacking-friends-of-bl\u00e5haj-and-beyond",
+    "start_date": "2024-06-02 13:10:00",
+    "end_date": "2024-06-02 13:40:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Endocrine Biohacking - Friends of Bl\u00e5haj and beyond",
+    "speaker": "a[gk]i|ab+y",
+    "pronouns": "She/They",
+    "user_id": 752,
+    "description": "Biohacking for girls, gays, theys, and undisclosed entitites.\r\n\r\nWhy biohacking is good, cool, and a human right\r\nA brief history of biohacking and why endocrine biohacking is so cool\r\nhow to manage your own endocrine care\r\nhow to access managed endocrine care\r\nsafe sourcing of international pharmaceuticals\r\nalternative routes of care (and modelling risk)",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "Drugs, Transphobia ",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/17-endocrine-biohacking-friends-of-bl%C3%A5haj-and-beyond",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "13:10",
+    "end_time": "13:40"
+  },
+  {
     "id": 172,
     "slug": "led-strips-everywhere-for-everyone-workshop",
     "start_date": "2024-05-31 21:00:00",
@@ -5470,6 +5715,7 @@
     "equipment": "optional: laptop",
     "age_range": "10-100",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -5504,6 +5750,7 @@
     "equipment": "",
     "age_range": "18+",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5535,11 +5782,42 @@
     "equipment": "nothing",
     "age_range": "4-100",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "11:30",
     "end_time": "12:30"
+  },
+  {
+    "id": 469,
+    "slug": "keeping-on-track-the-running-behaviour-of-railway-vehicles",
+    "start_date": "2024-06-01 14:10:00",
+    "end_date": "2024-06-01 14:50:00",
+    "venue": "Stage A",
+    "latlon": [
+      52.03961,
+      -2.37787
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.03961/-2.37787",
+    "title": "Keeping on track - the running behaviour of railway vehicles and their safety",
+    "speaker": "Nigel Shaw",
+    "pronouns": "He/him",
+    "user_id": 1847,
+    "description": "How trains behave dynamically as they run along the track - their running behaviour \u2013 is a fundamental to railway safety.\r\n\r\nI am mechanical engineer with 35+ years\u2019 rail industry experience, working in the fields of vehicle design, analysis, and railway safety \u2013 both in the UK and overseas.\r\n\r\nI will endeavour to explain the principles of the individual mechanisms involved, how they work together, and what makes some of them quite unique. I will take time to look at some of the design solutions and approaches used to control dynamic behaviour and some of the risks that are associated.  There may also be an opportunity to look at some of the basics behind the maths along the way. \r\n",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "Some discussion on the causes of railway accidents and their consequences.",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/469-keeping-on-track-the-running-behaviour-of-railway-vehicles",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "14:10",
+    "end_time": "14:50"
   },
   {
     "id": 509,
@@ -5569,6 +5847,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5603,6 +5882,7 @@
     "equipment": "If you've got it, bring homebrewed beer, cider etc. Reusable glasses would also be handy. Neither are essential.",
     "age_range": "18+",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5640,6 +5920,36 @@
     "end_time": "09:30"
   },
   {
+    "id": 616,
+    "slug": "micro-men",
+    "start_date": "2024-05-31 23:30:00",
+    "end_date": "2024-06-01 01:05:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "Micro Men",
+    "speaker": "EMF Film",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "A rare change to see this classic comedy-drama. In the early 1980s, Clve Sinclair, an eccentric inventor, aims to dominate the nascent home computer market with his low-priced ZX range. Frustrated by Clive's temper and stubboness, employee Chris Curry decides to form a new company, Acorn Computers. When the BBC ask them both to tender for a computer that will find its way into every school in the country, a friendship turns into a fierce rivalry. An hilarious true story of ego, vendetta and weaponised newspapers.",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "E",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/616-micro-men",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "23:30",
+    "end_time": "01:05"
+  },
+  {
     "id": 508,
     "slug": "queermf",
     "start_date": "2024-05-30 20:00:00",
@@ -5667,6 +5977,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "100",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5701,6 +6012,7 @@
     "equipment": "A laptop or tablet per group",
     "age_range": "12 and up",
     "attendees": "30 (assuming people are happy to work in small groups)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -5735,6 +6047,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5826,11 +6139,42 @@
     "equipment": "Nothing, we provide all the equipment needed.",
     "age_range": "Adult although I've also put in a proposal for a youth workshop",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "20:30",
     "end_time": "22:30"
+  },
+  {
+    "id": 325,
+    "slug": "i-foid-every-nhs-board-in-england-on-autism-assessment",
+    "start_date": "2024-06-02 10:40:00",
+    "end_date": "2024-06-02 11:00:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "I FOI'd every NHS board in England on autism assessment provision: here's how it went",
+    "speaker": "Georgia Harper",
+    "pronouns": "She/Her",
+    "user_id": 1153,
+    "description": "In December 2023, 172,022 people were waiting for an autism assessment. We know this because NHS England publish quarterly national and regional statistics on the size of the waiting list. What we *don't* know is how long they're waiting for, how many ultimately get a diagnosis, what the referral process is like, or what support (if any) is given afterwards - all of which is a postcode lottery.\r\n\r\nI lead policy at Autistica, the UK's leading autism research and campaigning charity. I am also autistic myself, which sometimes manifests as a chronic inability to give up. That's why, on 14th March, I sent the same Freedom of Information Act request to all 42 NHS Integrated Care Boards in England.\r\n\r\nWhat started as firing off a few e-mails turned very complicated very quickly; this is a whistle-stop tour of redirection, confusion, and private outsourcing. Over eleven weeks on, I *hope* I'll be able to present a national overview of the growing crisis facing autistic people and their loved ones - and what we need to do about it.",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/325-i-foid-every-nhs-board-in-england-on-autism-assessment",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "10:40",
+    "end_time": "11:00"
   },
   {
     "id": 526,
@@ -5860,6 +6204,7 @@
     "equipment": "Mug or flask - We'll have some mugs for sale.",
     "age_range": "All ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -5927,6 +6272,36 @@
     "end_time": "17:50"
   },
   {
+    "id": 629,
+    "slug": "hackers-q-a",
+    "start_date": "2024-05-31 22:35:00",
+    "end_date": "2024-05-31 23:15:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "Hackers Q&A",
+    "speaker": "Ian Softley & Paul Franklin",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "Following the screening of Hackers, directory Iain Softley and vfx artist Paul Franklin (creator of Hacker's 'city of text') will be joined on stage by author and Empire Magazine editor-at-large Helen O'Hara. Find out about how the film was made and it's pivotal role in the transition for motion-capture effects to the new dawn of CGI, as well as it's place in hacker culture today. You'll have a chance to submit your questions before the showing.\r\n\r\nIf you fancy breaking out the red eyeliner, come in Hackers cosplay for a chance to win a prize.",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/629-hackers-q-a",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "22:35",
+    "end_time": "23:15"
+  },
+  {
     "id": 379,
     "slug": "hebocon-building-workshop",
     "start_date": "2024-06-02 10:00:00",
@@ -5951,6 +6326,7 @@
     "equipment": "Any junk they think could be made into a robot! Plus 4 AAA batteries if they are planning on getting a kit",
     "age_range": "All ages, but likely to appeal more to children. They will need parental supervision.",
     "attendees": "50 attendees. I am assuming attendees will be in (family) groups, as there are only 32 slots in the competition.",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -5985,6 +6361,7 @@
     "equipment": "Bring a variety of items you'd carry on the regular, such as laptop, water bottle, books, mobile phone and keys, etc. You will practice wrapping using these items.",
     "age_range": "All ages welcome but would be more enjoyable for ages 12+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6019,6 +6396,7 @@
     "equipment": "Laptop",
     "age_range": "All ages",
     "attendees": "30 (however many can comfortably sit w/ laptop)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6053,11 +6431,47 @@
     "equipment": "Materials and equipment provided",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "12:00",
     "end_time": "13:30"
+  },
+  {
+    "id": 534,
+    "slug": "draw-your-ideas-for-kids",
+    "start_date": "2024-06-02 13:30:00",
+    "end_date": "2024-06-02 14:30:00",
+    "venue": "Workshop 1 (NottingHack)",
+    "latlon": [
+      52.04259,
+      -2.37515
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.04259/-2.37515",
+    "title": "Draw Your Ideas (for Kids)",
+    "speaker": "Mike Haber",
+    "pronouns": null,
+    "user_id": 72,
+    "description": "Draw How to Make Toast for Kids is a simple, and fun design exercise that gets everyone to draw and share cool ideas while thinking about systems, purpose, context and toasted bread.",
+    "type": "workshop",
+    "may_record": null,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": false,
+    "content_note": null,
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/534-draw-your-ideas-for-kids",
+    "cost": "",
+    "equipment": "All materials and equipment will be provided.",
+    "age_range": "All ages",
+    "attendees": "20",
+    "requires_ticket": null,
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "13:30",
+    "end_time": "14:30"
   },
   {
     "id": 261,
@@ -6084,6 +6498,7 @@
     "equipment": "",
     "age_range": "12 years or older. (Under 16s should be accompanied by an adult)",
     "attendees": "12",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6118,6 +6533,7 @@
     "equipment": "Small sharp scissors would be helpful for cutting thread - a Swiss Army Knife would be perfect as it can be carried safely.",
     "age_range": "12+",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6125,38 +6541,129 @@
     "end_time": "11:30"
   },
   {
-    "id": 534,
-    "slug": "draw-your-ideas-for-kids",
-    "start_date": "2024-06-02 13:30:00",
-    "end_date": "2024-06-02 14:30:00",
-    "venue": "Workshop 1 (NottingHack)",
+    "id": 617,
+    "slug": "qbagybbxhc-with-benn-wiebe",
+    "start_date": "2024-06-01 21:10:00",
+    "end_date": "2024-06-01 23:35:00",
+    "venue": "Stage C",
     "latlon": [
-      52.04259,
-      -2.37515
+      52.0405,
+      -2.37765
     ],
-    "map_link": "https://map.emfcamp.org/#18.5/52.04259/-2.37515",
-    "title": "Draw Your Ideas for Kids",
-    "speaker": "Mike Haber",
-    "pronouns": null,
-    "user_id": 72,
-    "description": "Draw How to Make Toast for Kids is a simple, and fun design exercise that gets everyone to draw and share cool ideas while thinking about systems, purpose, context and toasted bread.",
-    "type": "workshop",
-    "may_record": null,
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "QbagYbbxHc with Benn Wiebe",
+    "speaker": "EMF Film",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "Come see a mystery film! We are not allowed to publicise this but we can say it's a fantasic, funny satire on mainstream media and politics. Benn Wiebe, who was an associate producer and climate consultant on \"Don't Look Up\" will deliver an introductory talk on the role of media in impact campaigns.\r\n\r\nBenn is a SXSW Grand Jury Prize & UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer & Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (\u201cDon't Look Up\u201d, \u201cBreaking Boundaries\u2026), Sony's Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum. ",
+    "type": "performance",
+    "may_record": false,
     "is_fave": false,
     "is_family_friendly": false,
-    "is_from_cfp": false,
-    "content_note": null,
+    "is_from_cfp": true,
+    "content_note": "15",
     "source": "database",
-    "link": "https://www.emfcamp.org/schedule/2024/534-draw-your-ideas-for-kids",
-    "cost": "",
-    "equipment": "All materials and equipment will be provided.",
-    "age_range": "All ages",
-    "attendees": "20",
+    "link": "https://www.emfcamp.org/schedule/2024/617-qbagybbxhc-with-benn-wiebe",
     "video": {
       "recording_lost": false
     },
-    "start_time": "13:30",
-    "end_time": "14:30"
+    "start_time": "21:10",
+    "end_time": "23:35"
+  },
+  {
+    "id": 630,
+    "slug": "the-role-of-media-in-impact-campaigns",
+    "start_date": "2024-06-01 20:30:00",
+    "end_date": "2024-06-01 21:10:00",
+    "venue": "Stage C",
+    "latlon": [
+      52.0405,
+      -2.37765
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0405/-2.37765",
+    "title": "The Role of Media in Impact Campaigns",
+    "speaker": "Benn Wiebe",
+    "pronouns": "",
+    "user_id": 947,
+    "description": "Special event - Talk followed by secret film screening\r\n\r\nWhat do impact campaigns accomplish in the creative landscape, and what is the role and responsibility of the media in driving that social impact? Inspired by the film \"Don't Look Up\", where Benn produced the impact campaign, we will explore this dynamic together. When the ethics are no longer focused on being accurate, but rather being first,and being attention grabbing, it becomes difficult for people to discern what is and is not an important story. So we wonder how some of the most important stories either fall through the ether entirely, or are seen and dismissed by the apparatus of the 24 hour news cycle and 3 second refresh feeds. That's what films like Don't Look Up tackle so well.\r\n\r\nBenn is a SXSW Grand Jury Prize & UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer & Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (\u201cDon\u2019t Look Up\u201d, \u201cBreaking Boundaries\u2026), Sony\u2019s Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum.",
+    "type": "talk",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/630-the-role-of-media-in-impact-campaigns",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "20:30",
+    "end_time": "21:10"
+  },
+  {
+    "id": 635,
+    "slug": "build-and-fly-a-rocket",
+    "start_date": "2024-05-31 18:30:00",
+    "end_date": "2024-05-31 20:00:00",
+    "venue": "Youth Workshop",
+    "latlon": [
+      52.04117,
+      -2.37771
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.04117/-2.37771",
+    "title": "Build and fly a rocket!",
+    "speaker": "Adam Greig",
+    "pronouns": "he/him",
+    "user_id": 772,
+    "description": "Build and fly a solid-fuelled model rocket from scratch!\r\n\r\nWe'll provide paper templates and all required materials, you cut and tape the rocket together and then decorate it to taste. Once they're all built we'll take the rockets out to the model flying area and launch them from our launch pad.\r\n\r\nAssembling the rocket is straightforward and as they're all made from white card and paper there are plenty of options for decoration or modification. We'll have some helpers on hand to provide guidance.\r\n\r\nSuitable for young children with supervision. The build involves mostly using scissors and tape, one step involves hot glue which requires adult supervision. Feel free to contact us beforehand if you want to check suitability: emf@adamgreig.com.\r\n\r\nThere is a limit of one rocket per child.",
+    "type": "youthworkshop",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/635-build-and-fly-a-rocket",
+    "cost": "Free.",
+    "equipment": "None required.",
+    "age_range": "5+ advisible but no hard limit.",
+    "attendees": "20 children ",
+    "requires_ticket": null,
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "18:30",
+    "end_time": "20:00"
+  },
+  {
+    "id": 557,
+    "slug": "live-coding-auto-live-coding",
+    "start_date": "2024-06-02 00:20:00",
+    "end_date": "2024-06-02 01:00:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Live coding / auto-live coding",
+    "speaker": "Yaxu",
+    "pronouns": "he/him",
+    "user_id": 2148,
+    "description": "An algorave-style live coding performance from the movement's aging co-founder Yaxu (aka Alex McLean), using the new, accessible and free/open source Strudel live-coding environment (https://strudel.cc). This improvised from-scratch performance will include an attempt at the developing practice of \"auto-live coding\" - 'auto' in the sense of self-acting (the opposite of automatic), where I try to run myself algorithms verbally, inspired by South Indian artform of Konnakol. Come and enjoy the <strike>future</strike> past of electronic music!",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "No",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/557-live-coding-auto-live-coding",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "00:20",
+    "end_time": "01:00"
   },
   {
     "id": 192,
@@ -6183,6 +6690,7 @@
     "equipment": "no equipment needed",
     "age_range": "12+, younger participants welcome if they can do focused work for 2 hours at a time",
     "attendees": "13 per session, plus any number of spectators",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6220,6 +6728,36 @@
     "end_time": "10:30"
   },
   {
+    "id": 374,
+    "slug": "vital-organs",
+    "start_date": "2024-06-02 21:30:00",
+    "end_date": "2024-06-02 22:10:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Vital Organs",
+    "speaker": "Sarah Angliss and Karina Townsend",
+    "pronouns": "",
+    "user_id": 1950,
+    "description": "We'd like to present an informal show that's somewhere between a demo and a performance. \r\n\r\nThis will include:\r\n\r\n- Karina's DIY bagpipes - with sub-bass extender\r\n- Sarah's DIY robotic polyphonic carillon\r\n- Sarah's theremin (Sarah is a professional player)\r\n\r\nWe also intend to bring along:\r\n\r\n- The latest version of Sarah's DIY pipe organ - designed for parties. It's currently in bits in Limehouse as Sarah is building a set of bellows for it - it's the version with bellows we intend to bring. The pipeorgan is a portable, self-playing instrument and plays Krautrock and other electro classics in fairground organ style.  \r\n\r\nThanks!\r\n\r\nSarah \r\n",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/374-vital-organs",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "21:30",
+    "end_time": "22:10"
+  },
+  {
     "id": 519,
     "slug": "musical-jam-garden-1",
     "start_date": "2024-06-01 14:30:00",
@@ -6244,11 +6782,42 @@
     "equipment": "Musical instrument if they want to bring their own",
     "age_range": "12+",
     "attendees": "12",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
     "start_time": "14:30",
     "end_time": "15:30"
+  },
+  {
+    "id": 468,
+    "slug": "very-good-acid-house-played-via-a-musical-pig",
+    "start_date": "2024-06-01 01:00:00",
+    "end_date": "2024-06-01 01:45:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Very good acid house played via a musical pig",
+    "speaker": "Dave Cranmer",
+    "pronouns": "",
+    "user_id": 1373,
+    "description": "DJ set via musical pig. Come and hear some carefully selected tracks played for your listening enjoyment.",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/468-very-good-acid-house-played-via-a-musical-pig",
+    "video": {
+      "recording_lost": false
+    },
+    "start_time": "01:00",
+    "end_time": "01:45"
   },
   {
     "id": 134,
@@ -6305,6 +6874,7 @@
     "equipment": "optional: laptop",
     "age_range": "10-100",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6323,7 +6893,7 @@
     "speaker": "Emily Robertson",
     "pronouns": "",
     "user_id": 618,
-    "description": "Learn the elements of knitting through Finger Knitting, a kid-friendly technique that uses your fingers instead of knitting needles. Make a bracelet, bookmark, or headband to take home or give to a friend! \r\nOnce you get the basic technique, you can finish a small project in 10-15 minutes in this free drop-in session.  Open to all ages - recommended for 5+. ",
+    "description": "Learn the elements of knitting through Finger Knitting, a kid-friendly technique that uses your fingers instead of knitting needles. Make a bracelet, bookmark, or headband to take home or give to a friend! \r\nOnce you get the basic technique, you can finish a small project in 10-15 minutes in this free drop-in session.  Open to all ages - recommended for 5+. All children to be accompanied by an adult.",
     "type": "youthworkshop",
     "may_record": false,
     "is_fave": false,
@@ -6336,6 +6906,7 @@
     "equipment": "Yarn provided, but feel free to bring your own if you want a particular colour or have spare.",
     "age_range": "All ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6367,6 +6938,7 @@
     "equipment": "A laptop that can run Inkscape, Adobe Illustrator or similar will let you make your own designs and learn the software.",
     "age_range": "14+",
     "attendees": "5",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6431,11 +7003,42 @@
     "equipment": "Laptop",
     "age_range": "12+",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "10:30",
     "end_time": "12:30"
+  },
+  {
+    "id": 68,
+    "slug": "live-audiovisual-electronic-set-from-obscenity-states",
+    "start_date": "2024-05-31 23:00:00",
+    "end_date": "2024-05-31 23:55:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Live Audiovisual/Electronic set from Obscenity State's Zoroaster album",
+    "speaker": "Nilly/ Obscenity State",
+    "pronouns": "",
+    "user_id": 847,
+    "description": "The set will be a live extended performance of the key tracks from Obscenity State\u2019s newly released album \u2018Zoroaster\u2019. Obscenity State creates and performs her own interactive visuals. For the EMF Camp performance, she will debut an extended body of new audio and visual work that would have recently been release with the electronic label VLSI (due for a release in spring/early summer). The abstract audio reactive visuals draw from the major drive in her life; countering corruption and ignorance through greater humanitarian, cultural and historical awareness. The drive of Obscenity State\u2019s sound captures the energy and determination needed to communicate the essence of this theme. Supporting this energy, the sound expands through a myriad of dream like synthesis and sound design. ",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/68-live-audiovisual-electronic-set-from-obscenity-states",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "23:00",
+    "end_time": "23:55"
   },
   {
     "id": 91,
@@ -6525,6 +7128,7 @@
     "equipment": "",
     "age_range": "All ages",
     "attendees": null,
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6559,6 +7163,7 @@
     "equipment": "None",
     "age_range": "Any",
     "attendees": "30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6593,6 +7198,7 @@
     "equipment": "Clothing you don't mind getting paint and or glitter on",
     "age_range": "The bearing is glued in but very small so to be safe lets say 5+ (or whatever range is no longer a choking hazard)?",
     "attendees": "20? (as many as paintbrushes we can find :) )",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6627,6 +7233,7 @@
     "equipment": "A laptop",
     "age_range": "any",
     "attendees": "Maybe 20?",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6661,6 +7268,7 @@
     "equipment": "Trainers (comfortable for running in)",
     "age_range": "All ages",
     "attendees": "50",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6695,6 +7303,7 @@
     "equipment": "Mug or flask - We'll have some mugs for sale.",
     "age_range": "All ages",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6716,7 +7325,7 @@
     "speaker": "Arturs Dobrecovs",
     "pronouns": "He/They",
     "user_id": 1929,
-    "description": "Building on a talk from EMF 2022, this is a deeper dive into how to make use of London Underground's real-time data and hard-to-access timetables to predict a train's future actions.\r\nGoes into depth on what is and isn't useful about TfL's APIs, the major differences between the operations of LU and National Rail operators, why it's so difficult to obtain LU timetables in a useful format, and why it's even more difficult to apply real-time data to them.",
+    "description": "Building on a talk by eta from EMF 2022, this is a deeper dive into how to make use of London Underground's real-time data and hard-to-access timetables to predict a train's future actions.\r\n\r\nI will be going into depth on what is and isn't useful about TfL's APIs, the major differences between the operations of LU and National Rail operators, why it's so difficult to obtain LU timetables in a useful format, and why it's even more difficult to apply real-time data to them.",
     "type": "talk",
     "may_record": false,
     "is_fave": false,
@@ -6849,6 +7458,7 @@
     "equipment": "All basic materials provided, but if you want to bring your own patterned fabric please do!",
     "age_range": "All ages, but under 12s should have a parent or guardian present",
     "attendees": "up to around 30",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -6913,6 +7523,7 @@
     "equipment": "none",
     "age_range": "6-12 years old",
     "attendees": "12 children (could increase capacity to 24 if I have volunteers)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -6974,6 +7585,7 @@
     "equipment": "",
     "age_range": "12 and up",
     "attendees": "15",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7158,6 +7770,7 @@
     "equipment": "Laptop (optional)",
     "age_range": "12 or more",
     "attendees": "16-20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7282,6 +7895,7 @@
     "equipment": "curiosity",
     "age_range": "6 to 106",
     "attendees": "50 (the workshop could also be run twice, if desired)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7343,6 +7957,7 @@
     "equipment": "Bring your own full coverage sleep mask / blindfold if you can. I'll have ones you can use, but I can't resanitise them during camp.",
     "age_range": "15+ (if <18, come with responsible adult)",
     "attendees": "I can handle 4 student participants, 4 assistants, & 5 observers per workshop.",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -7374,6 +7989,7 @@
     "equipment": "Bring your own full coverage sleep mask / blindfold if you can. I'll have ones you can use, but I can't resanitise them during camp.",
     "age_range": "15+ (if <18, come with responsible adult)",
     "attendees": "I can handle 4 student participants, 4 assistants, & 5 observers per workshop.",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7408,6 +8024,7 @@
     "equipment": "Laptops",
     "age_range": "8-12",
     "attendees": "15",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7442,6 +8059,7 @@
     "equipment": "A device with Telegram installed. I would link people to the instructions too encase they find my Irish accent hard to understand.",
     "age_range": "18 plus",
     "attendees": "35",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7473,6 +8091,7 @@
     "equipment": "Musical instrument if they want to bring their own",
     "age_range": "12+",
     "attendees": "12",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -7507,11 +8126,42 @@
     "equipment": "",
     "age_range": "5+",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "15:00",
     "end_time": "16:00"
+  },
+  {
+    "id": 385,
+    "slug": "amiga-dj-performance",
+    "start_date": "2024-06-01 00:00:00",
+    "end_date": "2024-06-01 00:55:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Amiga DJ Performance",
+    "speaker": "Hoffman",
+    "pronouns": "",
+    "user_id": 1785,
+    "description": "Hi There\r\n\r\nHoffman here, I write music using Amiga computers but also produced software which turns an Amiga into a CDJ like turntable.  Would love the chance to play a bunch of my Amiga music to your lovely visitors.\r\n",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": false,
+    "is_from_cfp": true,
+    "content_note": "",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/385-amiga-dj-performance",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "00:00",
+    "end_time": "00:55"
   },
   {
     "id": 33,
@@ -7541,11 +8191,42 @@
     "equipment": "Laptop or Notepad & Pen",
     "age_range": "13+",
     "attendees": "25",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
     "start_time": "13:00",
     "end_time": "15:00"
+  },
+  {
+    "id": 196,
+    "slug": "feral-five-and-jonathan-hogg-present-truth-is-the-new-gold",
+    "start_date": "2024-06-01 22:40:00",
+    "end_date": "2024-06-01 23:20:00",
+    "venue": "Stage B",
+    "latlon": [
+      52.0419,
+      -2.37664
+    ],
+    "map_link": "https://map.emfcamp.org/#18.5/52.0419/-2.37664",
+    "title": "Feral Five and Jonathan Hogg present Truth Is The New Gold ",
+    "speaker": "Feral Five & Jonathan Hogg",
+    "pronouns": "",
+    "user_id": 528,
+    "description": "Dazzling electronic duo Feral Five and artist/technologist Jonathan Hogg present a glittering interactive audiovisual performance of Truth Is The New Gold, unique to EMF.\r\n\r\nUse #emftruth on Mastodon to share your thoughts on truth for the show.\r\n\r\nIt\u2019s a musical journey through the Ferals\u2019 Truth Is The New Gold album, featuring big dance beats, live vocals, guitar, bass and samples from AI Kat Five. Jonathan creates live algorithmic visuals with his custom Open Source engine Flitter.\r\n\r\nThe band\u2019s album was one of Louder Than War\u2019s picks of 2023, played on BBC 6 Music and Radio X, and featured by Roland, Vice, and globally on BBC News. \r\n\r\nThe Ferals have performed at Music Tech Fest with a 3D printer, and the National Portrait Gallery for electronic legend Martyn Ware (Heaven 17 / Human League) who remixed their album title track.",
+    "type": "performance",
+    "may_record": false,
+    "is_fave": false,
+    "is_family_friendly": true,
+    "is_from_cfp": true,
+    "content_note": "No",
+    "source": "database",
+    "link": "https://www.emfcamp.org/schedule/2024/196-feral-five-and-jonathan-hogg-present-truth-is-the-new-gold",
+    "video": {
+      "recording_lost": null
+    },
+    "start_time": "22:40",
+    "end_time": "23:20"
   },
   {
     "id": 548,
@@ -7665,6 +8346,7 @@
     "equipment": "All materials and equipment provided - Recommend supervision for under 10s",
     "age_range": "6+",
     "attendees": "100",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -7729,6 +8411,7 @@
     "equipment": "All equipment provided",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -7763,6 +8446,7 @@
     "equipment": "Laptop required. If you bring your own Arduino Uno, the cost is \u00a310 rather than \u00a320.",
     "age_range": "Aimed at adults, but supervised kids welcome.",
     "attendees": "10",
+    "requires_ticket": null,
     "video": {
       "recording_lost": false
     },
@@ -7854,6 +8538,7 @@
     "equipment": "Nothing",
     "age_range": "7+",
     "attendees": "30 - One or two extra volunteers to help stop people burning themselves would be great! I can also run this workshop a couple of times to increase numbers (last time I had 50 people at once and it was slightly too much)",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
@@ -7888,6 +8573,7 @@
     "equipment": "Non. A laptop can be brought along to explore CAD software.",
     "age_range": "12-99",
     "attendees": "20",
+    "requires_ticket": null,
     "video": {
       "recording_lost": null
     },
