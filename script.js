@@ -10,7 +10,7 @@ const posTalkClasses = ["bc-white", "ba", "baw3"];
 window.onload = (_) => {
 	bindControls();
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", "schedule.json");
+	xhr.open("GET", "schedule.json?nocache=" + DateTime.now().toMillis());
 
 	xhr.onreadystatechange = () => {
 		if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -25,7 +25,7 @@ window.onload = (_) => {
 				populateCalendar("2024-05-31");
 			} else {
 				console.error(xhr.responseText);
-				alert("check console logs?")
+				alert("oops, something went wrong - check console logs?")
 			}
 		}
 	};
@@ -59,6 +59,7 @@ function initializeState() {
 
 function populateCalendar(baseDate) {
 	const baseTime = DateTime.fromISO(baseDate).plus({ hours: 8, minutes: 0 });
+	const endOfDay = baseTime.plus({ hours: 24 })
 	const calendar = document.getElementsByClassName("talks")[0];
 	calendar.textContent = "";
 
@@ -66,7 +67,7 @@ function populateCalendar(baseDate) {
 		const start = DateTime.fromFormat(event["start_date"], "yyyy-MM-dd TT");
 		const end = DateTime.fromFormat(event["end_date"], "yyyy-MM-dd TT");
 
-		if (start.toISODate() != baseDate) {
+		if (start < baseTime || start >= endOfDay) {
 			return;
 		}
 
