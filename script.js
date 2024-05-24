@@ -124,6 +124,15 @@ function populateClock() {
 
 		div.innerHTML = `${hour}:${min}`;
 	}
+ 
+  // Draw current time
+  const currentTime = DateTime.now();
+  const currentHourWithFraction = currentTime.hour + currentTime.minute / 60;
+  const line = Math.floor(((currentHourWithFraction) - 8) * 12 + 1); // Also why is CSS 1-indexed
+  const currentTimeDiv = clock.appendChild(document.createElement("div"));
+  currentTimeDiv.style.gridRowStart = line;
+  currentTimeDiv.style.gridColumnStart = "clock";
+  currentTimeDiv.className = "currentTime"
 }
 
 function bindCardHandlers() {
