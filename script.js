@@ -171,9 +171,11 @@ function populateVenues(dayVenues) {
 	empty.className = "empty-talk-header";
 
 	for (let i = 0; i < dayVenues.length; i++) {
+		const venueName = dayVenues[i].replace("(", "<br>(");
+
 		const div = venueContainer.appendChild(document.createElement("div"));
 		div.className = "talk-header s-card d-flex jc-center ai-center";
-		div.innerHTML = `<h2 class="fs-subheading">${dayVenues[i]}</h2>`;
+		div.innerHTML = `<h2 class="fs-subheading">${venueName}</h2>`;
 	}
 }
 
