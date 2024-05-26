@@ -1,3 +1,7 @@
+:root {
+	--width: 20em;
+}
+
 body {
 	font-family: "Montserrat", sans-serif;
 	font-optical-sizing: auto;
@@ -13,9 +17,9 @@ body {
 	padding: 1em;
 
 	display: grid;
-	grid-template-columns: [clock] 4em [stage-a] 1fr [stage-b] 1fr [stage-c] 1fr [other-1] 1fr;
+	grid-template-columns: [clock] 4em repeat(auto-fit, var(--width));
+	grid-auto-columns: var(--width);
 	grid-template-rows: repeat(calc(18 * 12), 20px);
-	grid-auto-flow: row dense;
 
 	column-gap: 1em;
 	row-gap: 2px;
@@ -23,19 +27,19 @@ body {
 	font-size: small;
 }
 
-.talks, .clock {
+.venues, .talks, .clock {
 	display: contents;
 }
 
 .empty-talk-header {
-	grid-row: 1 / 4;
+	grid-row: 1 / 5;
 }
 
 .talk-header {
 	background: #F77F02;
 	color: white;
 	font-size: larger;
-	grid-row: 1 / 4;
+	grid-row: 1 / 5;
 	text-align: center;
 }
 
@@ -52,8 +56,13 @@ body {
 	color: white;
 }
 
-.bi-camera-video-off {
+.fa-video-slash {
 	color: #F55089;
+}
+
+.fa-ticket {
+	color: #2EADD9;
+	
 }
 
 body:not(.theme-highcontrast):not(.theme-dark).theme-custom.themed {
