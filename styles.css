@@ -1,5 +1,10 @@
 :root {
+
+  --current-time-size: 16px;
+  --current-time-color: red;
+
 	--width: 20em;
+
 }
 
 body {
@@ -56,7 +61,39 @@ body {
 	color: white;
 }
 
+.currentTime {
+  background-color: var(--current-time-color);
+  width: 90vw;
+  height: 0.2rem;
+  position: relative;
+}
+
+.currentTime::before {
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: calc((var(--current-time-size) * -1) + 1px);
+  left: 0;
+  border-top: var(--current-time-size) solid transparent;
+  border-bottom: var(--current-time-size) solid transparent;
+  border-left: var(--current-time-size) solid var(--current-time-color);
+}
+
+.currentTime::after {
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: calc((var(--current-time-size) * -1) + 1px);
+  left: calc(100% - var(--current-time-size));
+  border-top: var(--current-time-size) solid transparent;
+  border-bottom: var(--current-time-size) solid transparent;
+  border-right: var(--current-time-size) solid var(--current-time-color);
+}
+
 .fa-video-slash {
+
 	color: #F55089;
 }
 
