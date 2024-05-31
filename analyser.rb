@@ -13,11 +13,11 @@ def check_minutes(hash)
 
 	mins = (start + ends).uniq
 
-	raise "oops mins" if mins.any? { |t| t.to_i % 5 != 0 }
+	# raise "oops mins" if mins.any? { |t| t.to_i % 5 != 0 }
 end
 
 def venues(hash)
-	venues = hash.map { |t| t["venue"] }.uniq
+	venues = hash.map { |t| t["venue"] }.uniq.sort
 	p venues
 end
 
@@ -29,6 +29,10 @@ def earliest_latest(hash)
 	p ends
 end
 
+def types(hash)
+	p hash.map { |t| t["type"] }.uniq.sort()
+end
+
 def run
 	file = File.read("schedule.json")
 	hash = JSON.parse(file)
@@ -37,6 +41,7 @@ def run
 	check_minutes(hash)
 	venues(hash)
 	earliest_latest(hash)
+	types hash
 end
 
 run

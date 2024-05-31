@@ -2,10 +2,30 @@
 
 const DateTime = luxon.DateTime;
 let events;
+let allVenues;
 let state;
 
 const negTalkClasses = ["o30"];
 const posTalkClasses = ["bc-white", "ba", "baw3"];
+const knownVenues = [
+	"Stage A",
+	"Stage B",
+	"Stage C",
+	"Workshop 0 (Drop-in)",
+	"Workshop 1 (NottingHack)",
+	"Workshop 2 (Milliways)",
+	"Workshop 3 (Furry High Commission)",
+	"Workshop 4 (FieldFX)",
+	"Workshop 5 (Maths)",
+	"Workshop 6 (Hardware Hacking)",
+	"Youth Workshop"
+];
+
+const excludedEventIds = [
+	682, 683, 684, 685, // Tea tent - all day event
+	695, 696, 697 // Blacksmithing - misleading times
+];
+
 
 window.onload = (_) => {
 	bindControls();
@@ -21,7 +41,12 @@ window.onload = (_) => {
 					const y = a["venue"].localeCompare(b["venue"]);
 
 					return x !== 0 ? x : y
-				});
+				}).filter(e => !excludedEventIds.includes(e["id"]));
+
+				const tempVenues = new Set(events.map(v => v["venue"]));
+				knownVenues.forEach(v => tempVenues.delete(v));
+				allVenues = knownVenues.concat([...tempVenues].sort());
+
 				populateCalendar("2024-05-31");
 			} else {
 				console.error(xhr.responseText);
@@ -63,35 +88,43 @@ function populateCalendar(baseDate) {
 	const calendar = document.getElementsByClassName("talks")[0];
 	calendar.textContent = "";
 
+	const dayVenues = allVenues.filter(v =>
+		events.some(e => {
+			const start = DateTime.fromFormat(e["start_date"], "yyyy-MM-dd TT");
+			return (start >= baseTime && start < endOfDay && e.venue === v);
+		})
+	);
+	populateVenues(dayVenues);
+
 	events.forEach(event => {
 		const start = DateTime.fromFormat(event["start_date"], "yyyy-MM-dd TT");
 		const end = DateTime.fromFormat(event["end_date"], "yyyy-MM-dd TT");
+		const venueIndex = dayVenues.indexOf(event["venue"]);
 
-		if (start < baseTime || start >= endOfDay) {
+		if (start < baseTime || start >= endOfDay || venueIndex === -1) {
 			return;
-		}
-
-		let venue;
-		switch (event["venue"]) {
-			case "Stage A": venue = "stage-a"; break;
-			case "Stage B": venue = "stage-b"; break;
-			case "Stage C": venue = "stage-c"; break;
-			// case "Stage C": venue = "other-1"; break;
-			default: return;
 		}
 
 		const startLine = Math.floor(start.diff(baseTime).as("minutes") / 5 + 1); // why is CSS 1-indexed
 		const endLine = Math.ceil(end.diff(baseTime).as("minutes") / 5 + 1);
 
+		let type;
+		switch (event["type"]) {
+			case "talk": type = "Talk"; break;
+			case "workshop": type = "Workshop"; break;
+			case "youthworkshop": type = "Youth Workshop"; break;
+			case "performance": type = "Film/Performance"; break;
+		}
+
 		const div = calendar.appendChild(document.createElement("div"));
 		div.style.gridRowStart = startLine;
 		div.style.gridRowEnd = endLine;
-		div.style.gridColumnStart = venue;
+		div.style.gridColumnStart = venueIndex + 2;
 		div.dataset.talkId = event["id"];
 		div.className = "talk s-card overflow-y-auto d-flex fd-column jc-space-between";
 
 		div.innerHTML = `
-			<div class="flex-iitem">
+			<div class="flex-item">
 				<h2 class="fs-body2 fw-bold lh-xs fc-dark m0">${event["title"]}</h2>
 				<p class="fs-body1 lh-xs fc-dark my6 c-default us-none">
 					${start.toLocaleString(DateTime.TIME_24_SIMPLE)} - 
@@ -99,11 +132,15 @@ function populateCalendar(baseDate) {
 				</p> 
 			</div>
 			<div class="flex--item">
-				<p class="fs-body1 lh-xs fc-dark mt0 mb0 c-default us-none">
+				<p class="fs-body1 fc-dark mt0 mb0 c-default us-none">
+					${event["venue"]} | ${type}
+				</p>
+				<p class="fs-body1 fc-dark mt0 mb0 c-default us-none">
 					<a href="${event["link"]}" target="_blank" class="link">
-						EMF <i class="bi bi-box-arrow-up-right"></i>
+						EMF <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
 					</a>
-					${event["may_record"] === false ? "| <i class=\"bi bi-camera-video-off va-bottom\"></i>" : ""}
+					${event["may_record"] === false ? "| <i class=\"fa-solid fa-video-slash \"></i>" : ""}
+					${event["requires_ticket"] === true ? `|  <i class="fa-solid fa-ticket"></i>` : ""}
 				</p>
 			</div>
 		`
@@ -133,6 +170,22 @@ function populateClock() {
   currentTimeDiv.style.gridRowStart = line;
   currentTimeDiv.style.gridColumnStart = "clock";
   currentTimeDiv.className = "currentTime"
+}
+
+function populateVenues(dayVenues) {
+	const venueContainer = document.getElementsByClassName("venues")[0];
+	venueContainer.textContent = "";
+
+	const empty = venueContainer.appendChild(document.createElement("div"));
+	empty.className = "empty-talk-header";
+
+	for (let i = 0; i < dayVenues.length; i++) {
+		const venueName = dayVenues[i].replace("(", "<br>(");
+
+		const div = venueContainer.appendChild(document.createElement("div"));
+		div.className = "talk-header s-card d-flex jc-center ai-center";
+		div.innerHTML = `<h2 class="fs-subheading">${venueName}</h2>`;
+	}
 }
 
 function bindCardHandlers() {
