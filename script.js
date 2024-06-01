@@ -23,7 +23,8 @@ const knownVenues = [
 
 const excludedEventIds = [
 	682, 683, 684, 685, // Tea tent - all day event
-	695, 696, 697 // Blacksmithing - misleading times
+	695, 696, 697, // Blacksmithing - misleading times
+	596, 812, 782, 783 // Just no
 ];
 
 
@@ -35,12 +36,16 @@ window.onload = (_) => {
 			dateButtons.forEach(btn => btn.className = "date s-btn");
 			elem.className = "date s-btn is-selected";
 			populateCalendar(elem.dataset.value);
+			drawTime();
 		})
 	});
 
 	initializeState();
 	populateClock();
 	bindCardHandlers();
+	
+	drawTime();
+	setInterval(drawTime, 1000 * 30); // every 30 s
 
 	const today = DateTime.now().hour < 8 ? DateTime.now().minus({ days: 1 }) : DateTime.now();
 
@@ -164,14 +169,19 @@ function populateClock() {
 
 		div.innerHTML = `${hour}:${min}`;
 	}
-
-	// drawTime();
 }
 
 function drawTime() {
+	[...document.getElementsByClassName("currentTime")].forEach(e => e.remove());
+
 	const clock = document.getElementsByClassName("clock")[0];
+	const selectedDay = document.querySelectorAll("button.date.is-selected")[0]?.dataset.value;
 
 	const currentTime = DateTime.now();
+	const scheduleDay = currentTime.hour < 8 ? currentTime.minus({ days: 1 }) : currentTime;
+
+	if (scheduleDay.toFormat("yyyy-MM-dd") !== selectedDay) return;
+
 	let currentHourWithFraction = currentTime.hour + currentTime.minute / 60;
 	if (currentTime.hour < 8) {
 		currentHourWithFraction += 24;
