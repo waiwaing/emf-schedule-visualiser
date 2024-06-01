@@ -29,6 +29,21 @@ const excludedEventIds = [
 
 window.onload = (_) => {
 	bindControls();
+	const dateButtons = [...document.querySelectorAll("button.date")]
+	dateButtons.forEach(elem => {
+		elem.addEventListener("click", _ => {
+			dateButtons.forEach(btn => btn.className = "date s-btn");
+			elem.className = "date s-btn is-selected";
+			populateCalendar(elem.dataset.value);
+		})
+	});
+
+	initializeState();
+	populateClock();
+	bindCardHandlers();
+
+	const today = DateTime.now().hour < 8 ? DateTime.now().minus({ days: 1 }) : DateTime.now();
+
 	const xhr = new XMLHttpRequest();
 	xhr.open("GET", "schedule.json?nocache=" + DateTime.now().toMillis());
 
@@ -47,7 +62,8 @@ window.onload = (_) => {
 				knownVenues.forEach(v => tempVenues.delete(v));
 				allVenues = knownVenues.concat([...tempVenues].sort());
 
-				populateCalendar("2024-05-31");
+				dateButtons.filter(db => db.dataset.value === today.toFormat("yyyy-MM-dd"))[0].click();
+				// populateCalendar("2024-06-01");
 			} else {
 				console.error(xhr.responseText);
 				alert("oops, something went wrong - check console logs?")
@@ -56,19 +72,6 @@ window.onload = (_) => {
 	};
 
 	xhr.send();
-
-	const dateButtons = [...document.querySelectorAll("button.date")]
-	dateButtons.forEach(elem => {
-		elem.addEventListener("click", _ => {
-			dateButtons.forEach(btn => btn.className = "date s-btn");
-			elem.className = "date s-btn is-selected";
-			populateCalendar(elem.dataset.value);
-		})
-	});
-
-	initializeState();
-	populateClock();
-	bindCardHandlers();
 }
 
 function initializeState() {
@@ -161,15 +164,24 @@ function populateClock() {
 
 		div.innerHTML = `${hour}:${min}`;
 	}
- 
-  // Draw current time
-  const currentTime = DateTime.now();
-  const currentHourWithFraction = currentTime.hour + currentTime.minute / 60;
-  const line = Math.floor(((currentHourWithFraction) - 8) * 12 + 1); // Also why is CSS 1-indexed
-  const currentTimeDiv = clock.appendChild(document.createElement("div"));
-  currentTimeDiv.style.gridRowStart = line;
-  currentTimeDiv.style.gridColumnStart = "clock";
-  currentTimeDiv.className = "currentTime"
+
+	// drawTime();
+}
+
+function drawTime() {
+	const clock = document.getElementsByClassName("clock")[0];
+
+	const currentTime = DateTime.now();
+	let currentHourWithFraction = currentTime.hour + currentTime.minute / 60;
+	if (currentTime.hour < 8) {
+		currentHourWithFraction += 24;
+	}
+
+	const line = Math.floor(((currentHourWithFraction) - 8) * 12 + 1); // Also why is CSS 1-indexed
+	const currentTimeDiv = clock.appendChild(document.createElement("div"));
+	currentTimeDiv.style.gridRowStart = line;
+	currentTimeDiv.style.gridColumnStart = "clock";
+	currentTimeDiv.className = "currentTime"
 }
 
 function populateVenues(dayVenues) {
