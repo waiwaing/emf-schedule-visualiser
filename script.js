@@ -147,7 +147,7 @@ function populateCalendar(baseDate) {
 					<a href="${event["link"]}" target="_blank" class="link">
 						EMF <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
 					</a>
-					${event["may_record"] === false ? "| <i class=\"fa-solid fa-video-slash \"></i>" : ""}
+					${(event["may_record"] === false || event["video_privacy"] === "none") ? "| <i class=\"fa-solid fa-video-slash \"></i>" : ""}
 					${event["requires_ticket"] === true ? `|  <i class="fa-solid fa-ticket"></i>` : ""}
 				</p>
 			</div>
