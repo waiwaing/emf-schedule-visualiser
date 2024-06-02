@@ -30,13 +30,81 @@
         "end_time": "17:50"
     },
     {
+        "id": 836,
+        "slug": "beginner-crochet-drop-in-session",
+        "start_date": "2024-06-01 11:15:00",
+        "end_date": "2024-06-01 12:45:00",
+        "venue": "Tekhn\u0113-cal Village",
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
+        "title": "Beginner Crochet drop-in session",
+        "speaker": "Emily Robertson",
+        "pronouns": null,
+        "user_id": 618,
+        "description": "A beginner crochet session to learn basic stiches and how to make a granny square.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/836-beginner-crochet-drop-in-session",
+        "cost": "",
+        "equipment": "All equipment provided.",
+        "age_range": "All ages",
+        "attendees": "20",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "11:15",
+        "end_time": "12:45"
+    },
+    {
+        "id": 838,
+        "slug": "polygen-show-and-tell-at-null-sector",
+        "start_date": "2024-06-02 14:00:00",
+        "end_date": "2024-06-02 15:00:00",
+        "venue": "Null Sector",
+        "latlon": [
+            52.043728,
+            -2.377083
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043728/-2.377083/m=52.043728,-2.377083",
+        "title": "PolyGen - Show and Tell (at Null Sector)",
+        "speaker": "Michael Turner",
+        "pronouns": "",
+        "user_id": 874,
+        "description": "A two way session to explain how PolyGen works, why it changed from PolyCoin, how the underlying game works, and to ask any questions you have about the game.\r\n\r\nNote this will take place at Null Sector on the dance floor.  Please don't go to the lounge!\r\n",
+        "type": "performance",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/838-polygen-show-and-tell-at-null-sector",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "14:00",
+        "end_time": "15:00"
+    },
+    {
         "id": 757,
         "slug": "debian-ubuntu-developers-users-meetup-happy-20th-birthday",
         "start_date": "2024-06-01 15:00:00",
         "end_date": "2024-06-01 16:00:00",
         "venue": "Scottish Consulate",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04329962667447,
+            -2.3756295932040246
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04329962667447/-2.3756295932040246/m=52.04329962667447,-2.3756295932040246",
         "title": "Debian & Ubuntu Developers & Users Meetup (Happy 20th Birthday Ubuntu Edition!)",
         "speaker": "Hibby",
         "pronouns": null,
@@ -122,18 +190,56 @@
         "end_time": "11:00"
     },
     {
+        "id": 837,
+        "slug": "making-friendship-bracelets-pt-2-drop-in-maker-station",
+        "start_date": "2024-06-01 14:30:00",
+        "end_date": "2024-06-01 17:30:00",
+        "venue": "Tekhn\u0113-cal Village",
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
+        "title": "Making friendship bracelets, pt. 2 - drop in maker station",
+        "speaker": "Emily Robertson",
+        "pronouns": null,
+        "user_id": 618,
+        "description": "A drop-in maker station for friendship bracelets in the village marquee. Materials and written patterns available. No instructor. If you enoyed yesterday's workshop session, come back to the village for some more peaceful making! Feel free to take your Work-In-Progress away with you to make during talks, gigs, etc.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/837-making-friendship-bracelets-pt-2-drop-in-maker-station",
+        "cost": "",
+        "equipment": "All materials provided. Bring your own scissors if you don't want to risk a wait in the Scissor Queue.",
+        "age_range": "All ages",
+        "attendees": "30",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "14:30",
+        "end_time": "17:30"
+    },
+    {
         "id": 760,
         "slug": "screen-print-a-bootleg-gig-t-shirt",
-        "start_date": "2024-06-01 15:00:00",
-        "end_date": "2024-06-01 16:00:00",
+        "start_date": "2024-06-02 15:00:00",
+        "end_date": "2024-06-02 16:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Screen Print A Bootleg Gig T-shirt",
         "speaker": "Paul Beech",
         "pronouns": null,
         "user_id": 433,
-        "description": "Bring a t-shirt (or other adornable garment) and try your hand at the messy end of screen printing. It's as simple as mixing ink, putting it on the screen, squeeeegeeing it, then heating the result to fix. Repeat until garment is unique enough for you! There will be mess, and it's best you probably wear gloves. Light tone garments will be easier to get a good result.\r\n\r\nEDIT: moved to saturday!\r\nRequest a spot at https://forms.gle/yzNRc6ZY9JTAjZs9A",
+        "description": "Bring a t-shirt (or other adornable garment) and try your hand at the messy end of screen printing. It's as simple as mixing ink, putting it on the screen, squeeeegeeing it, then heating the result to fix. Repeat until garment is unique enough for you! There will be mess, and it's best you probably wear gloves. Light tone garments will be easier to get a good result.\r\n\r\nEDIT: moved to sunday!",
         "type": "workshop",
         "video_privacy": null,
         "is_fave": false,
@@ -194,8 +300,11 @@
         "start_date": "2024-05-31 18:30:00",
         "end_date": "2024-05-31 20:00:00",
         "venue": "Making Happiness",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0429312213042,
+            -2.3738637660840425
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0429312213042/-2.3738637660840425/m=52.0429312213042,-2.3738637660840425",
         "title": "Face painting for all ages!",
         "speaker": "Niene",
         "pronouns": null,
@@ -226,8 +335,11 @@
         "start_date": "2024-06-02 12:30:00",
         "end_date": "2024-06-02 14:00:00",
         "venue": "Making Happiness",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0429312213042,
+            -2.3738637660840425
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0429312213042/-2.3738637660840425/m=52.0429312213042,-2.3738637660840425",
         "title": "Face painting for all ages!",
         "speaker": "Niene",
         "pronouns": null,
@@ -253,13 +365,86 @@
         "end_time": "14:00"
     },
     {
+        "id": 839,
+        "slug": "agentic-ai-workflows",
+        "start_date": "2024-06-01 15:00:00",
+        "end_date": "2024-06-01 16:00:00",
+        "venue": "Nix Camp",
+        "latlon": [
+            52.04237515493185,
+            -2.376797009997148
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04237515493185/-2.376797009997148/m=52.04237515493185,-2.376797009997148",
+        "title": "Agentic Ai Workflows",
+        "speaker": "Liam",
+        "pronouns": null,
+        "user_id": 1662,
+        "description": "Make self hosted AI work for you and say hi to our radio chat bot.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/839-agentic-ai-workflows",
+        "cost": "",
+        "equipment": "",
+        "age_range": "16+",
+        "attendees": "30",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "15:00",
+        "end_time": "16:00"
+    },
+    {
+        "id": 840,
+        "slug": "whiskyleaks",
+        "start_date": "2024-05-30 21:00:00",
+        "end_date": "2024-05-31 01:00:00",
+        "venue": "Workshop 2 (Milliways)",
+        "latlon": [
+            52.042808,
+            -2.376136
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.042808/-2.376136/m=52.042808,-2.376136",
+        "title": "Whiskyleaks",
+        "speaker": "Whiskyleaks",
+        "pronouns": null,
+        "user_id": 763,
+        "description": "Whiskyleaks",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/840-whiskyleaks",
+        "cost": "",
+        "equipment": "",
+        "age_range": "18+",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "21:00",
+        "end_time": "01:00"
+    },
+    {
         "id": 761,
         "slug": "face-painting-for-all-ages-practice-round",
         "start_date": "2024-05-30 19:00:00",
         "end_date": "2024-05-30 20:00:00",
         "venue": "Making Happiness",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0429312213042,
+            -2.3738637660840425
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0429312213042/-2.3738637660840425/m=52.0429312213042,-2.3738637660840425",
         "title": "Face painting for all ages! (practice round)",
         "speaker": "Niene",
         "pronouns": null,
@@ -315,6 +500,41 @@
         "end_time": "13:40"
     },
     {
+        "id": 849,
+        "slug": "build-your-own-satellite-ground-station",
+        "start_date": "2024-06-02 11:00:00",
+        "end_date": "2024-06-02 13:00:00",
+        "venue": "Irish Embassy",
+        "latlon": [
+            52.043013939044926,
+            -2.375910658177162
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043013939044926/-2.375910658177162/m=52.043013939044926,-2.375910658177162",
+        "title": "Build Your Own Satellite Ground Station \ud83d\udce1 ",
+        "speaker": "Jeffrey Roe",
+        "pronouns": null,
+        "user_id": 99,
+        "description": "Are you fascinated by space and want to learn how to receive data from satellites and weather probes? Join us in this TinyGS Station Workshop where you\u2019ll build and program your ground station and antenna to receive data from space. This hands-on, beginner-friendly workshop is perfect for anyone interested in radio, electronics, IOT, antenna design, and space exploration.\r\n\r\nAbout TinyGS: TinyGS is an open community-run network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules. With a TinyGS ground station, you can receive data from a variety of sources, such as CubeSats.\r\n\r\nWhat You\u2019ll Learn: During the workshop, you\u2019ll learn how to build and program a TinyGS ground station and a quarter-wave ground plane antenna. No prior experience is required, and we\u2019ll provide all the necessary materials, tools, and equipment to guide you through the process.\r\n\r\nKit available if you wish to make the project at another time. \r\nhttps://tinyurl.com/EMFTinyGS ",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/849-build-your-own-satellite-ground-station",
+        "cost": "\u00a370",
+        "equipment": "Required equipment: A device with Telegram installed.",
+        "age_range": "16+",
+        "attendees": "20",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "11:00",
+        "end_time": "13:00"
+    },
+    {
         "id": 622,
         "slug": "waterflower",
         "start_date": "2024-06-02 22:25:00",
@@ -343,6 +563,41 @@
         },
         "start_time": "22:25",
         "end_time": "23:20"
+    },
+    {
+        "id": 841,
+        "slug": "joustmania-game-again",
+        "start_date": "2024-06-01 21:00:00",
+        "end_date": "2024-06-01 22:00:00",
+        "venue": "Lounge",
+        "latlon": [
+            52.04147,
+            -2.37644
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04147/-2.37644/m=52.04147,-2.37644",
+        "title": "JoustMania Game (Again!)",
+        "speaker": "Brighton Consulate / Olly B",
+        "pronouns": null,
+        "user_id": 1072,
+        "description": "Back due to popular demand!\r\n\r\nCome and play JoustMania - keep your game controller steady, while trying to \"jostle\" other peoples' controllers (and defending your own).\r\n\r\nhttps://www.youtube.com/watch?v=qgD0JDXVdaI\r\nhttps://github.com/adangert/JoustMania\r\n\r\nHead to the info tent, listen for waltz music and look for the colourful globes.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/841-joustmania-game-again",
+        "cost": "",
+        "equipment": "Nothing",
+        "age_range": "All ages",
+        "attendees": "20",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "21:00",
+        "end_time": "22:00"
     },
     {
         "id": 569,
@@ -410,6 +665,66 @@
         "end_time": "11:00"
     },
     {
+        "id": 844,
+        "slug": "meowing-session",
+        "start_date": "2024-06-02 21:00:00",
+        "end_date": "2024-06-02 21:30:00",
+        "venue": "Lounge",
+        "latlon": [
+            52.04147,
+            -2.37644
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04147/-2.37644/m=52.04147,-2.37644",
+        "title": "Meowing Session",
+        "speaker": "alyx :3",
+        "pronouns": "she/her",
+        "user_id": 376,
+        "description": "We meet up and meow \r\nbring sharks!!!",
+        "type": "performance",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/844-meowing-session",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "21:00",
+        "end_time": "21:30"
+    },
+    {
+        "id": 848,
+        "slug": "whiskyleaks",
+        "start_date": "2024-06-01 20:30:00",
+        "end_date": "2024-06-02 00:30:00",
+        "venue": "Workshop 2 (Milliways)",
+        "latlon": [
+            52.042808,
+            -2.376136
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.042808/-2.376136/m=52.042808,-2.376136",
+        "title": "Whiskyleaks",
+        "speaker": "Hibby",
+        "pronouns": "",
+        "user_id": 2218,
+        "description": "Many bottles enter, no bottles leave.\r\n\r\nCome by with a bottle, drink whisky or something else and meet new people! \r\n\r\nThis event is free for all attendees and doesn't need sign up, but we'd appreciate donations or if you bought one of our challenge coins.\r\n\r\nThe restaurant at the end of the universe awaits. ",
+        "type": "performance",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/848-whiskyleaks",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "20:30",
+        "end_time": "00:30"
+    },
+    {
         "id": 417,
         "slug": "when-a-tree-falls-in-the-forest-does-it-cause-a-fire",
         "start_date": "2024-05-31 19:30:00",
@@ -475,13 +790,51 @@
         "end_time": "16:30"
     },
     {
+        "id": 842,
+        "slug": "building-milliways-in-a-videogame-build-with-the-devs",
+        "start_date": "2024-05-30 17:00:00",
+        "end_date": "2024-05-30 21:00:00",
+        "venue": "Workshop 2 (Milliways)",
+        "latlon": [
+            52.042808,
+            -2.376136
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.042808/-2.376136/m=52.042808,-2.376136",
+        "title": "Building Milliways in a Videogame - build with the devs",
+        "speaker": "Rich",
+        "pronouns": null,
+        "user_id": 763,
+        "description": "Come and contribute to a community mod of the virtual Milliways, add your self as a character or even add your whole Village to the digital camp. We\u2019ll be doing character creation and mo-cap of hungry hackers having fun, so come join us and make yourself digitally immortal with the community.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/842-building-milliways-in-a-videogame-build-with-the-devs",
+        "cost": "",
+        "equipment": "",
+        "age_range": "All ages",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "17:00",
+        "end_time": "21:00"
+    },
+    {
         "id": 763,
         "slug": "face-painting-for-all-ages",
         "start_date": "2024-06-01 13:00:00",
         "end_date": "2024-06-01 15:00:00",
         "venue": "Making Happiness",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0429312213042,
+            -2.3738637660840425
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0429312213042/-2.3738637660840425/m=52.0429312213042,-2.3738637660840425",
         "title": "Face painting for all ages!",
         "speaker": "Niene",
         "pronouns": null,
@@ -505,6 +858,36 @@
         },
         "start_time": "13:00",
         "end_time": "15:00"
+    },
+    {
+        "id": 843,
+        "slug": "deep-fried-buckfast",
+        "start_date": "2024-06-01 14:00:00",
+        "end_date": "2024-06-01 16:00:00",
+        "venue": "Scottish Consulate",
+        "latlon": [
+            52.04329962667447,
+            -2.3756295932040246
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04329962667447/-2.3756295932040246/m=52.04329962667447,-2.3756295932040246",
+        "title": "Deep Fried Buckfast",
+        "speaker": "Friar Buck",
+        "pronouns": null,
+        "user_id": 1358,
+        "description": "Nae just a pair of drinks, an affa fine an funcy scran too.\r\n\r\nInvented many years ago by Scotland's own epicurious Friar Buck, this pioneering culinary innovation has delighted many Scots over the years. It has been shared as a cultural export with attendees at many events around the world, and its consumption has been placed on Trip Advisor's Top 10 Scotland Themed activities for 4 years running now.\r\n\r\nThe Scottish Consulate have formally licensed the recipe, and it can be found on the consular website.",
+        "type": "performance",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/843-deep-fried-buckfast",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "14:00",
+        "end_time": "16:00"
     },
     {
         "id": 217,
@@ -537,6 +920,41 @@
         "end_time": "11:40"
     },
     {
+        "id": 845,
+        "slug": "owl-kit-make-take",
+        "start_date": "2024-06-02 10:00:00",
+        "end_date": "2024-06-02 12:00:00",
+        "venue": "100 Acre Wood (of Geeks)",
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
+        "title": "Owl Kit - Make & take",
+        "speaker": "Laura Mathews",
+        "pronouns": null,
+        "user_id": 1746,
+        "description": "Come and make a laser cut hanging owl decoration with artist Laura Mathews. Also see your kit being laser cut and ask questions about CO2 laser cutting in general! \r\n\r\nKids with adults welcome! ",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/845-owl-kit-make-take",
+        "cost": "\u00a35",
+        "equipment": "",
+        "age_range": "All ages",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "10:00",
+        "end_time": "12:00"
+    },
+    {
         "id": 59,
         "slug": "what-the-frack",
         "start_date": "2024-05-31 18:50:00",
@@ -565,6 +983,41 @@
         },
         "start_time": "18:50",
         "end_time": "19:20"
+    },
+    {
+        "id": 846,
+        "slug": "laser-cutter-drop-in",
+        "start_date": "2024-06-01 14:15:00",
+        "end_date": "2024-06-01 16:15:00",
+        "venue": "100 Acre Wood (of Geeks)",
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
+        "title": "Laser Cutter Drop-in",
+        "speaker": "Dominic Morrow",
+        "pronouns": null,
+        "user_id": 1746,
+        "description": "Need something cutting, or to discuss a project or idea, this is a drop in on a best-endeavours first-come-first-served basis.\r\nThere may be a small charge for materials or design work.\r\nAny down-time on the laser cutter will be used for making owl-kits!\r\n\r\nOther types of help -\r\n- Laser cutter questions\r\n- Software questions\r\n- comes say hi!\r\n- LightBurn users come get some bling!",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/846-laser-cutter-drop-in",
+        "cost": "\u00a32",
+        "equipment": "Laptop of files - be nice",
+        "age_range": "All ages",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "14:15",
+        "end_time": "16:15"
     },
     {
         "id": 254,
@@ -597,6 +1050,71 @@
         "end_time": "18:00"
     },
     {
+        "id": 847,
+        "slug": "deep-fried-buckfast-bottom-of-the-barrel",
+        "start_date": "2024-05-30 16:30:00",
+        "end_date": "2024-05-30 17:00:00",
+        "venue": "Scottish Consulate",
+        "latlon": [
+            52.04329962667447,
+            -2.3756295932040246
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04329962667447/-2.3756295932040246/m=52.04329962667447,-2.3756295932040246",
+        "title": "Deep fried buckfast: bottom of the barrel",
+        "speaker": "Friar Buck",
+        "pronouns": null,
+        "user_id": 1358,
+        "description": "The end is here. Help us finish the wine!",
+        "type": "performance",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/847-deep-fried-buckfast-bottom-of-the-barrel",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "16:30",
+        "end_time": "17:00"
+    },
+    {
+        "id": 272,
+        "slug": "solder-some-solar",
+        "start_date": "2024-06-02 17:30:00",
+        "end_date": "2024-06-02 18:30:00",
+        "venue": "Workshop 6 (Hardware Hacking)",
+        "latlon": [
+            52.041258,
+            -2.375748
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.041258/-2.375748/m=52.041258,-2.375748",
+        "title": "Solder some Solar",
+        "speaker": "Matthew Little",
+        "pronouns": "He/him",
+        "user_id": 198,
+        "description": "Make your own solar powered torch.\r\n\r\nAttendees will solder together a small LED torch with a solar panel. Charge up the ultra-capacitor during the day, for light when you need it. This brings in a bit about solar energy and also for beginners to try out soldering.\r\n\r\nAttendees will take away their little solar torch which also has a keyring. Suitable for ages 5+. Soldering will be guided. Under-16s must be accompanied by an adult, and both must have a ticket for this workshop.",
+        "type": "workshop",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": true,
+        "is_from_cfp": true,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/272-solder-some-solar",
+        "cost": "\u00a35",
+        "equipment": "Nothing",
+        "age_range": "5+",
+        "attendees": "30 - One or two extra volunteers to help stop people burning themselves would be great! I can also run this workshop a couple of times to increase numbers (last time I had 50 people at once and it was slightly too much)",
+        "requires_ticket": true,
+        "video": {
+            "recording_lost": null
+        },
+        "start_time": "17:30",
+        "end_time": "18:30"
+    },
+    {
         "id": 661,
         "slug": "electronic-music-open-mic-emom",
         "start_date": "2024-06-01 15:00:00",
@@ -625,6 +1143,36 @@
         },
         "start_time": "15:00",
         "end_time": "18:00"
+    },
+    {
+        "id": 424,
+        "slug": "psychiceyeclix",
+        "start_date": "2024-06-02 01:05:00",
+        "end_date": "2024-06-02 01:30:00",
+        "venue": "Stage B",
+        "latlon": [
+            52.041896,
+            -2.37656
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
+        "title": "Psychiceyeclix ",
+        "speaker": "EMF Live Music",
+        "pronouns": "",
+        "user_id": 1991,
+        "description": "Psychiceyeclix performs wearing a robot synth helmet using unique instruments & circuit bent devices, using hacked games consoles/toys & diy electronics to create anything from drone, glitch, noise to drum & bass.\r\n\r\nhttps://youtu.be/Kga5pK69WqI?si=3JIkPd736R3bdEvf\r\nhttps://www.youtube.com/watch?v=oPihm-xOsNY",
+        "type": "performance",
+        "video_privacy": "none",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": true,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/424-psychiceyeclix",
+        "video": {
+            "recording_lost": null
+        },
+        "start_time": "01:05",
+        "end_time": "01:30"
     },
     {
         "id": 239,
@@ -660,6 +1208,36 @@
         },
         "start_time": "11:00",
         "end_time": "12:00"
+    },
+    {
+        "id": 31,
+        "slug": "hack-the-plan",
+        "start_date": "2024-06-02 14:00:00",
+        "end_date": "2024-06-02 14:30:00",
+        "venue": "Stage B",
+        "latlon": [
+            52.041896,
+            -2.37656
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
+        "title": "Hack The Plan: How I Made a Career out of Not Knowing What I Want To Be When I Grow Up.",
+        "speaker": "Kestral Gaian",
+        "pronouns": "They/Them",
+        "user_id": 321,
+        "description": "\"So what do you do?\"\r\n\r\nEverything.\r\n\r\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\r\n\r\nAs a kid I couldn't decide what I wanted to be when I grew up.\r\n\r\nI still can't, but over the past twenty years I've turned that into a superpower.\r\n\r\nIn this talk I'll tell you how I hacked the idea of a standard career and managed to combine skills from different fields and specialties, leading to some unique roles and opportunities.\r\n\r\nIf you love learning and constantly adding new tools to your intellectual toolkit, you\u2019ll find that being a 'nerd of all trades' is not just fun\u2014it\u2019s the best way to live. The only downside? When someone asks \"so what do you do\" at parties, you'll never quite know what to say!\r\n\r\n",
+        "type": "talk",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": true,
+        "is_from_cfp": true,
+        "content_note": "Brief mention of homophobia/transphobia in the workplace.",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/31-hack-the-plan",
+        "video": {
+            "recording_lost": null
+        },
+        "start_time": "14:00",
+        "end_time": "14:30"
     },
     {
         "id": 765,
@@ -764,6 +1342,73 @@
         "end_time": "10:00"
     },
     {
+        "id": 850,
+        "slug": "ukhsf-policies-procedures-and-other-things",
+        "start_date": "2024-06-02 12:00:00",
+        "end_date": "2024-06-02 13:00:00",
+        "venue": "Lounge",
+        "latlon": [
+            52.04147,
+            -2.37644
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04147/-2.37644/m=52.04147,-2.37644",
+        "title": "UKHSF Policies, Procedures, and other things...",
+        "speaker": "Matt Wallace (Proffalken) ",
+        "pronouns": null,
+        "user_id": 708,
+        "description": "Let's use a meetup session to hack on some of the github issues raised recently in the chat around process etc.\r\n\r\nIf the lounge is too busy, we'll move somewhere else, but we'll meet there and see what happens.\r\n\r\nRing Proffalken on 9630 if you turn up and can't find us.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/850-ukhsf-policies-procedures-and-other-things",
+        "cost": "",
+        "equipment": "Laptop is probably helpful, but not necessary",
+        "age_range": "16+",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "12:00",
+        "end_time": "13:00"
+    },
+    {
+        "id": 851,
+        "slug": "solar-powered-cake",
+        "start_date": "2024-06-02 08:30:00",
+        "end_date": "2024-06-02 09:45:00",
+        "venue": "Here be Badgers",
+        "latlon": null,
+        "map_link": null,
+        "title": "Solar Powered Cake",
+        "speaker": "Elke\u2019s Kitchen",
+        "pronouns": null,
+        "user_id": 845,
+        "description": "Bringing the spoils of my kitchen to the Deer Park.\r\nA selection of homemade cakes for sale (or trade!) all produced in what is now a solar powered kitchen.\r\n\r\nFind us by the lake near Stage A, on the path at the side of family camping.\r\n\r\n",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/851-solar-powered-cake",
+        "cost": "",
+        "equipment": "",
+        "age_range": "All ages",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "08:30",
+        "end_time": "09:45"
+    },
+    {
         "id": 14,
         "slug": "introduction-of-lockpicking-and-the-ethics-of-lockpicking",
         "start_date": "2024-06-01 12:00:00",
@@ -799,6 +1444,36 @@
         "end_time": "14:00"
     },
     {
+        "id": 471,
+        "slug": "unlimited-power",
+        "start_date": "2024-06-02 16:10:00",
+        "end_date": "2024-06-02 16:40:00",
+        "venue": "Stage C",
+        "latlon": [
+            52.040507,
+            -2.377716
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040507/-2.377716/m=52.040507,-2.377716",
+        "title": "Unlimited Power: An Engineer's Low-Down on Nuclear Fusion Technology",
+        "speaker": "James Pope",
+        "pronouns": "he/him",
+        "user_id": 968,
+        "description": "Most technical people hear about fusion power in the news or see it in games and movies, and are familiar with the joke that it's always 20 years away. Beyond this, it's surprisingly rare to find good information beyond the basic physics and the marketing promise of unlimited, clean energy.\r\n\r\nAs an engineer working in the fusion technology sector, I give a primer on how fusion power works, why its benefits are so incredibly tantalising yet hard to achieve, what the latest exciting developments are, and how the UK is a surprising trailblazer. I outline some of the cutting-edge technologies involved in developing fusion power, including superconducting magnets, plasma control using deep learning methods, and hypersonic fuel injection. The audience is also given facts and figures to get a flavour of the unimaginable scale of what is being done: materials at nearly 0K adjacent to plasmas hotter than the cores of stars, gigawatts of power from teaspoons of fuel, magnetic fields multiple times more powerful than MRI machines, and neutron fluxes strong enough to transmute matter in bulk.\r\n\r\nComing away from this presentation, the audience will have learned about the fundamentals of nuclear fusion and appreciate the key issues enough to put the marketing and news reports into context. They might even be excited and enthused about what's to come in this quickly growing technology space.",
+        "type": "talk",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": true,
+        "is_from_cfp": true,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/471-unlimited-power",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "16:10",
+        "end_time": "16:40"
+    },
+    {
         "id": 766,
         "slug": "solar-powered-cake-sale-or-trade",
         "start_date": "2024-05-31 14:00:00",
@@ -829,6 +1504,76 @@
         },
         "start_time": "14:00",
         "end_time": "15:00"
+    },
+    {
+        "id": 780,
+        "slug": "cancelled-up-up-and-away-lets-launch-a-weather-balloon",
+        "start_date": "2024-06-02 11:10:00",
+        "end_date": "2024-06-02 12:15:00",
+        "venue": "Unnamed Village",
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
+        "title": "[CANCELLED] Up up and away! - Let's launch a weather balloon!",
+        "speaker": "Dave Akerman / Andrew Mulholland",
+        "pronouns": null,
+        "user_id": 46,
+        "description": "CANCELLED - Unsuitable wind conditions have unfortunately meant this balloon launch isn\u2019t able to take place.\r\n\r\n\r\nWe're going to launch a very large balloon up to the edge of space*.\r\nAfter a brief introduction to high altitude ballooning from Dave in the village (plus a safety briefing), we'll walk out to an open area of field, fill a very large balloon with helium, check the flight computers and let go! The balloon will then drift up to 25km+, eventually bursting and falling back down to earth.\r\nAll the while, we'll be able to track it live on the map, while even hopefully receive some images from the edge of space*.\r\n\r\n\r\nThanks to Dave from the AMSAT-UK / BATC / UKuG village for making this activity possible.\r\n\r\n(* And yes, we know balloons don't actually go to the edge of space, but it's still going to be a lot higher than even commercial planes fly!)\r\n\r\n\r\nThis workshop is (initially) taking place in The Unnamed Village. We're in the middle of camping area G - https://map.emfcamp.org/#18.41/52.040788/-2.376733",
+        "type": "youthworkshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/780-cancelled-up-up-and-away-lets-launch-a-weather-balloon",
+        "cost": "",
+        "equipment": "None",
+        "age_range": "10+",
+        "attendees": "15",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "11:10",
+        "end_time": "12:15"
+    },
+    {
+        "id": 852,
+        "slug": "beginner-crochet-drop-in-session",
+        "start_date": "2024-06-02 11:15:00",
+        "end_date": "2024-06-02 12:45:00",
+        "venue": "Tekhn\u0113-cal Village",
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
+        "title": "Beginner Crochet drop-in session",
+        "speaker": "Emily Robertson",
+        "pronouns": null,
+        "user_id": 618,
+        "description": "A beginner crochet session to learn basic stiches and how to make a granny square.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/852-beginner-crochet-drop-in-session",
+        "cost": "",
+        "equipment": "All equipment provided.",
+        "age_range": "All ages",
+        "attendees": "10",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "11:15",
+        "end_time": "12:45"
     },
     {
         "id": 296,
@@ -866,6 +1611,41 @@
         "end_time": "13:00"
     },
     {
+        "id": 734,
+        "slug": "introduction-to-emf-badge-coding-for-kids-time-changed",
+        "start_date": "2024-06-02 10:45:00",
+        "end_date": "2024-06-02 11:45:00",
+        "venue": "Unnamed Village",
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
+        "title": "Introduction to EMF Badge coding for kids [ TIME CHANGED ]",
+        "speaker": "Andrew Mulholland",
+        "pronouns": null,
+        "user_id": 46,
+        "description": "In this special badge coding session for under 18s, you will learn to create your very own simple Tildagon (EMF 2024 badge) app.\r\n\r\nSome prior basic Python experience is recommended.\r\n\r\n\r\nNote - Please try and update your badge 20-30 mins before the workshop to make sure you have the most up to date code.\r\n\r\n\r\nThis workshop is taking place in The Unnamed Village. We're in the middle of camping area G - https://map.emfcamp.org/#18.41/52.040788/-2.376733",
+        "type": "youthworkshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/734-introduction-to-emf-badge-coding-for-kids-time-changed",
+        "cost": "",
+        "equipment": "- A laptop (with Thonny Python editor installed) - We have a few you can borrow if needed though.\r\n- Tildagon EMF 2024 badge - Updated 20-30 mins before",
+        "age_range": "12+",
+        "attendees": "15",
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "10:45",
+        "end_time": "11:45"
+    },
+    {
         "id": 167,
         "slug": "digital-music-synthesis-solder-workshop",
         "start_date": "2024-05-31 13:30:00",
@@ -899,6 +1679,36 @@
         },
         "start_time": "13:30",
         "end_time": "16:00"
+    },
+    {
+        "id": 853,
+        "slug": "see-the-bambu-printer-in-action-and-talk-about-3d-printing",
+        "start_date": "2024-06-02 09:45:00",
+        "end_date": "2024-06-02 11:30:00",
+        "venue": "Cambridge Makespace ",
+        "latlon": [
+            52.04119635094233,
+            -2.3751539378120867
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04119635094233/-2.3751539378120867/m=52.04119635094233,-2.3751539378120867",
+        "title": "see the Bambu printer in action and talk about 3D printing",
+        "speaker": "Rob",
+        "pronouns": null,
+        "user_id": 207,
+        "description": "Demo of the Bambu 3D printer, find out what all the fuss is about, chat about 3D printing plus see other Makespace members projects.",
+        "type": "performance",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/853-see-the-bambu-printer-in-action-and-talk-about-3d-printing",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "09:45",
+        "end_time": "11:30"
     },
     {
         "id": 307,
@@ -1081,8 +1891,11 @@
         "start_date": "2024-05-31 10:35:00",
         "end_date": "2024-05-31 12:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Dying to meet you",
         "speaker": "Beth",
         "pronouns": "",
@@ -1428,8 +2241,11 @@
         "start_date": "2024-06-01 08:00:00",
         "end_date": "2024-06-01 09:30:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing 1.5 hr slots throughout the day FULLY BOOKED ",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -1460,8 +2276,11 @@
         "start_date": "2024-06-01 11:15:00",
         "end_date": "2024-06-01 12:15:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "Build a Minecraft games controller!",
         "speaker": "Abbie Welch",
         "pronouns": null,
@@ -1492,8 +2311,11 @@
         "start_date": "2024-06-02 08:00:00",
         "end_date": "2024-06-02 09:30:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing 1.5 hr slots throughout the day FULLY  BOOKED ",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -1846,8 +2668,11 @@
         "start_date": "2024-06-02 12:00:00",
         "end_date": "2024-06-02 14:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Coppersmithing - make a copper bowl FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -2343,8 +3168,11 @@
         "start_date": "2024-05-31 11:00:00",
         "end_date": "2024-05-31 12:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "CO2 LASER CUTTER DROP IN ",
         "speaker": "Dominic Morrow",
         "pronouns": null,
@@ -2505,8 +3333,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 11:30:00",
         "venue": "Wand Making Village Dome",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.041079274788444,
+            -2.377530204125634
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.041079274788444/-2.377530204125634/m=52.041079274788444,-2.377530204125634",
         "title": "Wand Making for Muggles",
         "speaker": "Derek Scuffell",
         "pronouns": null,
@@ -2537,8 +3368,11 @@
         "start_date": "2024-06-02 10:00:00",
         "end_date": "2024-06-02 12:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "CO2 LASER CUTTER DROP IN",
         "speaker": "Dominic Morrow",
         "pronouns": null,
@@ -2664,8 +3498,11 @@
         "start_date": "2024-06-01 11:30:00",
         "end_date": "2024-06-01 13:30:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Laser Talk! CNC Laser Cutting Drop In",
         "speaker": "Dominic Morrow",
         "pronouns": null,
@@ -2766,8 +3603,11 @@
         "start_date": "2024-06-01 16:30:00",
         "end_date": "2024-06-01 17:30:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "Writing stories in code (repeat)",
         "speaker": "Claire Mulholland",
         "pronouns": null,
@@ -2863,36 +3703,34 @@
         "end_time": "10:50"
     },
     {
-        "id": 780,
-        "slug": "up-up-and-away-lets-launch-a-weather-balloon",
+        "id": 302,
+        "slug": "where-is-the-art-pen-plotters",
         "start_date": "2024-06-02 11:10:00",
-        "end_date": "2024-06-02 12:15:00",
-        "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
-        "title": "Up up and away! - Let's launch a weather balloon!",
-        "speaker": "Dave Akerman / Andrew Mulholland",
-        "pronouns": null,
-        "user_id": 46,
-        "description": "We're going to launch a very large balloon up to the edge of space*.\r\nAfter a brief introduction to high altitude ballooning from Dave in the village (plus a safety briefing), we'll walk out to an open area of field, fill a very large balloon with helium, check the flight computers and let go! The balloon will then drift up to 25km+, eventually bursting and falling back down to earth.\r\nAll the while, we'll be able to track it live on the map, while even hopefully receive some images from the edge of space*.\r\n\r\n\r\nThanks to Dave from the AMSAT-UK / BATC / UKuG village for making this activity possible.\r\n\r\n(* And yes, we know balloons don't actually go to the edge of space, but it's still going to be a lot higher than even commercial planes fly!)\r\n\r\n\r\nThis workshop is (initially) taking place in The Unnamed Village. We're in the middle of camping area G - https://map.emfcamp.org/#18.41/52.040788/-2.376733",
-        "type": "youthworkshop",
-        "video_privacy": null,
+        "end_date": "2024-06-02 11:30:00",
+        "venue": "Stage C",
+        "latlon": [
+            52.040507,
+            -2.377716
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040507/-2.377716/m=52.040507,-2.377716",
+        "title": "Where is the Art? Pen plotters and the history of computer art",
+        "speaker": "Andy Piper",
+        "pronouns": "he/they",
+        "user_id": 1036,
+        "description": "In October 1971, Frieder Nake published an article in Page, the Bulletin of the Computer Arts Society, entitled \"There Should Be No Computer Art\", making the point that there were more important things for humans to work on together in the late Twentieth Century, than whether or not a computer should be allowed to make \"art\". \r\n\r\nIn this talk, we'll take a journey together to look at one aspect of computer history - creative technology and art - and the ways in which it has been misunderstood and feared at different points in our shared history and culture. Along the way, you'll also hear about how I accidentally became an artist, after being laid off from my dream job with big tech; the story of building my own pen plotters; and, how you can make your own army of art robots!",
+        "type": "talk",
+        "video_privacy": "public",
         "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": false,
-        "content_note": null,
+        "is_family_friendly": true,
+        "is_from_cfp": true,
+        "content_note": "",
         "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/780-up-up-and-away-lets-launch-a-weather-balloon",
-        "cost": "",
-        "equipment": "None",
-        "age_range": "10+",
-        "attendees": "15",
-        "requires_ticket": false,
+        "link": "https://www.emfcamp.org/schedule/2024/302-where-is-the-art-pen-plotters",
         "video": {
-            "recording_lost": false
+            "recording_lost": null
         },
         "start_time": "11:10",
-        "end_time": "12:15"
+        "end_time": "11:30"
     },
     {
         "id": 743,
@@ -2900,8 +3738,11 @@
         "start_date": "2024-06-02 12:00:00",
         "end_date": "2024-06-02 13:30:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "Design & Build Your Own Rocket Workshop part 2",
         "speaker": "Richard Maynard",
         "pronouns": null,
@@ -2925,36 +3766,6 @@
         },
         "start_time": "12:00",
         "end_time": "13:30"
-    },
-    {
-        "id": 302,
-        "slug": "where-is-the-art-a-history-in-technology",
-        "start_date": "2024-06-02 11:10:00",
-        "end_date": "2024-06-02 11:30:00",
-        "venue": "Stage C",
-        "latlon": [
-            52.040507,
-            -2.377716
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.040507/-2.377716/m=52.040507,-2.377716",
-        "title": "Where is the Art? A history in Technology",
-        "speaker": "Andy Piper",
-        "pronouns": "he/they",
-        "user_id": 1036,
-        "description": "In October 1971, Frieder Nake published an article in Page, the Bulletin of the Computer Arts Society, entitled \"There Should Be No Computer Art\", making the point that there were more important things for humans to work on together in the late Twentieth Century, than whether or not a computer should be allowed to make \"art\". \r\n\r\nIn this talk, we'll take a journey together to look at one aspect of computer history - creative technology and art - and the ways in which it has been misunderstood and feared at different points in our shared history and culture. Along the way, you'll also hear about how I accidentally became an artist, after being laid off from my dream job with big tech; the story of building my own pen plotters; and, how you can make your own army of art robots!",
-        "type": "talk",
-        "video_privacy": "public",
-        "is_fave": false,
-        "is_family_friendly": true,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/302-where-is-the-art-a-history-in-technology",
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "11:10",
-        "end_time": "11:30"
     },
     {
         "id": 648,
@@ -3062,8 +3873,11 @@
         "start_date": "2024-05-31 11:30:00",
         "end_date": "2024-05-31 12:15:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "How computers sense the world? (using Micro:Bit)",
         "speaker": "Vincent Lee",
         "pronouns": null,
@@ -3464,41 +4278,6 @@
         "end_time": "12:00"
     },
     {
-        "id": 272,
-        "slug": "solder-some-solar",
-        "start_date": "2024-06-02 17:30:00",
-        "end_date": "2024-06-02 18:30:00",
-        "venue": "Workshop 6 (Hardware Hacking)",
-        "latlon": [
-            52.041258,
-            -2.375748
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.041258/-2.375748/m=52.041258,-2.375748",
-        "title": "Solder some Solar",
-        "speaker": "Matthew Little",
-        "pronouns": "He/him",
-        "user_id": 198,
-        "description": "Make your own solar powered torch.\r\n\r\nAttendees will solder together a small LED torch with a solar panel. Charge up the ultra-capacitor during the day, for light when you need it. This brings in a bit about solar energy and also for beginners to try out soldering.\r\n\r\nAttendees will take away their little solar torch which also has a keyring. Suitable for ages 7+. Soldering will be guided. Under-16s must be accompanied by an adult, and both must have a ticket for this workshop.",
-        "type": "workshop",
-        "video_privacy": null,
-        "is_fave": false,
-        "is_family_friendly": true,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/272-solder-some-solar",
-        "cost": "\u00a35",
-        "equipment": "Nothing",
-        "age_range": "8+",
-        "attendees": "30 - One or two extra volunteers to help stop people burning themselves would be great! I can also run this workshop a couple of times to increase numbers (last time I had 50 people at once and it was slightly too much)",
-        "requires_ticket": true,
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "17:30",
-        "end_time": "18:30"
-    },
-    {
         "id": 464,
         "slug": "introduction-to-leatherwork",
         "start_date": "2024-06-02 10:00:00",
@@ -3739,8 +4518,11 @@
         "start_date": "2024-06-01 19:00:00",
         "end_date": "2024-06-01 19:45:00",
         "venue": "Odin's Tesla Fest",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043332883036754,
+            -2.377304059026841
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043332883036754/-2.377304059026841/m=52.043332883036754,-2.377304059026841",
         "title": "High voltage from plastic- Building a Wimshurst machine",
         "speaker": "Derek Woodroffe",
         "pronouns": null,
@@ -3971,8 +4753,11 @@
         "start_date": "2024-06-01 12:00:00",
         "end_date": "2024-06-01 14:15:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Puppet Walkabout",
         "speaker": "Laura Mathews",
         "pronouns": null,
@@ -4003,8 +4788,11 @@
         "start_date": "2024-05-31 12:00:00",
         "end_date": "2024-05-31 13:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Puppet Walkabout",
         "speaker": "Laura Mathews",
         "pronouns": null,
@@ -4035,8 +4823,11 @@
         "start_date": "2024-06-02 13:00:00",
         "end_date": "2024-06-02 14:15:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Puppet Walkabout",
         "speaker": "Laura Mathews",
         "pronouns": null,
@@ -4067,8 +4858,11 @@
         "start_date": "2024-05-31 10:30:00",
         "end_date": "2024-05-31 11:30:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Owl Kit - Make & Take",
         "speaker": "Dominic Morrow & Laura Mathews",
         "pronouns": null,
@@ -4099,8 +4893,11 @@
         "start_date": "2024-06-01 14:00:00",
         "end_date": "2024-06-01 14:30:00",
         "venue": "AMSAT-UK / BATC / UKuG",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04107841847622,
+            -2.3758400490326608
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04107841847622/-2.3758400490326608/m=52.04107841847622,-2.3758400490326608",
         "title": "Amateur Satellite. Development and Operation.",
         "speaker": "Dave Johnson G4DPZ",
         "pronouns": null,
@@ -4196,8 +4993,11 @@
         "start_date": "2024-06-01 18:00:00",
         "end_date": "2024-06-01 19:00:00",
         "venue": "Brighton Consulate",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.040572749829295,
+            -2.3755442230634287
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040572749829295/-2.3755442230634287/m=52.040572749829295,-2.3755442230634287",
         "title": "Brighton Consulate Cultural Exchange: Tuaca Tasting",
         "speaker": "Jo",
         "pronouns": null,
@@ -4253,8 +5053,11 @@
         "start_date": "2024-05-31 11:00:00",
         "end_date": "2024-05-31 11:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4315,8 +5118,11 @@
         "start_date": "2024-06-01 13:00:00",
         "end_date": "2024-06-01 13:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4342,8 +5148,11 @@
         "start_date": "2024-06-02 13:00:00",
         "end_date": "2024-06-02 13:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4369,8 +5178,11 @@
         "start_date": "2024-05-31 12:00:00",
         "end_date": "2024-05-31 12:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4396,8 +5208,11 @@
         "start_date": "2024-06-02 12:00:00",
         "end_date": "2024-06-02 12:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4423,8 +5238,11 @@
         "start_date": "2024-06-02 14:00:00",
         "end_date": "2024-06-02 14:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4450,8 +5268,11 @@
         "start_date": "2024-06-02 16:00:00",
         "end_date": "2024-06-02 16:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4477,8 +5298,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 12:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Coppersmithing- make a copper bowl FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -4509,8 +5333,11 @@
         "start_date": "2024-05-31 14:00:00",
         "end_date": "2024-05-31 14:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4536,8 +5363,11 @@
         "start_date": "2024-05-31 15:00:00",
         "end_date": "2024-05-31 15:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4563,8 +5393,11 @@
         "start_date": "2024-05-31 16:00:00",
         "end_date": "2024-05-31 16:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4590,8 +5423,11 @@
         "start_date": "2024-06-01 11:00:00",
         "end_date": "2024-06-01 11:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4617,8 +5453,11 @@
         "start_date": "2024-06-01 12:00:00",
         "end_date": "2024-06-01 12:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4674,8 +5513,11 @@
         "start_date": "2024-06-01 16:00:00",
         "end_date": "2024-06-01 16:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4701,8 +5543,11 @@
         "start_date": "2024-06-01 17:00:00",
         "end_date": "2024-06-01 17:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4728,8 +5573,11 @@
         "start_date": "2024-06-02 11:00:00",
         "end_date": "2024-06-02 11:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4755,8 +5603,11 @@
         "start_date": "2024-06-02 15:00:00",
         "end_date": "2024-06-02 15:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4899,8 +5750,11 @@
         "start_date": "2024-05-31 17:00:00",
         "end_date": "2024-05-31 17:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -4919,33 +5773,6 @@
         },
         "start_time": "17:00",
         "end_time": "17:15"
-    },
-    {
-        "id": 800,
-        "slug": "racing",
-        "start_date": "2024-06-01 14:00:00",
-        "end_date": "2024-06-01 14:15:00",
-        "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
-        "title": "Racing!",
-        "speaker": "Racing!",
-        "pronouns": null,
-        "user_id": 115,
-        "description": "Come join us at the Hacky Racers track, behind The Robot Arms, to watch our particular brand of motorsports!",
-        "type": "performance",
-        "video_privacy": null,
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": false,
-        "content_note": null,
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/800-racing",
-        "video": {
-            "recording_lost": false
-        },
-        "start_time": "14:00",
-        "end_time": "14:15"
     },
     {
         "id": 739,
@@ -4981,6 +5808,36 @@
         },
         "start_time": "11:00",
         "end_time": "15:00"
+    },
+    {
+        "id": 800,
+        "slug": "not-racing",
+        "start_date": "2024-06-01 14:00:00",
+        "end_date": "2024-06-01 14:15:00",
+        "venue": "Hacky Racers (Track)",
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
+        "title": "(NOT) Racing! ",
+        "speaker": "Racing!",
+        "pronouns": null,
+        "user_id": 115,
+        "description": "Cancelled as we need more time to recharge batteries and ourselves!\r\n\r\nCome join us at the Hacky Racers track, behind The Robot Arms, to watch our particular brand of motorsports!",
+        "type": "performance",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/800-not-racing",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "14:00",
+        "end_time": "14:15"
     },
     {
         "id": 609,
@@ -5023,8 +5880,11 @@
         "start_date": "2024-06-01 15:00:00",
         "end_date": "2024-06-01 15:15:00",
         "venue": "Hacky Racers (Track)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04182261363587,
+            -2.3781586012054845
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04182261363587/-2.3781586012054845/m=52.04182261363587,-2.3781586012054845",
         "title": "Racing!",
         "speaker": "Racing!",
         "pronouns": null,
@@ -5110,8 +5970,11 @@
         "start_date": "2024-05-31 16:00:00",
         "end_date": "2024-05-31 18:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Probiotic cooking",
         "speaker": "Algoldor",
         "pronouns": null,
@@ -5142,8 +6005,11 @@
         "start_date": "2024-05-31 13:30:00",
         "end_date": "2024-06-02 19:30:00",
         "venue": "Tekhn\u0113-cal Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
         "title": "Create the EMF Community Blanket - drop-in maker session",
         "speaker": "Eli Chadwick",
         "pronouns": null,
@@ -5174,8 +6040,11 @@
         "start_date": "2024-05-31 19:00:00",
         "end_date": "2024-05-31 20:00:00",
         "venue": "Scottish Consulate",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04329962667447,
+            -2.3756295932040246
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04329962667447/-2.3756295932040246/m=52.04329962667447,-2.3756295932040246",
         "title": "Friday Nite Rites - The Bottle Opens",
         "speaker": "Hibby",
         "pronouns": null,
@@ -5201,8 +6070,11 @@
         "start_date": "2024-05-31 17:30:00",
         "end_date": "2024-05-31 20:30:00",
         "venue": "Tekhn\u0113-cal Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
         "title": "'The Matrix' inspired looks - drop-in face makeup session for all genders",
         "speaker": "Emily Robertson",
         "pronouns": null,
@@ -5233,8 +6105,11 @@
         "start_date": "2024-06-01 09:00:00",
         "end_date": "2024-06-02 21:00:00",
         "venue": "Tekhn\u0113-cal Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
         "title": "Sewing and Fibrecraft Stash Swap!",
         "speaker": "Emily Robertson",
         "pronouns": "",
@@ -5352,8 +6227,11 @@
         "start_date": "2024-06-01 07:00:00",
         "end_date": "2024-06-02 00:00:00",
         "venue": "MK Makerspace & Friends",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.040916708047945,
+            -2.3764443084518234
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040916708047945/-2.3764443084518234/m=52.040916708047945,-2.3764443084518234",
         "title": "Tea Tent",
         "speaker": "T. Tealeaf",
         "pronouns": null,
@@ -5419,8 +6297,11 @@
         "start_date": "2024-05-31 08:30:00",
         "end_date": "2024-05-31 09:30:00",
         "venue": "South London Makerspace",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04167722723014,
+            -2.3756209783238376
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04167722723014/-2.3756209783238376/m=52.04167722723014,-2.3756209783238376",
         "title": "MakerBreakfast - free breakfast",
         "speaker": "Dermot Jones",
         "pronouns": null,
@@ -5516,8 +6397,11 @@
         "start_date": "2024-06-01 08:30:00",
         "end_date": "2024-06-01 09:30:00",
         "venue": "South London Makerspace",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04167722723014,
+            -2.3756209783238376
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04167722723014/-2.3756209783238376/m=52.04167722723014,-2.3756209783238376",
         "title": "MakerBreakfast - free breakfast",
         "speaker": "Dermot Jones",
         "pronouns": null,
@@ -5643,8 +6527,11 @@
         "start_date": "2024-06-02 08:30:00",
         "end_date": "2024-06-02 09:30:00",
         "venue": "South London Makerspace",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04167722723014,
+            -2.3756209783238376
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04167722723014/-2.3756209783238376/m=52.04167722723014,-2.3756209783238376",
         "title": "MakerBreakfast - free breakfast",
         "speaker": "Dermot Jones",
         "pronouns": null,
@@ -5867,8 +6754,11 @@
         "start_date": "2024-05-31 20:00:00",
         "end_date": "2024-05-31 22:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Whisky tasting",
         "speaker": "Ikmaak",
         "pronouns": null,
@@ -5899,8 +6789,11 @@
         "start_date": "2024-05-31 21:30:00",
         "end_date": "2024-05-31 22:45:00",
         "venue": "Odin's Tesla Fest",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043332883036754,
+            -2.377304059026841
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043332883036754/-2.377304059026841/m=52.043332883036754,-2.377304059026841",
         "title": "Musical Tesla coil demo",
         "speaker": "Steve Conner, Derek Woodroffe",
         "pronouns": null,
@@ -5926,8 +6819,11 @@
         "start_date": "2024-06-01 21:30:00",
         "end_date": "2024-06-01 22:45:00",
         "venue": "Odin's Tesla Fest",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043332883036754,
+            -2.377304059026841
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043332883036754/-2.377304059026841/m=52.043332883036754,-2.377304059026841",
         "title": "Musical Tesla coil demo",
         "speaker": "Derek Woodroffe, Steve Conner",
         "pronouns": null,
@@ -6015,8 +6911,11 @@
         "start_date": "2024-05-31 17:00:00",
         "end_date": "2024-05-31 18:00:00",
         "venue": "Stumpadelic Sound",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043070974217386,
+            -2.3768256223424373
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043070974217386/-2.3768256223424373/m=52.043070974217386,-2.3768256223424373",
         "title": "Learning to Musicaly jam",
         "speaker": "Jazz Cousins",
         "pronouns": null,
@@ -6077,8 +6976,11 @@
         "start_date": "2024-05-31 18:30:00",
         "end_date": "2024-05-31 19:30:00",
         "venue": "Stumpadelic Sound",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043070974217386,
+            -2.3768256223424373
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043070974217386/-2.3768256223424373/m=52.043070974217386,-2.3768256223424373",
         "title": "Experimental Stumpdelic Music Jam",
         "speaker": "Jazz Cousins",
         "pronouns": null,
@@ -6109,8 +7011,11 @@
         "start_date": "2024-05-31 21:00:00",
         "end_date": "2024-05-31 22:00:00",
         "venue": "Stumpadelic Sound",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043070974217386,
+            -2.3768256223424373
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043070974217386/-2.3768256223424373/m=52.043070974217386,-2.3768256223424373",
         "title": "Get Trippy with Sound Scapes and Tree Stumps",
         "speaker": "Jazz Cousins",
         "pronouns": null,
@@ -6171,8 +7076,11 @@
         "start_date": "2024-06-02 21:30:00",
         "end_date": "2024-06-02 22:45:00",
         "venue": "Odin's Tesla Fest",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043332883036754,
+            -2.377304059026841
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043332883036754/-2.377304059026841/m=52.043332883036754,-2.377304059026841",
         "title": "Musical Tesla coil demo",
         "speaker": "Steve Conner, Derek Woodroffe",
         "pronouns": null,
@@ -6233,8 +7141,11 @@
         "start_date": "2024-06-01 13:00:00",
         "end_date": "2024-06-01 13:45:00",
         "venue": "Stumpadelic Sound",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043070974217386,
+            -2.3768256223424373
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043070974217386/-2.3768256223424373/m=52.043070974217386,-2.3768256223424373",
         "title": "How to make Electronic Musical ART / Idea Bouncing",
         "speaker": "Jazz Cousins",
         "pronouns": null,
@@ -6426,8 +7337,11 @@
         "start_date": "2024-05-30 15:00:00",
         "end_date": "2024-05-30 16:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Minecraft Social 7-12yrs - Education Edition",
         "speaker": "Minecraft Social 7-12yrs - Education Edition",
         "pronouns": null,
@@ -6458,8 +7372,11 @@
         "start_date": "2024-05-31 14:00:00",
         "end_date": "2024-05-31 16:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Coppersmithing- make a copper bowl FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -6595,8 +7512,11 @@
         "start_date": "2024-06-01 18:00:00",
         "end_date": "2024-06-01 18:45:00",
         "venue": "Stumpadelic Sound",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043070974217386,
+            -2.3768256223424373
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043070974217386/-2.3768256223424373/m=52.043070974217386,-2.3768256223424373",
         "title": "Stumpadelic Performance",
         "speaker": "Jazz Cousins",
         "pronouns": null,
@@ -6627,8 +7547,11 @@
         "start_date": "2024-06-01 16:00:00",
         "end_date": "2024-06-01 18:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Afternoon Cheese Tasting",
         "speaker": "Jaga",
         "pronouns": null,
@@ -6689,8 +7612,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 12:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Owl Kit - Make & Take",
         "speaker": "Laura Mathews ",
         "pronouns": null,
@@ -6721,8 +7647,11 @@
         "start_date": "2024-05-31 10:00:00",
         "end_date": "2024-05-31 11:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Minecraft Social 7-12yrs - Education Edition",
         "speaker": "Minecraft Social 7-12yrs - Education Edition",
         "pronouns": null,
@@ -6878,8 +7807,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 16:00:00",
         "venue": "Knife & Tool Sharpening",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04289427320194,
+            -2.376318069325464
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04289427320194/-2.376318069325464/m=52.04289427320194,-2.376318069325464",
         "title": "Tool and Knife Sharpening",
         "speaker": "Henry Sands",
         "pronouns": "He/Him",
@@ -7420,8 +8352,11 @@
         "start_date": "2024-05-31 18:00:00",
         "end_date": "2024-05-31 20:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Cheese Tasting 1",
         "speaker": "Jaga",
         "pronouns": null,
@@ -7637,8 +8572,11 @@
         "start_date": "2024-05-31 14:30:00",
         "end_date": "2024-05-31 16:00:00",
         "venue": "Tekhn\u0113-cal Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
         "title": "Making friendship bracelets - drop-in session",
         "speaker": "Emily Robertson",
         "pronouns": "",
@@ -7780,7 +8718,7 @@
         "user_id": 198,
         "description": "Make your own solar powered torch.\r\n\r\nAttendees will solder together a small LED torch with a solar panel. Charge up the ultra-capacitor during the day, for light when you need it. This brings in a bit about solar energy and also for beginners to try out soldering.\r\n\r\nAttendees will take away their little solar torch which also has a keyring. Suitable for ages 5+. Soldering will be guided. Under-16s must be accompanied by an adult, and both must have a ticket for this workshop.",
         "type": "workshop",
-        "video_privacy": null,
+        "video_privacy": "public",
         "is_fave": false,
         "is_family_friendly": true,
         "is_from_cfp": true,
@@ -7789,7 +8727,7 @@
         "link": "https://www.emfcamp.org/schedule/2024/562-solder-some-solar",
         "cost": "\u00a35",
         "equipment": "Nothing",
-        "age_range": "5+",
+        "age_range": "8+",
         "attendees": "30",
         "requires_ticket": true,
         "video": {
@@ -7804,8 +8742,11 @@
         "start_date": "2024-06-01 13:00:00",
         "end_date": "2024-06-01 17:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Xeon PHI nodes 2",
         "speaker": "Nurah",
         "pronouns": null,
@@ -7836,8 +8777,11 @@
         "start_date": "2024-05-31 15:00:00",
         "end_date": "2024-05-31 19:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Xeon PHI nodes 1",
         "speaker": "Nurah",
         "pronouns": null,
@@ -8063,8 +9007,11 @@
         "start_date": "2024-06-02 10:00:00",
         "end_date": "2024-06-02 16:00:00",
         "venue": "Knife & Tool Sharpening",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04289427320194,
+            -2.376318069325464
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04289427320194/-2.376318069325464/m=52.04289427320194,-2.376318069325464",
         "title": "Tool and Knife Sharpening",
         "speaker": "Henry Sands",
         "pronouns": "He/Him",
@@ -8125,6 +9072,36 @@
         "end_time": "16:00"
     },
     {
+        "id": 586,
+        "slug": "3licks",
+        "start_date": "2024-06-02 00:45:00",
+        "end_date": "2024-06-02 01:30:00",
+        "venue": "Null Sector",
+        "latlon": [
+            52.043728,
+            -2.377083
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043728/-2.377083/m=52.043728,-2.377083",
+        "title": "3licks",
+        "speaker": "Felix Johnson",
+        "pronouns": "he/they",
+        "user_id": 175,
+        "description": "East London -> Eastnor -> EMF\r\n\r\nExpect donk, hyper, dnb, fast techno, hardstyle, hardcore and general silliness. ",
+        "type": "performance",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": true,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/586-3licks",
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "00:45",
+        "end_time": "01:30"
+    },
+    {
         "id": 646,
         "slug": "maths-village-pop-up-shop",
         "start_date": "2024-05-31 22:00:00",
@@ -8158,36 +9135,6 @@
         },
         "start_time": "22:00",
         "end_time": "22:30"
-    },
-    {
-        "id": 586,
-        "slug": "3licks",
-        "start_date": "2024-06-02 00:45:00",
-        "end_date": "2024-06-02 01:30:00",
-        "venue": "Null Sector",
-        "latlon": [
-            52.043728,
-            -2.377083
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.043728/-2.377083/m=52.043728,-2.377083",
-        "title": "3licks",
-        "speaker": "Felix Johnson",
-        "pronouns": "he/they",
-        "user_id": 175,
-        "description": "East London -> Eastnor\r\n\r\nExpect donk, hyper, dnb, fast techno, hardstyle, hardcore and general silliness. ",
-        "type": "performance",
-        "video_privacy": "public",
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/586-3licks",
-        "video": {
-            "recording_lost": false
-        },
-        "start_time": "00:45",
-        "end_time": "01:30"
     },
     {
         "id": 320,
@@ -8225,8 +9172,11 @@
         "start_date": "2024-05-31 10:30:00",
         "end_date": "2024-05-31 16:30:00",
         "venue": "As a large language model",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04308428947252,
+            -2.376446275418772
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04308428947252/-2.376446275418772/m=52.04308428947252,-2.376446275418772",
         "title": "data_rave (Friday)",
         "speaker": "data_rave",
         "pronouns": null,
@@ -8382,8 +9332,11 @@
         "start_date": "2024-06-02 07:00:00",
         "end_date": "2024-06-02 19:00:00",
         "venue": "MK Makerspace & Friends",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.040916708047945,
+            -2.3764443084518234
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040916708047945/-2.3764443084518234/m=52.040916708047945,-2.3764443084518234",
         "title": "Tea Tent",
         "speaker": "T. Tealeaf",
         "pronouns": null,
@@ -8509,8 +9462,11 @@
         "start_date": "2024-06-01 14:00:00",
         "end_date": "2024-06-01 18:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Kids drop in coppersmithing ",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -9146,8 +10102,11 @@
         "start_date": "2024-05-30 10:00:00",
         "end_date": "2024-05-30 15:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Drop in LAN Party @ EEH",
         "speaker": "Drop in LAN Party",
         "pronouns": "",
@@ -9178,8 +10137,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 18:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Drop in LAN Party @ EEH",
         "speaker": "Drop in LAN Party @ EEH",
         "pronouns": "",
@@ -9270,8 +10232,11 @@
         "start_date": "2024-05-31 12:00:00",
         "end_date": "2024-05-31 18:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Drop in LAN Party @ EEH",
         "speaker": "Drop in LAN Party @ EEH",
         "pronouns": "",
@@ -9367,8 +10332,11 @@
         "start_date": "2024-06-02 10:00:00",
         "end_date": "2024-06-02 13:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Drop in LAN Party @ EEH",
         "speaker": "Drop in LAN Party @ EEH",
         "pronouns": "",
@@ -9739,8 +10707,11 @@
         "start_date": "2024-06-02 10:00:00",
         "end_date": "2024-06-02 12:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Free your creative soul",
         "speaker": "Beth",
         "pronouns": "",
@@ -9866,8 +10837,11 @@
         "start_date": "2024-06-01 18:00:00",
         "end_date": "2024-06-01 20:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Cheese Tasting 2",
         "speaker": "Jaga",
         "pronouns": null,
@@ -10018,8 +10992,11 @@
         "start_date": "2024-05-31 14:00:00",
         "end_date": "2024-05-31 16:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Home made kefir wonders",
         "speaker": "Algoldor",
         "pronouns": null,
@@ -10050,8 +11027,11 @@
         "start_date": "2024-05-30 08:00:00",
         "end_date": "2024-05-31 00:00:00",
         "venue": "MK Makerspace & Friends",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.040916708047945,
+            -2.3764443084518234
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040916708047945/-2.3764443084518234/m=52.040916708047945,-2.3764443084518234",
         "title": "Tea Tent",
         "speaker": "T. Tealeaf",
         "pronouns": null,
@@ -10117,8 +11097,11 @@
         "start_date": "2024-05-31 07:00:00",
         "end_date": "2024-06-01 00:00:00",
         "venue": "MK Makerspace & Friends",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.040916708047945,
+            -2.3764443084518234
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.040916708047945/-2.3764443084518234/m=52.040916708047945,-2.3764443084518234",
         "title": "Tea Tent",
         "speaker": "T. Tealeaf",
         "pronouns": null,
@@ -10239,8 +11222,11 @@
         "start_date": "2024-05-31 14:00:00",
         "end_date": "2024-05-31 14:30:00",
         "venue": "AMSAT-UK / BATC / UKuG",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04107841847622,
+            -2.3758400490326608
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04107841847622/-2.3758400490326608/m=52.04107841847622,-2.3758400490326608",
         "title": "Amateur Satellite/Cubesat. Development and Operation.",
         "speaker": "Dave Johnson G4DPZ",
         "pronouns": null,
@@ -10296,8 +11282,11 @@
         "start_date": "2024-05-30 19:00:00",
         "end_date": "2024-05-30 19:45:00",
         "venue": "Irish Embassy",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043013939044926,
+            -2.375910658177162
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043013939044926/-2.375910658177162/m=52.043013939044926,-2.375910658177162",
         "title": "Repairing Clothing with Patches (drop-in)",
         "speaker": "Cheryl",
         "pronouns": "",
@@ -10398,8 +11387,11 @@
         "start_date": "2024-05-30 17:00:00",
         "end_date": "2024-05-30 20:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing/coppersmithing master class FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -10460,8 +11452,11 @@
         "start_date": "2024-05-30 19:00:00",
         "end_date": "2024-05-30 21:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Cider Flows 1",
         "speaker": "Algoldor",
         "pronouns": null,
@@ -10492,8 +11487,11 @@
         "start_date": "2024-05-31 08:00:00",
         "end_date": "2024-05-31 09:30:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing 1.5 hr slots throughout the day FULLY BOOKED ",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -10589,8 +11587,11 @@
         "start_date": "2024-05-31 11:00:00",
         "end_date": "2024-05-31 12:00:00",
         "venue": "East Essex Hackspace CIO",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.0433937508094,
+            -2.374480798759123
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.0433937508094/-2.374480798759123/m=52.0433937508094,-2.374480798759123",
         "title": "Paper Rockets for all",
         "speaker": "Tim",
         "pronouns": null,
@@ -10741,8 +11742,11 @@
         "start_date": "2024-06-01 20:00:00",
         "end_date": "2024-06-01 22:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Cider Flows",
         "speaker": "Algoldor",
         "pronouns": null,
@@ -10898,36 +11902,6 @@
         "end_time": "00:30"
     },
     {
-        "id": 424,
-        "slug": "psychiceyeclix",
-        "start_date": "2024-06-02 01:05:00",
-        "end_date": "2024-06-02 01:45:00",
-        "venue": "Stage B",
-        "latlon": [
-            52.041896,
-            -2.37656
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
-        "title": "Psychiceyeclix ",
-        "speaker": "EMF Live Music",
-        "pronouns": "",
-        "user_id": 1991,
-        "description": "Psychiceyeclix performs wearing a robot synth helmet using unique instruments & circuit bent devices, using hacked games consoles/toys & diy electronics to create anything from drone, glitch, noise to drum & bass.\r\n\r\nhttps://youtu.be/Kga5pK69WqI?si=3JIkPd736R3bdEvf\r\nhttps://www.youtube.com/watch?v=oPihm-xOsNY",
-        "type": "performance",
-        "video_privacy": "none",
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/424-psychiceyeclix",
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "01:05",
-        "end_time": "01:45"
-    },
-    {
         "id": 398,
         "slug": "data-is-plural",
         "start_date": "2024-06-01 17:00:00",
@@ -10998,8 +11972,11 @@
         "start_date": "2024-05-31 20:00:00",
         "end_date": "2024-06-01 01:00:00",
         "venue": "Scottish Consulate",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04329962667447,
+            -2.3756295932040246
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04329962667447/-2.3756295932040246/m=52.04329962667447,-2.3756295932040246",
         "title": "Friday Nite Rites - The Music Takes Over",
         "speaker": "Allie",
         "pronouns": null,
@@ -11055,8 +12032,11 @@
         "start_date": "2024-05-31 17:00:00",
         "end_date": "2024-05-31 20:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing/coppersmithing master class FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -11122,8 +12102,11 @@
         "start_date": "2024-06-01 17:00:00",
         "end_date": "2024-06-01 20:00:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing/coppersmithing masterclass  FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -11244,8 +12227,11 @@
         "start_date": "2024-06-02 14:00:00",
         "end_date": "2024-06-02 16:00:00",
         "venue": "ECHQ",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043194936313455,
+            -2.3741230967545732
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043194936313455/-2.3741230967545732/m=52.043194936313455,-2.3741230967545732",
         "title": "Drop In Session - Dial Up internet, Viewdata, Bulletin Boards, Retro Tech and more! ",
         "speaker": "CuTEL & Friends",
         "pronouns": null,
@@ -11306,8 +12292,11 @@
         "start_date": "2024-06-01 14:00:00",
         "end_date": "2024-06-01 16:00:00",
         "venue": "ECHQ",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.043194936313455,
+            -2.3741230967545732
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.043194936313455/-2.3741230967545732/m=52.043194936313455,-2.3741230967545732",
         "title": "Drop In Session - Dial Up internet, Viewdata, Bulletin Boards, Retro Tech and more! ",
         "speaker": "CuTEL & Friends",
         "pronouns": null,
@@ -11623,8 +12612,11 @@
         "start_date": "2024-05-30 14:00:00",
         "end_date": "2024-05-30 15:30:00",
         "venue": "Blacksmiths Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04198924207739,
+            -2.378228338591697
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04198924207739/-2.378228338591697/m=52.04198924207739,-2.378228338591697",
         "title": "Blacksmithing (1.5hr slots throughout the day) FULLY BOOKED",
         "speaker": "Urban Crafts Foundation ",
         "pronouns": null,
@@ -11895,38 +12887,6 @@
         "end_time": "10:30"
     },
     {
-        "id": 734,
-        "slug": "introduction-to-emf-badge-coding-for-kids",
-        "start_date": "2024-06-02 10:00:00",
-        "end_date": "2024-06-02 11:00:00",
-        "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
-        "title": "Introduction to EMF Badge coding for kids",
-        "speaker": "Abbie Welch",
-        "pronouns": null,
-        "user_id": 46,
-        "description": "In this special badge coding session for under 18s, you will learn to create your very own simple Tildagon (EMF 2024 badge) app.\r\n\r\nSome prior basic Python experience is recommended.\r\n\r\n(Note this workshop is provisional... It will depend if we're able to put together a workshop once getting our hands on a badge).\r\n\r\n\r\nThis workshop is taking place in The Unnamed Village. We're in the middle of camping area G - https://map.emfcamp.org/#18.41/52.040788/-2.376733",
-        "type": "youthworkshop",
-        "video_privacy": null,
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": false,
-        "content_note": null,
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/734-introduction-to-emf-badge-coding-for-kids",
-        "cost": "",
-        "equipment": "- A laptop - We have a few you can borrow if needed though.\r\n- Tildagon EMF 2024 badge",
-        "age_range": "12+",
-        "attendees": "10",
-        "requires_ticket": false,
-        "video": {
-            "recording_lost": false
-        },
-        "start_time": "10:00",
-        "end_time": "11:00"
-    },
-    {
         "id": 620,
         "slug": "silent-running",
         "start_date": "2024-06-02 22:30:00",
@@ -12087,8 +13047,11 @@
         "start_date": "2024-05-30 14:30:00",
         "end_date": "2024-05-30 15:30:00",
         "venue": "Tekhn\u0113-cal Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04032632020346,
+            -2.378844010641359
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04032632020346/-2.378844010641359/m=52.04032632020346,-2.378844010641359",
         "title": "Finger Knitting for Kids - intro drop-in session",
         "speaker": "Emily Robertson",
         "pronouns": "",
@@ -12119,8 +13082,11 @@
         "start_date": "2024-05-31 16:00:00",
         "end_date": "2024-05-31 18:00:00",
         "venue": "100 Acre Wood (of Geeks)",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04131698073036,
+            -2.3760390325738854
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04131698073036/-2.3760390325738854/m=52.04131698073036,-2.3760390325738854",
         "title": "Fun with Cartesian Crafting Tools",
         "speaker": "Paul Beech",
         "pronouns": "",
@@ -12206,36 +13172,6 @@
         "end_time": "22:50"
     },
     {
-        "id": 97,
-        "slug": "explosion-in-a-tunnel-understanding-swiss-cheese",
-        "start_date": "2024-06-02 15:40:00",
-        "end_date": "2024-06-02 16:20:00",
-        "venue": "Stage A",
-        "latlon": [
-            52.039918,
-            -2.378693
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.039918/-2.378693/m=52.039918,-2.378693",
-        "title": "Explosion in a Tunnel; Understanding Swiss Cheese",
-        "speaker": "Oliver Trojak",
-        "pronouns": "",
-        "user_id": 950,
-        "description": "The talk takes a deep-dive into the Abbeystead explosion (using pretty much all available sources available on the subject), one of the worst civil engineering disasters in post-war history, through the lens of the HSE investigation.  It looks at what the project was for, dow it was designed, what went wrong, and why.  The swiss cheese is a way of conceptualizing accidents, and the explosion is used so show how this works.  Hopefully by the end, everyone will have heard about a facinating case study in bad project management, weird critical infrastructure, and have recieved a safety talk by stealth.",
-        "type": "talk",
-        "video_privacy": "public",
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": true,
-        "content_note": "Discussion of the accident involves descriptions of death and some specific details may be distressing.  No gory photographs are included.",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/97-explosion-in-a-tunnel-understanding-swiss-cheese",
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "15:40",
-        "end_time": "16:20"
-    },
-    {
         "id": 277,
         "slug": "magic-your-mind-happy",
         "start_date": "2024-06-01 15:40:00",
@@ -12259,6 +13195,36 @@
         "content_note": "",
         "source": "database",
         "link": "https://www.emfcamp.org/schedule/2024/277-magic-your-mind-happy",
+        "video": {
+            "recording_lost": null
+        },
+        "start_time": "15:40",
+        "end_time": "16:20"
+    },
+    {
+        "id": 97,
+        "slug": "explosion-in-a-tunnel-understanding-swiss-cheese",
+        "start_date": "2024-06-02 15:40:00",
+        "end_date": "2024-06-02 16:20:00",
+        "venue": "Stage A",
+        "latlon": [
+            52.039918,
+            -2.378693
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.039918/-2.378693/m=52.039918,-2.378693",
+        "title": "Explosion in a Tunnel; Understanding Swiss Cheese",
+        "speaker": "Oliver Trojak",
+        "pronouns": "",
+        "user_id": 950,
+        "description": "The talk takes a deep-dive into the Abbeystead explosion (using pretty much all available sources available on the subject), one of the worst civil engineering disasters in post-war history, through the lens of the HSE investigation.  It looks at what the project was for, how it was designed, what went wrong, and why.  Swiss cheese is a way of conceptualizing accidents, and the explosion is used so show how this works.  Hopefully by the end, everyone will have heard about a facinating case study in bad project management, weird critical infrastructure, and have recieved a safety talk by stealth.",
+        "type": "talk",
+        "video_privacy": "public",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": true,
+        "content_note": "Discussion of the accident involves descriptions of death and some specific details may be distressing.  No gory photographs are included.",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/97-explosion-in-a-tunnel-understanding-swiss-cheese",
         "video": {
             "recording_lost": null
         },
@@ -12446,36 +13412,6 @@
         "end_time": "14:30"
     },
     {
-        "id": 31,
-        "slug": "hack-the-plan-how-being-a-nerd-of-all-trades-is-a-superpower",
-        "start_date": "2024-06-02 14:00:00",
-        "end_date": "2024-06-02 14:30:00",
-        "venue": "Stage B",
-        "latlon": [
-            52.041896,
-            -2.37656
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
-        "title": "Hack The Plan: How Being a Nerd-of-all-Trades is a Superpower",
-        "speaker": "Kestral Gaian",
-        "pronouns": "They/Them",
-        "user_id": 321,
-        "description": "\"So what do you do?\"\r\n\r\nEverything.\r\n\r\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\r\n\r\nAs a kid I couldn't decide what I wanted to be when I grew up.\r\n\r\nI still can't, but over the past twenty years I've turned that into a superpower.\r\n\r\nIn this talk I'll tell you how I hacked the idea of a standard career and managed to combine skills from different fields and specialties, leading to some unique roles and opportunities.\r\n\r\nIf you love learning and constantly adding new tools to your intellectual toolkit, you\u2019ll find that being a 'nerd of all trades' is not just fun\u2014it\u2019s the best way to live. The only downside? When someone asks \"so what do you do\" at parties, you'll never quite know what to say!\r\n\r\n",
-        "type": "talk",
-        "video_privacy": "public",
-        "is_fave": false,
-        "is_family_friendly": true,
-        "is_from_cfp": true,
-        "content_note": "Brief mention of homophobia/transphobia in the workplace.",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/31-hack-the-plan-how-being-a-nerd-of-all-trades-is-a-superpower",
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "14:00",
-        "end_time": "14:30"
-    },
-    {
         "id": 643,
         "slug": "geogebra-art-workshop",
         "start_date": "2024-05-31 18:00:00",
@@ -12611,6 +13547,36 @@
         "end_time": "18:00"
     },
     {
+        "id": 347,
+        "slug": "making-sense-of-london-undergrounds-timetables",
+        "start_date": "2024-06-02 11:10:00",
+        "end_date": "2024-06-02 11:40:00",
+        "venue": "Stage B",
+        "latlon": [
+            52.041896,
+            -2.37656
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
+        "title": "Making sense of London Underground's timetables and real-time data",
+        "speaker": "Arturs Dobrecovs",
+        "pronouns": "He/They",
+        "user_id": 1929,
+        "description": "Building on a talk by eta from EMF 2022, this is a deeper dive into how to make use of London Underground's real-time data and hard-to-access timetables to predict a train's future actions.\r\n\r\nI will be going into depth on what is and isn't useful about TfL's APIs, the major differences between the operations of LU and National Rail operators, why it's so difficult to obtain LU timetables in a useful format, and why it's even more difficult to apply real-time data to them.",
+        "type": "talk",
+        "video_privacy": "review",
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": true,
+        "content_note": "",
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/347-making-sense-of-london-undergrounds-timetables",
+        "video": {
+            "recording_lost": null
+        },
+        "start_time": "11:10",
+        "end_time": "11:40"
+    },
+    {
         "id": 524,
         "slug": "morning-pop-up-cafe",
         "start_date": "2024-06-02 08:30:00",
@@ -12644,36 +13610,6 @@
         },
         "start_time": "08:30",
         "end_time": "09:30"
-    },
-    {
-        "id": 347,
-        "slug": "making-sense-of-london-undergrounds-timetables",
-        "start_date": "2024-06-02 11:10:00",
-        "end_date": "2024-06-02 11:40:00",
-        "venue": "Stage B",
-        "latlon": [
-            52.041896,
-            -2.37656
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.041896/-2.37656/m=52.041896,-2.37656",
-        "title": "Making sense of London Underground's timetables and real-time data",
-        "speaker": "Arturs Dobrecovs",
-        "pronouns": "He/They",
-        "user_id": 1929,
-        "description": "Building on a talk by eta from EMF 2022, this is a deeper dive into how to make use of London Underground's real-time data and hard-to-access timetables to predict a train's future actions.\r\n\r\nI will be going into depth on what is and isn't useful about TfL's APIs, the major differences between the operations of LU and National Rail operators, why it's so difficult to obtain LU timetables in a useful format, and why it's even more difficult to apply real-time data to them.",
-        "type": "talk",
-        "video_privacy": "none",
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/347-making-sense-of-london-undergrounds-timetables",
-        "video": {
-            "recording_lost": null
-        },
-        "start_time": "11:10",
-        "end_time": "11:40"
     },
     {
         "id": 348,
@@ -13041,8 +13977,11 @@
         "start_date": "2024-06-01 12:30:00",
         "end_date": "2024-06-01 14:30:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "Introduction to lasercutting for kids - Drop in",
         "speaker": "Paul Koshal",
         "pronouns": null,
@@ -13098,6 +14037,41 @@
         "end_time": "13:30"
     },
     {
+        "id": 740,
+        "slug": "cutting-machines-vinyl-pressing",
+        "start_date": "2024-06-01 12:30:00",
+        "end_date": "2024-06-01 16:00:00",
+        "venue": "Lounge",
+        "latlon": [
+            52.04147,
+            -2.37644
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04147/-2.37644/m=52.04147,-2.37644",
+        "title": "Cutting Machines, Vinyl Pressing, and Sublimation Drop-In Demonstrations",
+        "speaker": "Heidi Blanton from Forge & Craft",
+        "pronouns": null,
+        "user_id": 2419,
+        "description": "Hi, I'm Heidi, one half of Forge & Craft. We have a studio in London where we do pen plotting, tinkering, crafting, and making with robots and machines. You\u2019re welcome to join me at our van (what3words: smoker.evolution.coolest) for interactive ad-hoc crafting sessions and a friendly chat on all things crafting, cutting, vinyl, heat pressing, or even pen plotters if you\u2019re interested.\r\n\r\n**We are located in NE Camping Vehicles. There is now a pin on the digital map with our location. Please stop by here!**\r\n\r\nI\u2019m happy to let you get involved in designing and pressing, or watch and learn. \r\n\r\nI will have a variety of supplies on hand, including types of vinyl, heat transfer, infusible ink, and adhesive vinyl. I can discuss the differences between all of these and the sorts of projects you might consider each one for.\r\n\r\nWe intend on hosting you at our camper van, wherever we\u2019re parked, but if you\u2019re interested or have questions, you\u2019re welcome to fill in this form and I can keep you posted on where we\u2019ll be:\r\n\r\nhttps://forms.gle/qe8rhssk87bFrgMZ7\r\n\r\n- I can help customise something you already have for \u00a35 - be it a cotton shirt, a mug, a water bottle, or a tumbler, I will have supplies available to customise something you already have on hand - If you have a blank cotton t-shirt and an SVG design file, we can even look at creating a logo or design using my heat transfer vinyl stash (one colour designs only). There is a cost of \u00a35 per item to cover supplies, but it could be a fun way to bring new life into something you already have. Mugs and tumblers will hold up well with the adhesive vinyl that I have. I have a variety of colours, including foil designs to customise with. Please bring supplies with you for this, I will not have anything extra. For T-shirts, any cotton shirt will do; I usually pick mine up from Tesco or Sainsbury\u2019s, where they have many options in different colours.\r\n\r\nIf you\u2019re interested in designing something new, I will have a small variety of blanks available for customisation and purchase while stocks last.\r\n- 12 oz coffee mugs (\u00a312) - You can use sublimation / infusible ink papers with pre-printed designs suitable for cutting out, or I have some infusible ink pens for drawn designs that would work great with these mugs\r\n- Accessory bags (large: \u00a320; and small: \u00a318): I can customise these bags using Heat Transfer vinyl, which is great for monograms or simple designs. I have access to a design library if you need ideas for what to include with your bag designs. The large bags are dipped base canvas bags with a navy blue base and natural top. The small cosmetic bags come in black, natural, navy, or pink. I have a couple of pre-made options available too.\r\n- 20 oz skinny tumblers (\u00a330) - Using sublimation / infusible ink papers with pre-printed designs, these are great for cut-out designs\r\n- Sublimation t-shirts (\u00a324) (Small\u2014large sizes; I have some XL, but I think they run small, so please check with me on sizes)\u2014These are sublimation t-shirt blanks and would work with the infusible ink transfer sheets and infusible ink pens. Also, if you\u2019re curious why you can do sublimation on some shirts but not on others, come by and chat with me about the different materials.",
+        "type": "workshop",
+        "video_privacy": null,
+        "is_fave": false,
+        "is_family_friendly": false,
+        "is_from_cfp": false,
+        "content_note": null,
+        "source": "database",
+        "link": "https://www.emfcamp.org/schedule/2024/740-cutting-machines-vinyl-pressing",
+        "cost": "",
+        "equipment": "If you want something customised you will need to bring your own blanks. Cotton t-shirts, mugs, and water bottles are all good options but get in touch if you have something else in mind to see if I have supplies that will work.\r\n\r\nI can work with your own logos or designs. The best types are simple, single-colour SVGs for cut-out designs. Drawn designs will only work with line art in vector format. Filled designs are possible but require more preparation in design software before they can be usable with any of my pens. Feel free to bring your laptop if there's something you'd like to create. I also have access to pre-made designs that we can look through if you have something in mind but don't want to design it yourself.",
+        "age_range": "Aimed at adults, but supervised kids welcome.",
+        "attendees": null,
+        "requires_ticket": false,
+        "video": {
+            "recording_lost": false
+        },
+        "start_time": "12:30",
+        "end_time": "16:00"
+    },
+    {
         "id": 741,
         "slug": "cutting-machines-vinyl-pressing",
         "start_date": "2024-06-02 12:00:00",
@@ -13112,7 +14086,7 @@
         "speaker": "Heidi Blanton from Forge & Craft",
         "pronouns": null,
         "user_id": 2419,
-        "description": "Hi, I'm Heidi, one half of Forge & Craft. We have a studio in London where we do pen plotting, tinkering, crafting, and making with robots and machines. You\u2019re welcome to join me at our van (what3words: smoker.evolution.coolest) for interactive ad-hoc crafting sessions and a friendly chat on all things crafting, cutting, vinyl, heat pressing, or even pen plotters if you\u2019re interested.\r\n\r\nI\u2019m happy to let you get involved in designing and pressing, or watch and learn. \r\n\r\nI will have a variety of supplies on hand, including types of vinyl, heat transfer, infusible ink, and adhesive vinyl. I can discuss the differences between all of these and the sorts of projects you might consider each one for.\r\n\r\nWe intend on hosting you at our camper van, wherever we\u2019re parked, but if you\u2019re interested or have questions, you\u2019re welcome to fill in this form and I can keep you posted on where we\u2019ll be:\r\n\r\nhttps://forms.gle/qe8rhssk87bFrgMZ7\r\n\r\n- I can help customise something you already have for \u00a35 - be it a cotton shirt, a mug, a water bottle, or a tumbler, I will have supplies available to customise something you already have on hand - If you have a blank cotton t-shirt and an SVG design file, we can even look at creating a logo or design using my heat transfer vinyl stash (one colour designs only). There is a cost of \u00a35 per item to cover supplies, but it could be a fun way to bring new life into something you already have. Mugs and tumblers will hold up well with the adhesive vinyl that I have. I have a variety of colours, including foil designs to customise with. Please bring supplies with you for this, I will not have anything extra. For T-shirts, any cotton shirt will do; I usually pick mine up from Tesco or Sainsbury\u2019s, where they have many options in different colours.\r\n\r\nIf you\u2019re interested in designing something new, I will have a small variety of blanks available for customisation and purchase while stocks last.\r\n- 12 oz coffee mugs (\u00a312) - You can use sublimation / infusible ink papers with pre-printed designs suitable for cutting out, or I have some infusible ink pens for drawn designs that would work great with these mugs\r\n- Accessory bags (large: \u00a320; and small: \u00a318): I can customise these bags using Heat Transfer vinyl, which is great for monograms or simple designs. I have access to a design library if you need ideas for what to include with your bag designs. The large bags are dipped base canvas bags with a navy blue base and natural top. The small cosmetic bags come in black, natural, navy, or pink. I have a couple of pre-made options available too.\r\n- 20 oz skinny tumblers (\u00a330) - Using sublimation / infusible ink papers with pre-printed designs, these are great for cut-out designs\r\n- Sublimation t-shirts (\u00a324) (Small\u2014large sizes; I have some XL, but I think they run small, so please check with me on sizes)\u2014These are sublimation t-shirt blanks and would work with the infusible ink transfer sheets and infusible ink pens. Also, if you\u2019re curious why you can do sublimation on some shirts but not on others, come by and chat with me about the different materials.",
+        "description": "Hi, I'm Heidi, one half of Forge & Craft. We have a studio in London where we do pen plotting, tinkering, crafting, and making with robots and machines. You\u2019re welcome to join me at our van (what3words: smoker.evolution.coolest) for interactive ad-hoc crafting sessions and a friendly chat on all things crafting, cutting, vinyl, heat pressing, or even pen plotters if you\u2019re interested.\r\n\r\n**We are located in NE Camping Vehicles. There is now a pin on the digital map with our location. Please stop by here!**\r\n\r\nI\u2019m happy to let you get involved in designing and pressing, or watch and learn. \r\n\r\nI will have a variety of supplies on hand, including types of vinyl, heat transfer, infusible ink, and adhesive vinyl. I can discuss the differences between all of these and the sorts of projects you might consider each one for.\r\n\r\nWe intend on hosting you at our camper van, wherever we\u2019re parked, but if you\u2019re interested or have questions, you\u2019re welcome to fill in this form and I can keep you posted on where we\u2019ll be:\r\n\r\nhttps://forms.gle/qe8rhssk87bFrgMZ7\r\n\r\n- I can help customise something you already have for \u00a35 - be it a cotton shirt, a mug, a water bottle, or a tumbler, I will have supplies available to customise something you already have on hand - If you have a blank cotton t-shirt and an SVG design file, we can even look at creating a logo or design using my heat transfer vinyl stash (one colour designs only). There is a cost of \u00a35 per item to cover supplies, but it could be a fun way to bring new life into something you already have. Mugs and tumblers will hold up well with the adhesive vinyl that I have. I have a variety of colours, including foil designs to customise with. Please bring supplies with you for this, I will not have anything extra. For T-shirts, any cotton shirt will do; I usually pick mine up from Tesco or Sainsbury\u2019s, where they have many options in different colours.\r\n\r\nIf you\u2019re interested in designing something new, I will have a small variety of blanks available for customisation and purchase while stocks last.\r\n- 12 oz coffee mugs (\u00a312) - You can use sublimation / infusible ink papers with pre-printed designs suitable for cutting out, or I have some infusible ink pens for drawn designs that would work great with these mugs\r\n- Accessory bags (large: \u00a320; and small: \u00a318): I can customise these bags using Heat Transfer vinyl, which is great for monograms or simple designs. I have access to a design library if you need ideas for what to include with your bag designs. The large bags are dipped base canvas bags with a navy blue base and natural top. The small cosmetic bags come in black, natural, navy, or pink. I have a couple of pre-made options available too.\r\n- 20 oz skinny tumblers (\u00a330) - Using sublimation / infusible ink papers with pre-printed designs, these are great for cut-out designs\r\n- Sublimation t-shirts (\u00a324) (Small\u2014large sizes; I have some XL, but I think they run small, so please check with me on sizes)\u2014These are sublimation t-shirt blanks and would work with the infusible ink transfer sheets and infusible ink pens. Also, if you\u2019re curious why you can do sublimation on some shirts but not on others, come by and chat with me about the different materials.",
         "type": "workshop",
         "video_privacy": null,
         "is_fave": false,
@@ -13121,41 +14095,6 @@
         "content_note": null,
         "source": "database",
         "link": "https://www.emfcamp.org/schedule/2024/741-cutting-machines-vinyl-pressing",
-        "cost": "",
-        "equipment": "If you want something customised you will need to bring your own blanks. Cotton t-shirts, mugs, and water bottles are all good options but get in touch if you have something else in mind to see if I have supplies that will work.\r\n\r\nI can work with your own logos or designs. The best types are simple, single-colour SVGs for cut-out designs. Drawn designs will only work with line art in vector format. Filled designs are possible but require more preparation in design software before they can be usable with any of my pens. Feel free to bring your laptop if there's something you'd like to create. I also have access to pre-made designs that we can look through if you have something in mind but don't want to design it yourself.",
-        "age_range": "Aimed at adults, but supervised kids welcome.",
-        "attendees": null,
-        "requires_ticket": false,
-        "video": {
-            "recording_lost": false
-        },
-        "start_time": "12:00",
-        "end_time": "16:00"
-    },
-    {
-        "id": 740,
-        "slug": "cutting-machines-vinyl-pressing",
-        "start_date": "2024-06-01 12:00:00",
-        "end_date": "2024-06-01 16:00:00",
-        "venue": "Lounge",
-        "latlon": [
-            52.04147,
-            -2.37644
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.04147/-2.37644/m=52.04147,-2.37644",
-        "title": "Cutting Machines, Vinyl Pressing, and Sublimation Drop-In Demonstrations",
-        "speaker": "Heidi Blanton from Forge & Craft",
-        "pronouns": null,
-        "user_id": 2419,
-        "description": "Hi, I'm Heidi, one half of Forge & Craft. We have a studio in London where we do pen plotting, tinkering, crafting, and making with robots and machines. You\u2019re welcome to join me at our van (what3words: smoker.evolution.coolest) for interactive ad-hoc crafting sessions and a friendly chat on all things crafting, cutting, vinyl, heat pressing, or even pen plotters if you\u2019re interested.\r\n\r\nI\u2019m happy to let you get involved in designing and pressing, or watch and learn. \r\n\r\nI will have a variety of supplies on hand, including types of vinyl, heat transfer, infusible ink, and adhesive vinyl. I can discuss the differences between all of these and the sorts of projects you might consider each one for.\r\n\r\nWe intend on hosting you at our camper van, wherever we\u2019re parked, but if you\u2019re interested or have questions, you\u2019re welcome to fill in this form and I can keep you posted on where we\u2019ll be:\r\n\r\nhttps://forms.gle/qe8rhssk87bFrgMZ7\r\n\r\n- I can help customise something you already have for \u00a35 - be it a cotton shirt, a mug, a water bottle, or a tumbler, I will have supplies available to customise something you already have on hand - If you have a blank cotton t-shirt and an SVG design file, we can even look at creating a logo or design using my heat transfer vinyl stash (one colour designs only). There is a cost of \u00a35 per item to cover supplies, but it could be a fun way to bring new life into something you already have. Mugs and tumblers will hold up well with the adhesive vinyl that I have. I have a variety of colours, including foil designs to customise with. Please bring supplies with you for this, I will not have anything extra. For T-shirts, any cotton shirt will do; I usually pick mine up from Tesco or Sainsbury\u2019s, where they have many options in different colours.\r\n\r\nIf you\u2019re interested in designing something new, I will have a small variety of blanks available for customisation and purchase while stocks last.\r\n- 12 oz coffee mugs (\u00a312) - You can use sublimation / infusible ink papers with pre-printed designs suitable for cutting out, or I have some infusible ink pens for drawn designs that would work great with these mugs\r\n- Accessory bags (large: \u00a320; and small: \u00a318): I can customise these bags using Heat Transfer vinyl, which is great for monograms or simple designs. I have access to a design library if you need ideas for what to include with your bag designs. The large bags are dipped base canvas bags with a navy blue base and natural top. The small cosmetic bags come in black, natural, navy, or pink. I have a couple of pre-made options available too.\r\n- 20 oz skinny tumblers (\u00a330) - Using sublimation / infusible ink papers with pre-printed designs, these are great for cut-out designs\r\n- Sublimation t-shirts (\u00a324) (Small\u2014large sizes; I have some XL, but I think they run small, so please check with me on sizes)\u2014These are sublimation t-shirt blanks and would work with the infusible ink transfer sheets and infusible ink pens. Also, if you\u2019re curious why you can do sublimation on some shirts but not on others, come by and chat with me about the different materials.",
-        "type": "workshop",
-        "video_privacy": null,
-        "is_fave": false,
-        "is_family_friendly": false,
-        "is_from_cfp": false,
-        "content_note": null,
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/740-cutting-machines-vinyl-pressing",
         "cost": "",
         "equipment": "If you want something customised you will need to bring your own blanks. Cotton t-shirts, mugs, and water bottles are all good options but get in touch if you have something else in mind to see if I have supplies that will work.\r\n\r\nI can work with your own logos or designs. The best types are simple, single-colour SVGs for cut-out designs. Drawn designs will only work with line art in vector format. Filled designs are possible but require more preparation in design software before they can be usable with any of my pens. Feel free to bring your laptop if there's something you'd like to create. I also have access to pre-made designs that we can look through if you have something in mind but don't want to design it yourself.",
         "age_range": "Aimed at adults, but supervised kids welcome.",
@@ -13238,8 +14177,11 @@
         "start_date": "2024-06-01 10:00:00",
         "end_date": "2024-06-01 12:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Tangles of string",
         "speaker": "Beth",
         "pronouns": "",
@@ -13370,8 +14312,11 @@
         "start_date": "2024-05-31 15:15:00",
         "end_date": "2024-05-31 16:45:00",
         "venue": "Unnamed Village",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04082619133035,
+            -2.376720684625184
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04082619133035/-2.376720684625184/m=52.04082619133035,-2.376720684625184",
         "title": "Design & Build Your Own Rocket Workshop part 1",
         "speaker": "Richard Maynard",
         "pronouns": null,
@@ -13462,8 +14407,11 @@
         "start_date": "2024-05-31 10:00:00",
         "end_date": "2024-05-31 16:00:00",
         "venue": "Knife & Tool Sharpening",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04289427320194,
+            -2.376318069325464
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04289427320194/-2.376318069325464/m=52.04289427320194,-2.376318069325464",
         "title": "Tool and Knife Sharpening",
         "speaker": "Henry Sands",
         "pronouns": "He/Him",
@@ -13734,8 +14682,11 @@
         "start_date": "2024-06-01 10:30:00",
         "end_date": "2024-06-01 23:00:00",
         "venue": "As a large language model",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04308428947252,
+            -2.376446275418772
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04308428947252/-2.376446275418772/m=52.04308428947252,-2.376446275418772",
         "title": "data_rave (Saturday)",
         "speaker": "data_rave crew",
         "pronouns": null,
@@ -13869,10 +14820,13 @@
         "id": 749,
         "slug": "xeon-phi-nodes-3",
         "start_date": "2024-06-02 13:00:00",
-        "end_date": "2024-06-02 17:00:00",
+        "end_date": "2024-06-02 15:00:00",
         "venue": "Treadz 'n' Webz",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04046045976952,
+            -2.37836518805679
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04046045976952/-2.37836518805679/m=52.04046045976952,-2.37836518805679",
         "title": "Xeon PHI nodes 3",
         "speaker": "Nurah",
         "pronouns": null,
@@ -13895,7 +14849,7 @@
             "recording_lost": false
         },
         "start_time": "13:00",
-        "end_time": "17:00"
+        "end_time": "15:00"
     },
     {
         "id": 560,
@@ -14054,7 +15008,7 @@
         "user_id": 528,
         "description": "Dazzling electronic duo Feral Five and artist/technologist Jonathan Hogg present a glittering interactive audiovisual performance of Truth Is The New Gold, unique to EMF.\r\n\r\nUse #emftruth on Mastodon to share your thoughts on truth for the show.\r\n\r\nIt\u2019s a musical journey through the Ferals\u2019 Truth Is The New Gold album, featuring big dance beats, sparkling synths, mighty guitars, and samples from AI Kat Five. Jonathan creates live algorithmic visuals with his custom Open Source engine Flitter.\r\n\r\nThe band\u2019s album was one of Louder Than War\u2019s picks of 2023, played on BBC 6 Music and Radio X, and featured by Roland, Vice, and globally on BBC News. \r\n\r\nThe Ferals have performed at Music Tech Fest with a 3D printer, and the National Portrait Gallery for electronic legend Martyn Ware (Heaven 17 / Human League) who remixed their album title track.",
         "type": "performance",
-        "video_privacy": "none",
+        "video_privacy": "public",
         "is_fave": false,
         "is_family_friendly": true,
         "is_from_cfp": true,
@@ -14133,8 +15087,11 @@
         "start_date": "2024-05-30 10:30:00",
         "end_date": "2024-05-30 16:30:00",
         "venue": "As a large language model",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04308428947252,
+            -2.376446275418772
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04308428947252/-2.376446275418772/m=52.04308428947252,-2.376446275418772",
         "title": "data_rave (Thursday)",
         "speaker": "data_rave crew",
         "pronouns": null,
@@ -14161,7 +15118,7 @@
     },
     {
         "id": 529,
-        "slug": "solargraphy",
+        "slug": "solargraphy-build-a-camera-to-trace-the-sun",
         "start_date": "2024-06-02 10:00:00",
         "end_date": "2024-06-02 11:30:00",
         "venue": "Workshop 1 (NottingHack)",
@@ -14170,7 +15127,7 @@
             -2.375188
         ],
         "map_link": "https://map.emfcamp.org/#18.5/52.042597/-2.375188/m=52.042597,-2.375188",
-        "title": "Solargraphy",
+        "title": "Solargraphy - Build a camera to trace the sun! Drop in sessions throughout the workshop!",
         "speaker": "Gareth Howell & Aaron Jackson",
         "pronouns": "",
         "user_id": 72,
@@ -14182,7 +15139,7 @@
         "is_from_cfp": false,
         "content_note": "",
         "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/529-solargraphy",
+        "link": "https://www.emfcamp.org/schedule/2024/529-solargraphy-build-a-camera-to-trace-the-sun",
         "cost": "\u00a35",
         "equipment": "All materials and equipment provided - Recommend supervision for under 10s",
         "age_range": "6+",
@@ -14200,8 +15157,11 @@
         "start_date": "2024-06-02 10:30:00",
         "end_date": "2024-06-02 16:30:00",
         "venue": "As a large language model",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04308428947252,
+            -2.376446275418772
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04308428947252/-2.376446275418772/m=52.04308428947252,-2.376446275418772",
         "title": "data_rave (Sunday)",
         "speaker": "data_rave crew",
         "pronouns": null,
@@ -14232,8 +15192,11 @@
         "start_date": "2024-06-01 14:00:00",
         "end_date": "2024-06-01 16:00:00",
         "venue": "Food Hacking Base",
-        "latlon": null,
-        "map_link": null,
+        "latlon": [
+            52.04093661671263,
+            -2.3771408563709144
+        ],
+        "map_link": "https://map.emfcamp.org/#18.5/52.04093661671263/-2.3771408563709144/m=52.04093661671263,-2.3771408563709144",
         "title": "Kimchi frenzy",
         "speaker": "Algoldor",
         "pronouns": null,
@@ -14362,36 +15325,6 @@
         },
         "start_time": "16:00",
         "end_time": "17:00"
-    },
-    {
-        "id": 471,
-        "slug": "unlimited-power",
-        "start_date": "2024-06-02 10:40:00",
-        "end_date": "2024-06-02 11:10:00",
-        "venue": "Stage A",
-        "latlon": [
-            52.039918,
-            -2.378693
-        ],
-        "map_link": "https://map.emfcamp.org/#18.5/52.039918/-2.378693/m=52.039918,-2.378693",
-        "title": "Unlimited Power: An Engineer's Low-Down on Nuclear Fusion Technology",
-        "speaker": "James Pope",
-        "pronouns": "he/him",
-        "user_id": 968,
-        "description": "Most technical people hear about fusion power in the news or see it in games and movies, and are familiar with the joke that it's always 20 years away. Beyond this, it's surprisingly rare to find good information beyond the basic physics and the marketing promise of unlimited, clean energy.\r\n\r\nAs an engineer working in the fusion technology sector, I give a primer on how fusion power works, why its benefits are so incredibly tantalising yet hard to achieve, what the latest exciting developments are, and how the UK is a surprising trailblazer. I outline some of the cutting-edge technologies involved in developing fusion power, including superconducting magnets, plasma control using deep learning methods, and hypersonic fuel injection. The audience is also given facts and figures to get a flavour of the unimaginable scale of what is being done: materials at nearly 0K adjacent to plasmas hotter than the cores of stars, gigawatts of power from teaspoons of fuel, magnetic fields multiple times more powerful than MRI machines, and neutron fluxes strong enough to transmute matter in bulk.\r\n\r\nComing away from this presentation, the audience will have learned about the fundamentals of nuclear fusion and appreciate the key issues enough to put the marketing and news reports into context. They might even be excited and enthused about what's to come in this quickly growing technology space.",
-        "type": "talk",
-        "video_privacy": "public",
-        "is_fave": false,
-        "is_family_friendly": true,
-        "is_from_cfp": true,
-        "content_note": "",
-        "source": "database",
-        "link": "https://www.emfcamp.org/schedule/2024/471-unlimited-power",
-        "video": {
-            "recording_lost": false
-        },
-        "start_time": "10:40",
-        "end_time": "11:10"
     },
     {
         "id": 361,
