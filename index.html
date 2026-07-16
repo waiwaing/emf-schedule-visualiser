@@ -6,10 +6,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks@2.5.2/dist/css/stacks.min.css">
-	<link href="styles.css?version=235" rel="stylesheet">
+	<link href="styles.css?version=243" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"
 		integrity="sha256-7NQm0bhvDJKosL8d+6ZgSi2LxZCIcA/TD087GLEBO9M=" crossorigin="anonymous"></script>
-	<script src="script.js?version=235"></script>
+	<script src="script.js?version=243"></script>
 </head>
 
 <body class="themed theme-custom">
@@ -26,6 +26,7 @@
 			<button class="s-btn s-btn__danger s-btn__outlined" id="button-reset">Reset</button>
 			<button class="s-btn s-btn__outlined" id="button-export">Export to Clipboard</button>
 			<button class="s-btn s-btn__outlined" id="button-import">Import</button>
+			<a class="s-btn s-btn__outlined" href="favourites.html">Show favorites</a>
 
 		</div>
 		<div class="flex--item">
@@ -33,7 +34,7 @@
 		</div>
 	</div>
 
-	<div class="calendar overflow-scroll">
+	<div class="calendar">
 		<div class="venues"></div>
 		<div class="talks">Loading... - if you see this for more than a few seconds, try refreshing</div>
 		<div class="clock"></div>

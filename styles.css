@@ -11,6 +11,10 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .filters {
@@ -24,12 +28,16 @@ body {
 	display: grid;
 	grid-template-columns: [clock] 4em repeat(auto-fit, var(--width));
 	grid-auto-columns: var(--width);
-	grid-template-rows: repeat(calc(18 * 12), 20px);
+	grid-template-rows: repeat(calc(19 * 12), 20px);
 
 	column-gap: 1em;
 	row-gap: 2px;
 
 	font-size: small;
+
+	flex: 1;
+	min-height: 0;
+	overflow: auto;
 }
 
 .venues, .talks, .clock {
@@ -46,6 +54,9 @@ body {
 	font-size: larger;
 	grid-row: 1 / 5;
 	text-align: center;
+	position: sticky;
+	top: 0;
+	z-index: 3;
 }
 
 .talk {

@@ -22,6 +22,8 @@ const knownVenues = [
 	"Arcade Workshop"
 ];
 
+const clockStartHour = 7;
+
 const excludedEventIds = [
 	// 2024 IDs removed - re-identify all-day/misleading events in the 2026 schedule
 ];
@@ -46,7 +48,7 @@ window.onload = (_) => {
 	drawTime();
 	setInterval(drawTime, 1000 * 30); // every 30 s
 
-	const today = DateTime.now().hour < 8 ? DateTime.now().minus({ days: 1 }) : DateTime.now();
+	const today = DateTime.now().hour < clockStartHour ? DateTime.now().minus({ days: 1 }) : DateTime.now();
 
 	const xhr = new XMLHttpRequest();
 	xhr.open("GET", "schedule.json?nocache=" + DateTime.now().toMillis());
@@ -106,7 +108,7 @@ function initializeState() {
 }
 
 function populateCalendar(baseDate) {
-	const baseTime = DateTime.fromISO(baseDate).plus({ hours: 8, minutes: 0 });
+	const baseTime = DateTime.fromISO(baseDate).plus({ hours: clockStartHour, minutes: 0 });
 	const endOfDay = baseTime.plus({ hours: 24 })
 	const calendar = document.getElementsByClassName("talks")[0];
 	calendar.textContent = "";
@@ -180,9 +182,9 @@ function populateCalendar(baseDate) {
 
 function populateClock() {
 	const clock = document.getElementsByClassName("clock")[0];
-	for (let i = 8.5; i <= 26; i = i + 0.5) {
+	for (let i = clockStartHour + 0.5; i <= 26; i = i + 0.5) {
 		const div = clock.appendChild(document.createElement("div"));
-		div.style.gridRowStart = (i - 8) * 12 + 1;
+		div.style.gridRowStart = (i - clockStartHour) * 12 + 1;
 		div.style.gridColumnStart = "clock";
 
 		const hour = (Math.floor(i) % 24).toString().padStart(2, "0");
@@ -199,16 +201,16 @@ function drawTime() {
 	const selectedDay = document.querySelectorAll("button.date.is-selected")[0]?.dataset.value;
 
 	const currentTime = DateTime.now();
-	const scheduleDay = currentTime.hour < 8 ? currentTime.minus({ days: 1 }) : currentTime;
+	const scheduleDay = currentTime.hour < clockStartHour ? currentTime.minus({ days: 1 }) : currentTime;
 
 	if (scheduleDay.toFormat("yyyy-MM-dd") !== selectedDay) return;
 
 	let currentHourWithFraction = currentTime.hour + currentTime.minute / 60;
-	if (currentTime.hour < 8) {
+	if (currentTime.hour < clockStartHour) {
 		currentHourWithFraction += 24;
 	}
 
-	const line = Math.floor(((currentHourWithFraction) - 8) * 12 + 1); // Also why is CSS 1-indexed
+	const line = Math.floor(((currentHourWithFraction) - clockStartHour) * 12 + 1); // Also why is CSS 1-indexed
 	const currentTimeDiv = clock.appendChild(document.createElement("div"));
 	currentTimeDiv.style.gridRowStart = line;
 	currentTimeDiv.style.gridColumnStart = "clock";
