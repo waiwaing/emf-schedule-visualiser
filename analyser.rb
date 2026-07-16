@@ -33,9 +33,17 @@ def types(hash)
 	p hash.map { |t| t["type"] }.uniq.sort()
 end
 
+def flatten(hash)
+	hash.flat_map do |event|
+		(event["occurrences"] || []).map do |occ|
+			event.merge(occ).merge("id" => event["id"] * 100 + occ["occurrence_num"])
+		end
+	end
+end
+
 def run
 	file = File.read("schedule.json")
-	hash = JSON.parse(file)
+	hash = flatten(JSON.parse(file))
 
 	check_for_unique_ids(hash)
 	check_minutes(hash)

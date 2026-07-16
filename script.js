@@ -11,20 +11,19 @@ const knownVenues = [
 	"Stage A",
 	"Stage B",
 	"Stage C",
-	"Workshop 0 (Drop-in)",
-	"Workshop 1 (NottingHack)",
-	"Workshop 2 (Milliways)",
-	"Workshop 3 (Furry High Commission)",
-	"Workshop 4 (FieldFX)",
-	"Workshop 5 (Maths)",
-	"Workshop 6 (Hardware Hacking)",
-	"Youth Workshop"
+	"Stage D",
+	"Workshop 1 (Furry High Commission)",
+	"Workshop 2 (Field-FX)",
+	"Workshop 3 (Hardware Hacking Area)",
+	"Workshop 4 (Maths Village)",
+	"Workshop 5 (Nationwide Village)",
+	"Workshop 6 (Bodgeham-on-Wye)",
+	"Family Workshop",
+	"Arcade Workshop"
 ];
 
 const excludedEventIds = [
-	682, 683, 684, 685, // Tea tent - all day event
-	695, 696, 697, // Blacksmithing - misleading times
-	596, 812, 782, 783 // Just no
+	// 2024 IDs removed - re-identify all-day/misleading events in the 2026 schedule
 ];
 
 
@@ -56,19 +55,35 @@ window.onload = (_) => {
 		if (xhr.readyState === XMLHttpRequest.DONE) {
 			const status = xhr.status;
 			if (status === 0 || (status >= 200 && status < 400)) {
-				events = JSON.parse(xhr.responseText).sort((a, b) => {
-					const x = a["start_date"].localeCompare(b["start_date"]);
-					const y = a["venue"].localeCompare(b["venue"]);
+				events = JSON.parse(xhr.responseText)
+					.flatMap(event =>
+						(event["occurrences"] ?? []).map(occ => ({
+							...event,
+							...occ, // occurrence fields (start_date, end_date, venue, video_privacy, ...) win
+							eventId: event["id"],
+							id: event["id"] * 100 + occ["occurrence_num"] // unique per occurrence
+						}))
+					)
+					.sort((a, b) => {
+						const x = a["start_date"].localeCompare(b["start_date"]);
+						const y = a["venue"].localeCompare(b["venue"]);
 
-					return x !== 0 ? x : y
-				}).filter(e => !excludedEventIds.includes(e["id"]));
+						return x !== 0 ? x : y
+					}).filter(e => !excludedEventIds.includes(e["eventId"]));
 
 				const tempVenues = new Set(events.map(v => v["venue"]));
 				knownVenues.forEach(v => tempVenues.delete(v));
 				allVenues = knownVenues.concat([...tempVenues].sort());
 
-				dateButtons.filter(db => db.dataset.value === today.toFormat("yyyy-MM-dd"))[0].click();
-				// populateCalendar("2024-06-01");
+				if (new URLSearchParams(window.location.search).has("auto_fave")) {
+					state = {
+						pos: new Set(events.filter(e => e["is_fave"]).map(e => e["id"])),
+						neg: new Set()
+					};
+					saveToLocalStorage();
+				}
+
+				(dateButtons.filter(db => db.dataset.value === today.toFormat("yyyy-MM-dd"))[0] ?? dateButtons[0]).click();
 			} else {
 				console.error(xhr.responseText);
 				alert("oops, something went wrong - check console logs?")
@@ -120,8 +135,14 @@ function populateCalendar(baseDate) {
 		switch (event["type"]) {
 			case "talk": type = "Talk"; break;
 			case "workshop": type = "Workshop"; break;
+			case "familyworkshop": type = "Family Workshop"; break;
 			case "youthworkshop": type = "Youth Workshop"; break;
-			case "performance": type = "Film/Performance"; break;
+			case "performance": type = "Performance"; break;
+			case "film": type = "Film"; break;
+			case "music": type = "Music"; break;
+			case "djset": type = "DJ Set"; break;
+			case "meetup": type = "Meetup"; break;
+			default: type = event["type"];
 		}
 
 		const div = calendar.appendChild(document.createElement("div"));
@@ -147,8 +168,8 @@ function populateCalendar(baseDate) {
 					<a href="${event["link"]}" target="_blank" class="link">
 						EMF <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
 					</a>
-					${(event["may_record"] === false || event["video_privacy"] === "none") ? "| <i class=\"fa-solid fa-video-slash \"></i>" : ""}
-					${event["requires_ticket"] === true ? `|  <i class="fa-solid fa-ticket"></i>` : ""}
+					${event["video_privacy"] !== "public" ? "| <i class=\"fa-solid fa-video-slash \"></i>" : ""}
+					${event["type"] === "workshop" ? `|  <i class="fa-solid fa-ticket"></i>` : ""}
 				</p>
 			</div>
 		`
